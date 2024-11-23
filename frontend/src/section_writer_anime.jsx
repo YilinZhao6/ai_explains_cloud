@@ -11,7 +11,7 @@ const SectionWriterScreen = () => {
   // Fetch all sections from the generated outline
   useEffect(() => {
     const fetchOutline = () => {
-      fetch('http://localhost:5000/check_outline')
+      fetch('https://papuros-backend.onrender.com/check_outline')
         .then(response => response.json())
         .then(data => {
           if (data.exists && data.sections) {

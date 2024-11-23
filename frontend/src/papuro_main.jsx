@@ -19,7 +19,7 @@ const Papuros = () => {
     console.log('Search query:', query);
 
     // Step 1: Save the query to topic.txt
-    fetch(`http://localhost:5000/save_query`, {
+    fetch(`https://papuros-backend.onrender.com/save_query`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -29,7 +29,7 @@ const Papuros = () => {
       // Step 2: Run the generate process after saving the query
       setLoadingMessages([]); // Reset loading messages
 
-      const eventSource = new EventSource(`http://localhost:5000/generate?query=${encodeURIComponent(query)}`);
+      const eventSource = new EventSource(`https://papuros-backend.onrender.com/generate?query=${encodeURIComponent(query)}`);
 
       eventSource.onmessage = (event) => {
         const message = event.data;
@@ -46,7 +46,7 @@ const Papuros = () => {
           eventSource.close();
 
           // Display article.md
-          fetch('http://localhost:5000/article')
+          fetch('https://papuros-backend.onrender.com/article')
             .then((response) => {
               if (!response.ok) throw new Error('Network response was not ok');
               return response.text();
@@ -71,7 +71,7 @@ const Papuros = () => {
   };
 
   const checkForUpdatedArticle = () => {
-    fetch('http://localhost:5000/updated_article')
+    fetch('https://papuros-backend.onrender.com/updated_article')
       .then(response => {
         if (response.status === 200) {
           return response.text();
