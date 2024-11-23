@@ -95,7 +95,7 @@ export const Toolbar = ({
   const [topic, setTopic] = useState('');
 
   useEffect(() => {
-    fetch('http://localhost:5000/get-topic') // Replace with your actual backend endpoint
+    fetch('https://papuros-backend.onrender.com/get-topic') // Replace with your actual backend endpoint
       .then(response => response.text())
       .then(text => setTopic(text))
       .catch(error => console.error('Error fetching topic:', error));
