@@ -12,10 +12,9 @@ services:
 
   - type: web
     name: frontend
-    env: node
-    buildCommand: npm install && npm run build  # adjust path as needed
-    startCommand: npx serve -s build  # serve the static files using a tool like `serve`
-    staticPublishPath: ./frontend/dist  # adjust path as needed
+    runtime: static  # This specifies that it is a static site
+    buildCommand: npm install && npm run build
     envVars:
       - key: NODE_VERSION
-        value: 16.0.0
+        value: 18
+
