@@ -1,8 +1,18 @@
 services:
   - type: web
-    name: papuros
+    name: papuros-frontend
     env: docker
-    dockerComposeFile: docker-compose.yml
+    dockerfilePath: ./frontend/Dockerfile
+    dockerContext: ./frontend
     envVars:
       - key: PORT
-        value: 10000
+        value: 80
+
+  - type: web
+    name: papuros-backend
+    env: docker
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: ./backend
+    envVars:
+      - key: PORT
+        value: 5000
