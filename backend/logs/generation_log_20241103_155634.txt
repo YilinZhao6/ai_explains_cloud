@@ -1,0 +1,56 @@
+2024-11-03 15:56:34,034 - INFO - Created output directory: generation_output_20241103_155634
+2024-11-03 15:56:34,034 - INFO - Starting Google search and content collection...
+2024-11-03 15:56:38,037 - INFO - Successfully completed Google search and content collection
+2024-11-03 15:56:38,038 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: Parallax
+
+Search results and analysis saved to search_results_20241103_155635.txt
+
+Extracting content from relevant URLs...
+Content from https://en.wikipedia.org/wiki/Parallax saved to source_html\wikipedia_parallax_overview.html
+Content from https://parallaxresearch.org/ saved to source_html\parallax_research_institute.html
+Content from https://www.merriam-webster.com/dictionary/parallax saved to source_html\merriam_webster_parallax_definition.html
+
+Summary of saved files:
+URL: https://en.wikipedia.org/wiki/Parallax
+Saved as: source_html\wikipedia_parallax_overview.html
+--------------------------------------------------
+URL: https://parallaxresearch.org/
+Saved as: source_html\parallax_research_institute.html
+--------------------------------------------------
+URL: https://www.merriam-webster.com/dictionary/parallax
+Saved as: source_html\merriam_webster_parallax_definition.html
+--------------------------------------------------
+
+2024-11-03 15:56:38,038 - INFO - Starting outline generation...
+2024-11-03 15:56:55,757 - INFO - Successfully completed outline generation
+2024-11-03 15:56:55,757 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-03 15:56:55,757 - INFO - Starting article writing...
+2024-11-03 15:57:20,233 - INFO - Successfully completed article writing
+2024-11-03 15:57:20,233 - INFO - article writing output:
+Writing section: Definition and Basic Concept
+Completed section: Definition and Basic Concept
+Writing section: Astronomical Applications
+Completed section: Astronomical Applications
+Writing section: Mathematical Framework
+Completed section: Mathematical Framework
+Article successfully generated and saved to article.md
+
+2024-11-03 15:57:20,249 - INFO - Copied article.md to output directory
+2024-11-03 15:57:20,252 - INFO - Copied article_outline.json to output directory
+2024-11-03 15:57:20,256 - INFO - Copied search_results_20241103_151432.txt to output directory
+2024-11-03 15:57:20,258 - INFO - Copied search_results_20241103_151709.txt to output directory
+2024-11-03 15:57:20,261 - INFO - Copied search_results_20241103_151738.txt to output directory
+2024-11-03 15:57:20,263 - INFO - Copied search_results_20241103_151829.txt to output directory
+2024-11-03 15:57:20,265 - INFO - Copied search_results_20241103_151909.txt to output directory
+2024-11-03 15:57:20,267 - INFO - Copied search_results_20241103_152533.txt to output directory
+2024-11-03 15:57:20,270 - INFO - Copied search_results_20241103_152716.txt to output directory
+2024-11-03 15:57:20,272 - INFO - Copied search_results_20241103_153029.txt to output directory
+2024-11-03 15:57:20,274 - INFO - Copied search_results_20241103_154902.txt to output directory
+2024-11-03 15:57:20,277 - INFO - Copied search_results_20241103_155215.txt to output directory
+2024-11-03 15:57:20,279 - INFO - Copied search_results_20241103_155635.txt to output directory
+2024-11-03 15:57:20,279 - INFO - Article generation completed successfully!
+2024-11-03 15:57:20,279 - INFO - All outputs have been saved to: generation_output_20241103_155634
+2024-11-03 15:57:20,279 - INFO - Article successfully generated and saved to article.md

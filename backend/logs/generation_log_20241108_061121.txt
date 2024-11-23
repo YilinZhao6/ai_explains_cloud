@@ -1,0 +1,65 @@
+2024-11-08 06:11:21,861 - INFO - Starting parallel search operations...
+2024-11-08 06:11:21,861 - INFO - Starting Google search and content collection...
+2024-11-08 06:11:21,862 - INFO - Starting Archive vector search...
+2024-11-08 06:11:21,862 - INFO - Waiting for both search operations to complete...
+2024-11-08 06:11:23,550 - INFO - Successfully completed Archive vector search
+2024-11-08 06:11:23,551 - INFO - Archive vector search output:
+Loading vectors and chunks from all books...
+Loaded 1974 chunks from Principles_of_Physics
+
+Searching for: Quantum Mech
+Results saved to F:\main\backend\source_html\topic_archive.html
+
+2024-11-08 06:11:27,803 - INFO - Successfully completed Google search and content collection
+2024-11-08 06:11:27,803 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: Quantum Mech
+
+Extracting content from relevant URLs...
+Content from https://en.wikipedia.org/wiki/Quantum_mechanics saved to source_html\quantum_mechanics_overview.html
+Content from https://www.energy.gov/science/doe-explainsquantum-mechanics saved to source_html\doe_explains_quantum_mechanics.html
+Content from https://www.britannica.com/science/quantum-mechanics-physics saved to source_html\britannica_quantum_physics.html
+Content from https://plato.stanford.edu/entries/qm/ saved to source_html\stanford_philosophy_quantum.html
+Content from https://scholar.harvard.edu/files/david-morin/files/waves_quantum.pdf saved to source_html\harvard_intro_quantum_mechanics.html
+
+Summary of saved files:
+URL: https://en.wikipedia.org/wiki/Quantum_mechanics
+Saved as: source_html\quantum_mechanics_overview.html
+--------------------------------------------------
+URL: https://www.energy.gov/science/doe-explainsquantum-mechanics
+Saved as: source_html\doe_explains_quantum_mechanics.html
+--------------------------------------------------
+URL: https://www.britannica.com/science/quantum-mechanics-physics
+Saved as: source_html\britannica_quantum_physics.html
+--------------------------------------------------
+URL: https://plato.stanford.edu/entries/qm/
+Saved as: source_html\stanford_philosophy_quantum.html
+--------------------------------------------------
+URL: https://scholar.harvard.edu/files/david-morin/files/waves_quantum.pdf
+Saved as: source_html\harvard_intro_quantum_mechanics.html
+--------------------------------------------------
+
+2024-11-08 06:11:27,804 - INFO - Both search operations completed successfully!
+2024-11-08 06:11:27,804 - INFO - Starting outline generation...
+2024-11-08 06:11:58,166 - INFO - Successfully completed outline generation
+2024-11-08 06:11:58,166 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-08 06:11:58,166 - INFO - Starting article writing...
+2024-11-08 06:13:59,053 - INFO - Successfully completed article writing
+2024-11-08 06:13:59,053 - INFO - article writing output:
+Writing section: Introduction to Quantum Mechanics
+Completed section: Introduction to Quantum Mechanics
+Writing section: Historical Foundations
+Completed section: Historical Foundations
+Writing section: Core Concepts and Mathematical Framework
+Completed section: Core Concepts and Mathematical Framework
+Writing section: Interpretations of Quantum Mechanics
+Completed section: Interpretations of Quantum Mechanics
+Writing section: Quantum Mechanics in Modern Technology
+Completed section: Quantum Mechanics in Modern Technology
+Writing section: Related Topics
+Completed section: Related Topics
+Article successfully generated and saved to article.md
+
+2024-11-08 06:13:59,053 - INFO - Article generation completed successfully!
+2024-11-08 06:13:59,053 - INFO - Article successfully generated and saved to article.md

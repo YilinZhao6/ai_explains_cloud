@@ -1,0 +1,53 @@
+2024-11-09 11:08:16,594 - INFO - Starting parallel search operations...
+2024-11-09 11:08:16,595 - INFO - Starting Google search and content collection...
+2024-11-09 11:08:16,595 - INFO - Starting Archive vector search...
+2024-11-09 11:08:16,596 - INFO - Waiting for both search operations to complete...
+2024-11-09 11:08:18,494 - INFO - Successfully completed Archive vector search
+2024-11-09 11:08:18,496 - INFO - Archive vector search output:
+Loading vectors and chunks from all books...
+Loaded 1974 chunks from Principles_of_Physics
+
+Searching for: Lorentz Force
+Results saved to F:\main\backend\source_html\topic_archive.html
+
+2024-11-09 11:08:22,400 - INFO - Successfully completed Google search and content collection
+2024-11-09 11:08:22,400 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: Lorentz Force
+
+Extracting content from relevant URLs...
+Content from https://en.wikipedia.org/wiki/Lorentz_force saved to source_html\lorentz_force_overview.html
+Content from https://www.britannica.com/science/Lorentz-force saved to source_html\lorentz_force_brita.html
+Content from https://isaacphysics.org/concepts/cp_lorentz_force saved to source_html\isaac_physics_lorentz_force.html
+
+Summary of saved files:
+URL: https://en.wikipedia.org/wiki/Lorentz_force
+Saved as: source_html\lorentz_force_overview.html
+--------------------------------------------------
+URL: https://www.britannica.com/science/Lorentz-force
+Saved as: source_html\lorentz_force_brita.html
+--------------------------------------------------
+URL: https://isaacphysics.org/concepts/cp_lorentz_force
+Saved as: source_html\isaac_physics_lorentz_force.html
+--------------------------------------------------
+
+2024-11-09 11:08:22,400 - INFO - Both search operations completed successfully!
+2024-11-09 11:08:22,401 - INFO - Starting outline generation...
+2024-11-09 11:08:42,373 - INFO - Successfully completed outline generation
+2024-11-09 11:08:42,373 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-09 11:08:42,373 - INFO - Starting article writing...
+2024-11-09 11:09:33,359 - INFO - Successfully completed article writing
+2024-11-09 11:09:33,359 - INFO - article writing output:
+Writing section: Introduction to Lorentz Force
+Completed section: Introduction to Lorentz Force
+Writing section: Mathematical Background and Derivations
+Completed section: Mathematical Background and Derivations
+Writing section: Applications of Lorentz Force
+Completed section: Applications of Lorentz Force
+Writing section: Related Topics
+Completed section: Related Topics
+Article successfully generated and saved to article.md
+
+2024-11-09 11:09:33,359 - INFO - Article generation completed successfully!
+2024-11-09 11:09:33,359 - INFO - Article successfully generated and saved to article.md

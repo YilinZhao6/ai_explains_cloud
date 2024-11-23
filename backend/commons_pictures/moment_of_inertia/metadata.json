@@ -1,0 +1,37 @@
+{
+    "search_query": "Moment of inertia",
+    "timestamp": "2024-10-27 04:22:17",
+    "number_of_images": 3,
+    "images": [
+        {
+            "filename": "Moment_of_inertia_png.png",
+            "title": "Moment of inertia.png",
+            "description": "Moment of inertia",
+            "resolution": "1043x1318",
+            "size_bytes": 24193,
+            "mime_type": "",
+            "commons_url": "https://commons.wikimedia.org/wiki/File:Moment_of_inertia.png",
+            "local_path": "C:\\Users\\Lenovo\\Desktop\\explain_everything\\main\\commons_pictures\\moment_of_inertia\\Moment_of_inertia_png.png"
+        },
+        {
+            "filename": "Moment_of_inertia_solid_sphere_svg.svg",
+            "title": "Moment of inertia solid sphere.svg",
+            "description": "Illustration of the moment of inertia of a solid sphere.",
+            "resolution": "277x255",
+            "size_bytes": 10933,
+            "mime_type": "",
+            "commons_url": "https://commons.wikimedia.org/wiki/File:Moment_of_inertia_solid_sphere.svg",
+            "local_path": "C:\\Users\\Lenovo\\Desktop\\explain_everything\\main\\commons_pictures\\moment_of_inertia\\Moment_of_inertia_solid_sphere_svg.svg"
+        },
+        {
+            "filename": "Rolling_Racers_-_Moment_of_inertia_gif.gif",
+            "title": "Rolling Racers - Moment of inertia.gif",
+            "description": "An object's <a href=\"https://en.wikipedia.org/wiki/Moment_of_inertia\" class=\"extiw\" title=\"w:Moment of inertia\">moment of inertia</a> <i>I</i> determines how much it resists rotational motion. In this simulation, four objects are placed on a ramp and left to roll without slipping. Starting from rest, each will experience an angular acceleration based on their moment of inertia.",
+            "resolution": "480x270",
+            "size_bytes": 1679266,
+            "mime_type": "",
+            "commons_url": "https://commons.wikimedia.org/wiki/File:Rolling_Racers_-_Moment_of_inertia.gif",
+            "local_path": "C:\\Users\\Lenovo\\Desktop\\explain_everything\\main\\commons_pictures\\moment_of_inertia\\Rolling_Racers_-_Moment_of_inertia_gif.gif"
+        }
+    ]
+}

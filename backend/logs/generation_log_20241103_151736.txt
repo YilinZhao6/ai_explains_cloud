@@ -1,0 +1,30 @@
+2024-11-03 15:17:36,924 - INFO - Created output directory: generation_output_20241103_151736
+2024-11-03 15:17:36,924 - INFO - Starting Google search and content collection...
+2024-11-03 15:17:43,954 - INFO - Successfully completed Google search and content collection
+2024-11-03 15:17:43,954 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: 123
+
+Search results and analysis saved to search_results_20241103_151738.txt
+
+Extracting content from relevant URLs...
+Content from https://link.aps.org/doi/10.1103/PhysRevLett.123.230501 saved to source_html\rydberg_entanglement_123_article.html
+Content from https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-123 saved to source_html\epa_state_programs_123_requirements.html
+Content from https://www.revisor.mn.gov/laws/2024/0/Session+Law/Chapter/123/ saved to source_html\mn_laws_chapter_123_details.html
+
+Summary of saved files:
+URL: https://link.aps.org/doi/10.1103/PhysRevLett.123.230501
+Saved as: source_html\rydberg_entanglement_123_article.html
+--------------------------------------------------
+URL: https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-123
+Saved as: source_html\epa_state_programs_123_requirements.html
+--------------------------------------------------
+URL: https://www.revisor.mn.gov/laws/2024/0/Session+Law/Chapter/123/
+Saved as: source_html\mn_laws_chapter_123_details.html
+--------------------------------------------------
+
+2024-11-03 15:17:43,955 - INFO - Starting outline generation...
+2024-11-03 15:18:03,223 - INFO - Successfully completed outline generation
+2024-11-03 15:18:03,223 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-03 15:18:03,223 - INFO - Starting article writing...

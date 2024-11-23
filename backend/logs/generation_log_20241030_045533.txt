@@ -1,0 +1,58 @@
+2024-10-30 04:55:33,696 - INFO - Created output directory: generation_output_20241030_045533
+2024-10-30 04:55:33,697 - INFO - Starting Google search and content collection...
+2024-10-30 04:55:39,643 - INFO - Successfully completed Google search and content collection
+2024-10-30 04:55:39,643 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: Moment of Inertia
+
+Search results and analysis saved to search_results_20241030_045535.txt
+
+Extracting content from relevant URLs...
+Content from https://en.wikipedia.org/wiki/Moment_of_inertia saved to source_html\moment_of_inertia_overview.html
+Content from http://hyperphysics.phy-astr.gsu.edu/hbase/mi.html saved to source_html\moment_of_inertia_hyperphysics.html
+Content from https://www.britannica.com/science/moment-of-inertia saved to source_html\moment_of_inertia_britannica.html
+Content from https://byjus.com/jee/moment-of-inertia/ saved to source_html\moment_of_inertia_examples.html
+
+Summary of saved files:
+URL: https://en.wikipedia.org/wiki/Moment_of_inertia
+Saved as: source_html\moment_of_inertia_overview.html
+--------------------------------------------------
+URL: http://hyperphysics.phy-astr.gsu.edu/hbase/mi.html
+Saved as: source_html\moment_of_inertia_hyperphysics.html
+--------------------------------------------------
+URL: https://www.britannica.com/science/moment-of-inertia
+Saved as: source_html\moment_of_inertia_britannica.html
+--------------------------------------------------
+URL: https://byjus.com/jee/moment-of-inertia/
+Saved as: source_html\moment_of_inertia_examples.html
+--------------------------------------------------
+
+2024-10-30 04:55:39,644 - INFO - Starting outline generation...
+2024-10-30 04:56:10,357 - INFO - Successfully completed outline generation
+2024-10-30 04:56:10,357 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-10-30 04:56:10,357 - INFO - Starting article writing...
+2024-10-30 04:57:50,433 - INFO - Successfully completed article writing
+2024-10-30 04:57:50,433 - INFO - article writing output:
+Writing section: Introduction to Moment of Inertia
+Completed section: Introduction to Moment of Inertia
+Writing section: Basic Principles and Formula
+Completed section: Basic Principles and Formula
+Writing section: Real-World Applications
+Completed section: Real-World Applications
+Writing section: Common Shapes and Their Moments of Inertia
+Completed section: Common Shapes and Their Moments of Inertia
+Article successfully generated and saved to article.md
+
+2024-10-30 04:57:50,450 - INFO - Copied article.md to output directory
+2024-10-30 04:57:50,451 - INFO - Copied article_outline.json to output directory
+2024-10-30 04:57:50,454 - INFO - Copied search_results_20241030_033656.txt to output directory
+2024-10-30 04:57:50,455 - INFO - Copied search_results_20241030_033741.txt to output directory
+2024-10-30 04:57:50,457 - INFO - Copied search_results_20241030_033937.txt to output directory
+2024-10-30 04:57:50,459 - INFO - Copied search_results_20241030_034630.txt to output directory
+2024-10-30 04:57:50,461 - INFO - Copied search_results_20241030_035040.txt to output directory
+2024-10-30 04:57:50,462 - INFO - Copied search_results_20241030_043535.txt to output directory
+2024-10-30 04:57:50,464 - INFO - Copied search_results_20241030_044523.txt to output directory
+2024-10-30 04:57:50,465 - INFO - Copied search_results_20241030_045535.txt to output directory
+2024-10-30 04:57:50,465 - INFO - Article generation completed successfully!
+2024-10-30 04:57:50,465 - INFO - All outputs have been saved to: generation_output_20241030_045533

@@ -1,0 +1,43 @@
+2024-11-03 22:10:49,496 - INFO - Starting Google search and content collection...
+2024-11-03 22:10:58,032 - INFO - Successfully completed Google search and content collection
+2024-11-03 22:10:58,032 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: Moment of inertia
+
+Extracting content from relevant URLs...
+Content from https://en.wikipedia.org/wiki/Moment_of_inertia saved to source_html\moment_of_inertia_wikipedia.html
+Content from http://hyperphysics.phy-astr.gsu.edu/hbase/mi.html saved to source_html\moment_of_inertia_hyperphysics.html
+Content from https://www.britannica.com/science/moment-of-inertia saved to source_html\moment_of_inertia_britannica.html
+Content from https://byjus.com/jee/moment-of-inertia/ saved to source_html\moment_of_inertia_byjus.html
+
+Summary of saved files:
+URL: https://en.wikipedia.org/wiki/Moment_of_inertia
+Saved as: source_html\moment_of_inertia_wikipedia.html
+--------------------------------------------------
+URL: http://hyperphysics.phy-astr.gsu.edu/hbase/mi.html
+Saved as: source_html\moment_of_inertia_hyperphysics.html
+--------------------------------------------------
+URL: https://www.britannica.com/science/moment-of-inertia
+Saved as: source_html\moment_of_inertia_britannica.html
+--------------------------------------------------
+URL: https://byjus.com/jee/moment-of-inertia/
+Saved as: source_html\moment_of_inertia_byjus.html
+--------------------------------------------------
+
+2024-11-03 22:10:58,033 - INFO - Starting outline generation...
+2024-11-03 22:11:26,102 - INFO - Successfully completed outline generation
+2024-11-03 22:11:26,102 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-03 22:11:26,102 - INFO - Starting article writing...
+2024-11-03 22:12:29,089 - INFO - Successfully completed article writing
+2024-11-03 22:12:29,089 - INFO - article writing output:
+Writing section: Definition and Basic Concepts
+Completed section: Definition and Basic Concepts
+Writing section: Mathematical Formulation
+Completed section: Mathematical Formulation
+Writing section: Principal Axes and Inertia Tensor
+Completed section: Principal Axes and Inertia Tensor
+Article successfully generated and saved to article.md
+
+2024-11-03 22:12:29,089 - INFO - Article generation completed successfully!
+2024-11-03 22:12:29,089 - INFO - Article successfully generated and saved to article.md

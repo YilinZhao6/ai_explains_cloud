@@ -1,0 +1,53 @@
+2024-11-03 17:03:53,627 - INFO - Created output directory: generation_output_20241103_170353
+2024-11-03 17:03:53,627 - INFO - Starting Google search and content collection...
+2024-11-03 17:03:57,372 - INFO - Successfully completed Google search and content collection
+2024-11-03 17:03:57,372 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: Nuclear Reaction
+
+Search results and analysis saved to search_results_20241103_170355.txt
+
+Extracting content from relevant URLs...
+Content from https://en.wikipedia.org/wiki/Nuclear_reaction saved to source_html\nuclear_reaction_overview.html
+Content from https://www.iaea.org/newscenter/news/what-is-nuclear-fusion saved to source_html\nuclear_fusion_explained_iaea.html
+Content from https://www.britannica.com/science/nuclear-reaction saved to source_html\britannica_nuclear_reaction_facts.html
+
+Summary of saved files:
+URL: https://en.wikipedia.org/wiki/Nuclear_reaction
+Saved as: source_html\nuclear_reaction_overview.html
+--------------------------------------------------
+URL: https://www.iaea.org/newscenter/news/what-is-nuclear-fusion
+Saved as: source_html\nuclear_fusion_explained_iaea.html
+--------------------------------------------------
+URL: https://www.britannica.com/science/nuclear-reaction
+Saved as: source_html\britannica_nuclear_reaction_facts.html
+--------------------------------------------------
+
+2024-11-03 17:03:57,373 - INFO - Starting outline generation...
+2024-11-03 17:04:13,764 - INFO - Successfully completed outline generation
+2024-11-03 17:04:13,764 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-03 17:04:13,764 - INFO - Starting article writing...
+2024-11-03 17:04:52,168 - INFO - Successfully completed article writing
+2024-11-03 17:04:52,168 - INFO - article writing output:
+Writing section: Definition and Basic Concepts
+Completed section: Definition and Basic Concepts
+Writing section: Energy Conservation in Nuclear Reactions
+Completed section: Energy Conservation in Nuclear Reactions
+Writing section: Types of Nuclear Reactions
+Completed section: Types of Nuclear Reactions
+Writing section: Historical Significance
+Completed section: Historical Significance
+Article successfully generated and saved to article.md
+
+2024-11-03 17:04:52,185 - INFO - Copied article.md to output directory
+2024-11-03 17:04:52,187 - INFO - Copied article_outline.json to output directory
+2024-11-03 17:04:52,191 - INFO - Copied search_results_20241103_163646.txt to output directory
+2024-11-03 17:04:52,192 - INFO - Copied search_results_20241103_164231.txt to output directory
+2024-11-03 17:04:52,194 - INFO - Copied search_results_20241103_164806.txt to output directory
+2024-11-03 17:04:52,196 - INFO - Copied search_results_20241103_165410.txt to output directory
+2024-11-03 17:04:52,199 - INFO - Copied search_results_20241103_170218.txt to output directory
+2024-11-03 17:04:52,201 - INFO - Copied search_results_20241103_170355.txt to output directory
+2024-11-03 17:04:52,201 - INFO - Article generation completed successfully!
+2024-11-03 17:04:52,201 - INFO - All outputs have been saved to: generation_output_20241103_170353
+2024-11-03 17:04:52,201 - INFO - Article successfully generated and saved to article.md

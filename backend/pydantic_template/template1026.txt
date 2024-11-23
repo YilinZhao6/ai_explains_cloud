@@ -1,0 +1,90 @@
+from pydantic import BaseModel, Field
+from typing import List
+
+class ContentPoint(BaseModel):
+    objective: str = Field(..., description="Learning objective for this point")
+    content_summary: str = Field(..., description="Summary of what will be covered")
+    sources: List[dict] = Field(..., description="List of source materials and their key quotes", example=[
+        {"file_name": "example.pdf", "key_quote": "Important quote from the source"}
+    ])
+
+class Section(BaseModel):
+    section_title: str = Field(..., description="Section title")
+    learning_goals: List[str] = Field(..., description="Learning goals for this section")
+    content_points: List[ContentPoint] = Field(..., description="Points to be covered in this section")
+
+class ArticleOutline(BaseModel):
+    topic: str = Field(..., description="Main topic of the article")
+    style_guide: str = Field(..., description="General style guidelines to follow")
+    sections: List[Section] = Field(..., description="Article sections")
+
+# Example usage
+example_outline = {
+    "topic": "Introduction to Neural Networks",
+    "style_guide": "Use technical language but explain complex concepts with analogies. Include practical examples after each theoretical concept. Maintain a progressive difficulty curve throughout the article.",
+    "sections": [
+        {
+            "section_title": "Basic Neural Network Architecture",
+            "learning_goals": [
+                "Understand the structure of a basic neural network",
+                "Identify key components of neurons"
+            ],
+            "content_points": [
+                {
+                    "objective": "Explain neural network layers",
+                    "content_summary": "Cover input, hidden, and output layers with their functions",
+                    "sources": [
+                        {
+                            "file_name": "deep_learning_basics.pdf",
+                            "key_quote": "Neural networks consist of layers of interconnected nodes, where each node performs a simple mathematical operation on its inputs."
+                        },
+                        {
+                            "file_name": "neural_networks_intro.pdf",
+                            "key_quote": "The layered structure of neural networks allows them to learn hierarchical representations of data."
+                        }
+                    ]
+                },
+                {
+                    "objective": "Demonstrate activation functions",
+                    "content_summary": "Explore common activation functions and their purposes",
+                    "sources": [
+                        {
+                            "file_name": "neural_networks_math.pdf",
+                            "key_quote": "ReLU has become the default activation function for many neural networks due to its computational efficiency."
+                        },
+                        {
+                            "file_name": "deep_learning_basics.pdf",
+                            "key_quote": "Sigmoid functions were historically popular but have fallen out of favor except in specific applications."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section_title": "Forward Propagation",
+            "learning_goals": [
+                "Understand how data flows through a neural network",
+                "Calculate network outputs manually"
+            ],
+            "content_points": [
+                {
+                    "objective": "Walk through forward propagation process",
+                    "content_summary": "Step-by-step explanation of how input data is processed through layers",
+                    "sources": [
+                        {
+                            "file_name": "deep_learning_basics.pdf",
+                            "key_quote": "Forward propagation involves multiplying inputs by weights, adding biases, and applying activation functions at each layer."
+                        },
+                        {
+                            "file_name": "neural_networks_math.pdf",
+                            "key_quote": "The matrix multiplication operations in forward propagation enable efficient parallel processing on modern hardware."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
+
+# Validate the example
+outline = ArticleOutline(**example_outline)

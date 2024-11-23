@@ -1,0 +1,46 @@
+2024-11-03 16:36:45,463 - INFO - Created output directory: generation_output_20241103_163645
+2024-11-03 16:36:45,463 - INFO - Starting Google search and content collection...
+2024-11-03 16:36:50,855 - INFO - Successfully completed Google search and content collection
+2024-11-03 16:36:50,855 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: Metamaterials
+
+Search results and analysis saved to search_results_20241103_163646.txt
+
+Extracting content from relevant URLs...
+Content from https://en.wikipedia.org/wiki/Metamaterial saved to source_html\metamaterials_overview_en_wikipedia.html
+Content from https://www.sciencedirect.com/topics/materials-science/metamaterial saved to source_html\science_metamat_overview_sciencedirect.html
+Content from https://www.onr.navy.mil/organization/departments/code-33/materials-focus-area/metamaterials saved to source_html\onr_metamaterials_research_overview.html
+
+Summary of saved files:
+URL: https://en.wikipedia.org/wiki/Metamaterial
+Saved as: source_html\metamaterials_overview_en_wikipedia.html
+--------------------------------------------------
+URL: https://www.sciencedirect.com/topics/materials-science/metamaterial
+Saved as: source_html\science_metamat_overview_sciencedirect.html
+--------------------------------------------------
+URL: https://www.onr.navy.mil/organization/departments/code-33/materials-focus-area/metamaterials
+Saved as: source_html\onr_metamaterials_research_overview.html
+--------------------------------------------------
+
+2024-11-03 16:36:50,856 - INFO - Starting outline generation...
+2024-11-03 16:37:09,013 - INFO - Successfully completed outline generation
+2024-11-03 16:37:09,013 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-03 16:37:09,013 - INFO - Starting article writing...
+2024-11-03 16:37:40,647 - INFO - Successfully completed article writing
+2024-11-03 16:37:40,647 - INFO - article writing output:
+Writing section: Definition and Fundamental Concepts
+Completed section: Definition and Fundamental Concepts
+Writing section: Physical Properties and Behavior
+Completed section: Physical Properties and Behavior
+Writing section: Applications and Future Prospects
+Completed section: Applications and Future Prospects
+Article successfully generated and saved to article.md
+
+2024-11-03 16:37:40,662 - INFO - Copied article.md to output directory
+2024-11-03 16:37:40,665 - INFO - Copied article_outline.json to output directory
+2024-11-03 16:37:40,668 - INFO - Copied search_results_20241103_163646.txt to output directory
+2024-11-03 16:37:40,668 - INFO - Article generation completed successfully!
+2024-11-03 16:37:40,668 - INFO - All outputs have been saved to: generation_output_20241103_163645
+2024-11-03 16:37:40,668 - INFO - Article successfully generated and saved to article.md

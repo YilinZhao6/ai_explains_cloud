@@ -1,0 +1,43 @@
+2024-11-04 05:56:47,805 - INFO - Starting Google search and content collection...
+2024-11-04 05:56:52,849 - INFO - Successfully completed Google search and content collection
+2024-11-04 05:56:52,849 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: Toffoli Gates
+
+Extracting content from relevant URLs...
+Content from https://en.wikipedia.org/wiki/Toffoli_gate saved to source_html\toffoli_gate_overview.html
+Content from https://pennylane.ai/qml/glossary/what-is-a-toffoli-gate/ saved to source_html\toffoli_gate_explanation.html
+Content from https://arxiv.org/abs/0806.0654 saved to source_html\efficient_toffoli_gates_qudits.html
+Content from https://link.aps.org/doi/10.1103/PhysRevA.87.022328 saved to source_html\fault_tolerant_toffoli_constructions.html
+Content from https://link.aps.org/doi/10.1103/PhysRevA.75.022313 saved to source_html\efficient_toffoli_gates_research.html
+
+Summary of saved files:
+URL: https://en.wikipedia.org/wiki/Toffoli_gate
+Saved as: source_html\toffoli_gate_overview.html
+--------------------------------------------------
+URL: https://pennylane.ai/qml/glossary/what-is-a-toffoli-gate/
+Saved as: source_html\toffoli_gate_explanation.html
+--------------------------------------------------
+URL: https://arxiv.org/abs/0806.0654
+Saved as: source_html\efficient_toffoli_gates_qudits.html
+--------------------------------------------------
+URL: https://link.aps.org/doi/10.1103/PhysRevA.87.022328
+Saved as: source_html\fault_tolerant_toffoli_constructions.html
+--------------------------------------------------
+URL: https://link.aps.org/doi/10.1103/PhysRevA.75.022313
+Saved as: source_html\efficient_toffoli_gates_research.html
+--------------------------------------------------
+
+2024-11-04 05:56:52,850 - INFO - Starting outline generation...
+2024-11-04 05:57:26,347 - INFO - Successfully completed outline generation
+2024-11-04 05:57:26,347 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-04 05:57:26,348 - INFO - Starting article writing...
+2024-11-04 05:57:39,291 - INFO - Successfully completed article writing
+2024-11-04 05:57:39,291 - INFO - article writing output:
+Writing section: Introduction to Toffoli Gates
+Completed section: Introduction to Toffoli Gates
+Article successfully generated and saved to article.md
+
+2024-11-04 05:57:39,291 - INFO - Article generation completed successfully!
+2024-11-04 05:57:39,292 - INFO - Article successfully generated and saved to article.md

@@ -1,0 +1,17 @@
+2024-11-22 19:28:41,413 - INFO - Starting parallel search operations...
+2024-11-22 19:28:41,413 - INFO - Starting Google search and content collection...
+2024-11-22 19:28:41,414 - INFO - Starting Archive vector search...
+2024-11-22 19:28:41,414 - INFO - Waiting for both search operations to complete...
+2024-11-22 19:28:41,424 - ERROR - Error in Google search and content collection:
+/usr/bin/python: can't open file '/home/yilinzhao/Desktop/cloud_deployment/backend/Search_google-1.py': [Errno 2] No such file or directory
+
+2024-11-22 19:28:41,425 - ERROR - Error during parallel search execution: Command '['/usr/bin/python', '/home/yilinzhao/Desktop/cloud_deployment/backend/Search_google-1.py']' returned non-zero exit status 2.
+2024-11-22 19:28:42,466 - INFO - Successfully completed Archive vector search
+2024-11-22 19:28:42,466 - INFO - Archive vector search output:
+Loading vectors and chunks from all books...
+Loaded 1974 chunks from Principles_of_Physics
+
+Searching for: quantum entanglement
+Results saved to /home/yilinzhao/Desktop/cloud_deployment/backend/source_html/topic_archive.html
+
+2024-11-22 19:28:42,466 - ERROR - Article generation failed: Parallel search operations failed

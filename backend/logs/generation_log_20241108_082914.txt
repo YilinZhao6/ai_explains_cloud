@@ -1,0 +1,51 @@
+2024-11-08 08:29:14,394 - INFO - Starting parallel search operations...
+2024-11-08 08:29:14,394 - INFO - Starting Google search and content collection...
+2024-11-08 08:29:14,395 - INFO - Starting Archive vector search...
+2024-11-08 08:29:14,395 - INFO - Waiting for both search operations to complete...
+2024-11-08 08:29:16,427 - INFO - Successfully completed Archive vector search
+2024-11-08 08:29:16,427 - INFO - Archive vector search output:
+Loading vectors and chunks from all books...
+Loaded 1974 chunks from Principles_of_Physics
+
+Searching for: Schrodinger Equation
+Results saved to F:\main\backend\source_html\topic_archive.html
+
+2024-11-08 08:29:19,601 - INFO - Successfully completed Google search and content collection
+2024-11-08 08:29:19,601 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: Schrodinger Equation
+
+Extracting content from relevant URLs...
+Content from https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation saved to source_html\schrodinger_equation_overview.html
+Content from https://www.britannica.com/science/Schrodinger-equation saved to source_html\schrodinger_equation_britannica.html
+Content from http://hyperphysics.phy-astr.gsu.edu/hbase/quantum/schr.html saved to source_html\hyperphysics_schr_equation.html
+
+Summary of saved files:
+URL: https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation
+Saved as: source_html\schrodinger_equation_overview.html
+--------------------------------------------------
+URL: https://www.britannica.com/science/Schrodinger-equation
+Saved as: source_html\schrodinger_equation_britannica.html
+--------------------------------------------------
+URL: http://hyperphysics.phy-astr.gsu.edu/hbase/quantum/schr.html
+Saved as: source_html\hyperphysics_schr_equation.html
+--------------------------------------------------
+
+2024-11-08 08:29:19,601 - INFO - Both search operations completed successfully!
+2024-11-08 08:29:19,602 - INFO - Starting outline generation...
+2024-11-08 08:29:44,541 - INFO - Successfully completed outline generation
+2024-11-08 08:29:44,541 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-08 08:29:44,541 - INFO - Starting article writing...
+2024-11-08 08:30:57,406 - INFO - Successfully completed article writing
+2024-11-08 08:30:57,406 - INFO - article writing output:
+Writing section: Introduction to the Schrodinger Equation
+Error generating article: 1 validation error for SectionContent
+__root__
+  Unterminated string starting at: line 1 column 71 (char 70) (type=value_error.jsondecode; msg=Unterminated string starting at; doc={"section_title":"Introduction to the Schrödinger Equation","content":"### The Schrödinger Equation and Its Importance\n\nThe Schrödinger Equation is a cornerstone of quantum mechanics, much like Newton's laws are fundamental to classical mechanics. Developed in 1926 by Austrian physicist Erwin Schrödinger, this equation is essential for understanding the behavior of subatomic particles. It is a wave equation that describes how the quantum state of a physical system changes over time.\n\nIn classical mechanics, the trajectory of an object is determined by its position and velocity. However, in quantum mechanics, particles exhibit wave-like behavior, and their exact position cannot be precisely determined. Instead, the Schrödinger Equation provides a way to calculate the probability of finding a particle in a particular state or location.\n\nThe equation is expressed as:\n\n$$\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\; pos=70; lineno=1; colno=71)
+Failed to generate article: 1 validation error for SectionContent
+__root__
+  Unterminated string starting at: line 1 column 71 (char 70) (type=value_error.jsondecode; msg=Unterminated string starting at; doc={"section_title":"Introduction to the Schrödinger Equation","content":"### The Schrödinger Equation and Its Importance\n\nThe Schrödinger Equation is a cornerstone of quantum mechanics, much like Newton's laws are fundamental to classical mechanics. Developed in 1926 by Austrian physicist Erwin Schrödinger, this equation is essential for understanding the behavior of subatomic particles. It is a wave equation that describes how the quantum state of a physical system changes over time.\n\nIn classical mechanics, the trajectory of an object is determined by its position and velocity. However, in quantum mechanics, particles exhibit wave-like behavior, and their exact position cannot be precisely determined. Instead, the Schrödinger Equation provides a way to calculate the probability of finding a particle in a particular state or location.\n\nThe equation is expressed as:\n\n$$\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\ni\; pos=70; lineno=1; colno=71)
+
+2024-11-08 08:30:57,407 - INFO - Article generation completed successfully!
+2024-11-08 08:30:57,407 - INFO - Article successfully generated and saved to article.md

@@ -1,0 +1,138 @@
+{
+  "topic": "Moment of inertia",
+  "style_guide": "Clear Structure, formal academic writing, Direct and straightforward explanations",
+  "sections": [
+    {
+      "section_title": "Introduction to Moment of Inertia",
+      "learning_goals": [
+        "Understand the basic definition and significance of moment of inertia in physics.",
+        "Distinguish between moment of inertia and mass.",
+        "Identify the factors affecting moment of inertia."
+      ],
+      "content_points": [
+        {
+          "objective": "Explain what moment of inertia is and why it is important.",
+          "content_summary": "Moment of inertia is a measure of an object's resistance to angular acceleration, related to its mass distribution around an axis. It's akin to mass in linear motion, affecting how much torque is needed for a desired angular acceleration.",
+          "sources": [
+            {
+              "file_name": "britannica_moment_of_inertia.html",
+              "key_quote": "The moment of inertia (I), however, is always specified with respect to that axis and is defined as the sum of the products obtained by multiplying the mass of each particle of matter in a given body by the square of its distance from the axis."
+            },
+            {
+              "file_name": "moment_of_inertia_overview.html",
+              "key_quote": "The moment of inertia, otherwise known as the mass moment of inertia, angular/rotational mass, second moment of mass, or most accurately, rotational inertia, of a rigid body is defined relative to a rotational axis."
+            }
+          ],
+          "example_wanted": "NO"
+        },
+        {
+          "objective": "Identify factors affecting moment of inertia.",
+          "content_summary": "The moment of inertia is influenced by the object's mass distribution, shape, size, and the axis of rotation. It increases with mass and the distance from the rotation axis.",
+          "sources": [
+            {
+              "file_name": "byjus_moment_of_inertia_formulas.html",
+              "key_quote": "The moment of inertia is usually specified with respect to a chosen axis of rotation. It mainly depends on the distribution of mass around an axis of rotation."
+            }
+          ],
+          "example_wanted": "NO"
+        }
+      ]
+    },
+    {
+      "section_title": "Mathematical Formulation of Moment of Inertia",
+      "learning_goals": [
+        "Learn the fundamental formula for calculating moment of inertia.",
+        "Differentiate between formulas for different geometrical shapes.",
+        "Comprehend the application of calculus in determining moments of inertia for complex bodies."
+      ],
+      "content_points": [
+        {
+          "objective": "Present the basic formula for moment of inertia and its application.",
+          "content_summary": "For simple point masses, the moment of inertia is calculated as I = mr^2. More complex bodies require integration over a mass distribution, represented as I = \u222br\u00b2dm.",
+          "sources": [
+            {
+              "file_name": "byjus_moment_of_inertia_formulas.html",
+              "key_quote": "In general form, moment of inertia is expressed as I = m \u00d7 r\u00b2"
+            }
+          ],
+          "example_wanted": "YES"
+        },
+        {
+          "objective": "Explain how calculus is used to calculate moment of inertia for continuous bodies.",
+          "content_summary": "The inertia of bodies with continuous mass distribution is calculated using integral calculus, accounting for all differential masses (dm) across the object, integrated along their distances squared from the axis.",
+          "sources": [
+            {
+              "file_name": "britannica_moment_of_inertia.html",
+              "key_quote": "The moment of inertia of the disk in the figure about OQ could be approximated by cutting it into a number of thin concentric rings."
+            },
+            {
+              "file_name": "hyperphysics_moment_of_inertia.html",
+              "key_quote": "The moment of inertia contribution by an infinitesmal mass element dm has the same form."
+            }
+          ],
+          "example_wanted": "YES"
+        }
+      ]
+    },
+    {
+      "section_title": "Key Theorems: Parallel and Perpendicular Axis Theorems",
+      "learning_goals": [
+        "Understand the parallel axis theorem and its importance in extending inertia calculations beyond the center of mass.",
+        "Apply the perpendicular axis theorem for planar objects."
+      ],
+      "content_points": [
+        {
+          "objective": "Describe the Parallel Axis Theorem and its application.",
+          "content_summary": "The Parallel Axis Theorem states that the moment of inertia of a body about any axis is equal to its moment of inertia about a parallel axis through its center of mass plus the product of its mass and the square distance between the axes.",
+          "sources": [
+            {
+              "file_name": "moment_of_inertia_overview.html",
+              "key_quote": "It is an extensive (additive) property: for a point mass the moment of inertia is simply the mass times the square of the perpendicular distance to the axis of rotation."
+            },
+            {
+              "file_name": "britannica_moment_of_inertia.html",
+              "key_quote": "Using the integral calculus, the summation process is carried out automatically; the answer is I = (mR\u00b2)/2."
+            }
+          ],
+          "example_wanted": "YES"
+        },
+        {
+          "objective": "Discuss the Perpendicular Axis Theorem and its usage.",
+          "content_summary": "The Perpendicular Axis Theorem is useful for planar objects, stating that the inertia about an axis perpendicular to the plane is the sum of the inertias about two orthogonal axes in the plane.",
+          "sources": [
+            {
+              "file_name": "byjus_moment_of_inertia_formulas.html",
+              "key_quote": "The moment of inertia of a uniform rod about a perpendicular bisector (I) = ML\u00b2/12."
+            }
+          ],
+          "example_wanted": "NO"
+        }
+      ]
+    },
+    {
+      "section_title": "Applications in Astrophysics",
+      "learning_goals": [
+        "Apply moment of inertia concepts to understand astronomical bodies' rotational dynamics.",
+        "Learn about inertia matrices and their implications in 3D rotation analysis."
+      ],
+      "content_points": [
+        {
+          "objective": "Determine the role of moment of inertia in celestial mechanics.",
+          "content_summary": "Moment of inertia plays a crucial role in analyzing the rotational behaviors of planets and stars, affecting their stability, spin dynamics, and rotational periods.",
+          "sources": [
+            {
+              "file_name": "moment_of_inertia_overview.html",
+              "key_quote": "The natural frequency of oscillation of a compound pendulum is obtained from the ratio of the torque imposed by gravity."
+            }
+          ],
+          "example_wanted": "NO"
+        }
+      ]
+    },
+    {
+      "section_title": "Related Topics",
+      "learning_goals": [],
+      "content_points": []
+    }
+  ]
+}

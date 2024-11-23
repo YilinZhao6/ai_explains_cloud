@@ -1,0 +1,37 @@
+{
+    "search_query": "Mechanical engineering",
+    "timestamp": "2024-10-26 20:35:31",
+    "number_of_images": 3,
+    "images": [
+        {
+            "filename": "1993_bmw_325is_engine_jpg.jpg",
+            "title": "1993 bmw 325is engine.jpg",
+            "description": "BMW M50 TU engine from a 1993 325is <span class=\"mw-valign-text-top\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:1993_bmw_325is_engine.jpg#ooui-php-4\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/10px-OOjs_UI_icon_edit-ltr-progressive.svg.png\" decoding=\"async\" width=\"10\" height=\"10\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/15px-OOjs_UI_icon_edit-ltr-progressive.svg.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png 2x\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+            "resolution": "1024x768",
+            "size_bytes": 264617,
+            "mime_type": "",
+            "commons_url": "https://commons.wikimedia.org/wiki/File:1993_bmw_325is_engine.jpg",
+            "local_path": "c:\\Users\\Lenovo\\Desktop\\explain_everything\\1026\\commons_pictures\\mechanical_engineering\\1993_bmw_325is_engine_jpg.jpg"
+        },
+        {
+            "filename": "Mechanical_components_png.png",
+            "title": "Mechanical components.png",
+            "description": "Mechanical components",
+            "resolution": "660x511",
+            "size_bytes": 895874,
+            "mime_type": "",
+            "commons_url": "https://commons.wikimedia.org/wiki/File:Mechanical_components.png",
+            "local_path": "c:\\Users\\Lenovo\\Desktop\\explain_everything\\1026\\commons_pictures\\mechanical_engineering\\Mechanical_components_png.png"
+        },
+        {
+            "filename": "Volkswagen_W16_jpg.jpg",
+            "title": "Volkswagen W16.jpg",
+            "description": "Volkswagen Group designed Bugatti W16 engine.",
+            "resolution": "2016x1512",
+            "size_bytes": 1056569,
+            "mime_type": "",
+            "commons_url": "https://commons.wikimedia.org/wiki/File:Volkswagen_W16.jpg",
+            "local_path": "c:\\Users\\Lenovo\\Desktop\\explain_everything\\1026\\commons_pictures\\mechanical_engineering\\Volkswagen_W16_jpg.jpg"
+        }
+    ]
+}

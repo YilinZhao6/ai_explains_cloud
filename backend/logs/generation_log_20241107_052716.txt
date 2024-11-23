@@ -1,0 +1,65 @@
+2024-11-07 05:27:16,357 - INFO - Starting parallel search operations...
+2024-11-07 05:27:16,357 - INFO - Starting Google search and content collection...
+2024-11-07 05:27:16,358 - INFO - Starting Archive vector search...
+2024-11-07 05:27:16,358 - INFO - Waiting for both search operations to complete...
+2024-11-07 05:27:18,069 - INFO - Successfully completed Archive vector search
+2024-11-07 05:27:18,069 - INFO - Archive vector search output:
+Loading vectors and chunks from all books...
+Loaded 1974 chunks from Principles_of_Physics
+
+Searching for: Orbital Motion
+Results saved to F:\main\backend\source_html\topic_archive.html
+
+2024-11-07 05:27:21,366 - INFO - Successfully completed Google search and content collection
+2024-11-07 05:27:21,366 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: Orbital Motion
+
+Extracting content from relevant URLs...
+Content from https://inspiritvr.com/orbital-motion-study-guide/ saved to source_html\orbital_motion_study_guide.html
+Content from https://en.wikipedia.org/wiki/Orbital_mechanics saved to source_html\orbital_mechanics_overview.html
+Content from https://flexbooks.ck12.org/cbook/ck-12-middle-school-physical-science-flexbook-2.0/section/10.11/primary/lesson/orbital-motion-ms-ps/ saved to source_html\ck12_orbital_motion_lesson.html
+Content from https://phet.colorado.edu/en/simulations/gravity-and-orbits saved to source_html\gravity_and_orbits_simulation.html
+Content from https://www.physicsclassroom.com/Physics-Interactives/Circular-and-Satellite-Motion/Orbital-Motion/Orbital-Motion-Interactive saved to source_html\physics_classroom_orbital_motion.html
+
+Summary of saved files:
+URL: https://inspiritvr.com/orbital-motion-study-guide/
+Saved as: source_html\orbital_motion_study_guide.html
+--------------------------------------------------
+URL: https://en.wikipedia.org/wiki/Orbital_mechanics
+Saved as: source_html\orbital_mechanics_overview.html
+--------------------------------------------------
+URL: https://flexbooks.ck12.org/cbook/ck-12-middle-school-physical-science-flexbook-2.0/section/10.11/primary/lesson/orbital-motion-ms-ps/
+Saved as: source_html\ck12_orbital_motion_lesson.html
+--------------------------------------------------
+URL: https://phet.colorado.edu/en/simulations/gravity-and-orbits
+Saved as: source_html\gravity_and_orbits_simulation.html
+--------------------------------------------------
+URL: https://www.physicsclassroom.com/Physics-Interactives/Circular-and-Satellite-Motion/Orbital-Motion/Orbital-Motion-Interactive
+Saved as: source_html\physics_classroom_orbital_motion.html
+--------------------------------------------------
+
+2024-11-07 05:27:21,366 - INFO - Both search operations completed successfully!
+2024-11-07 05:27:21,367 - INFO - Starting outline generation...
+2024-11-07 05:27:52,404 - INFO - Successfully completed outline generation
+2024-11-07 05:27:52,404 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-07 05:27:52,404 - INFO - Starting article writing...
+2024-11-07 05:29:33,570 - INFO - Successfully completed article writing
+2024-11-07 05:29:33,570 - INFO - article writing output:
+Writing section: Introduction to Orbital Motion
+Completed section: Introduction to Orbital Motion
+Writing section: Types of Orbits
+Completed section: Types of Orbits
+Writing section: Laws Governing Orbital Motion
+Completed section: Laws Governing Orbital Motion
+Writing section: Orbital Mechanics Calculations
+Completed section: Orbital Mechanics Calculations
+Writing section: Applications and Implications
+Completed section: Applications and Implications
+Writing section: Related Topics
+Completed section: Related Topics
+Article successfully generated and saved to article.md
+
+2024-11-07 05:29:33,570 - INFO - Article generation completed successfully!
+2024-11-07 05:29:33,570 - INFO - Article successfully generated and saved to article.md

@@ -1,0 +1,20 @@
+{
+  "original_quote": "The distribution of mass relative to the axis of rotation significantly affects the moment of inertia.",
+  "section_title": "Factors Affecting Moment of Inertia",
+  "reason": "This passage addresses how mass distribution influences the moment of inertia. An image showing various shapes with differently distributed masses in relation to their axes of rotation would clarify this concept.",
+  "description": "Diagrams of different 3D objects (like cylinders, rods, and spheres) with indications of mass distribution around their axes of rotation, showcasing how this affects their moment of inertia.",
+  "selected_image": {
+    "title": "Home",
+    "link": "http://sites.science.oregonstate.edu/~hadlekat/COURSES/ph212/rigidRotation/images/12_12_figure.jpg?crc=4129788671",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9aFBA9kXsRL82QLbKxG5Ej_JuFHnswUWuTgzvls5LAxZBB7Ox9CfcoA&s",
+    "context_link": "http://sites.science.oregonstate.edu/~hadlekat/COURSES/ph212/rigidRotation/",
+    "width": 600,
+    "height": 466,
+    "size": 120260,
+    "format": "image/jpeg",
+    "snippet": "Home",
+    "saved_filename": "image_02.jpg",
+    "explanation": "Image 02 provides a clear and simple diagram of various 3D objects, such as cylinders and rods, with indications of mass distribution around their axes of rotation. This visual representation effectively illustrates how different mass distributions affect the moment of inertia, aligning well with the context provided.",
+    "caption": "Diagrams of 3D objects showing mass distribution and its effect on moment of inertia."
+  }
+}

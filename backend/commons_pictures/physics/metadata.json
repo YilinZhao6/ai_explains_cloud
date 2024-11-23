@@ -1,0 +1,27 @@
+{
+    "search_query": "Physics",
+    "timestamp": "2024-10-26 20:35:14",
+    "number_of_images": 2,
+    "images": [
+        {
+            "filename": "Plasma-lamp_2_jpg.jpg",
+            "title": "Plasma-lamp 2.jpg",
+            "description": "plasma lamp.",
+            "resolution": "1589x1609",
+            "size_bytes": 1132829,
+            "mime_type": "",
+            "commons_url": "https://commons.wikimedia.org/wiki/File:Plasma-lamp_2.jpg",
+            "local_path": "c:\\Users\\Lenovo\\Desktop\\explain_everything\\1026\\commons_pictures\\physics\\Plasma-lamp_2_jpg.jpg"
+        },
+        {
+            "filename": "Stylised_atom_with_three_Bohr_model_orbits_and_stylised_nucleus_svg.svg",
+            "title": "Stylised atom with three Bohr model orbits and stylised nucleus.svg",
+            "description": "Stylised atom. Blue dots are electrons, red dots are protons and black dots are neutrons.",
+            "resolution": "530x600",
+            "size_bytes": 4689,
+            "mime_type": "",
+            "commons_url": "https://commons.wikimedia.org/wiki/File:Stylised_atom_with_three_Bohr_model_orbits_and_stylised_nucleus.svg",
+            "local_path": "c:\\Users\\Lenovo\\Desktop\\explain_everything\\1026\\commons_pictures\\physics\\Stylised_atom_with_three_Bohr_model_orbits_and_stylised_nucleus_svg.svg"
+        }
+    ]
+}

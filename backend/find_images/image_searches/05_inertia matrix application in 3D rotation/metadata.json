@@ -1,0 +1,70 @@
+{
+  "query": "inertia matrix application in 3D rotation",
+  "timestamp": "2024-11-22 20:00:04",
+  "original_quote": "Inertia matrices are crucial for analyzing the three-dimensional rotational behavior of celestial bodies.",
+  "section_title": "Applications in Astrophysics",
+  "reason": "This quote introduces the concept of inertia matrices related to celestial bodies. A visual representation of an inertia matrix application to a 3D object would clarify its significance.",
+  "description": "An image of a 3D object (like an asteroid) with an inertia matrix overlay and axes, demonstrating its rotation behavior with labels directing attention to the principal axes.",
+  "images": [
+    {
+      "title": "Rigid Body Kinematics Introduction | Rotation Matrix Relating ...",
+      "link": "https://i.ytimg.com/vi/WzLJDjfm2Xo/maxresdefault.jpg",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR2LRa4y6IBgMkhPPT70VGJJuBas7at5jsmTwAI1m9hx_TkrhKSMYKTf0&s",
+      "context_link": "https://m.youtube.com/watch?v=WzLJDjfm2Xo&pp=ygUII3JpZ2lkM2Q%3D",
+      "width": 1280,
+      "height": 720,
+      "size": 131199,
+      "format": "image/jpeg",
+      "snippet": "Rigid Body Kinematics Introduction | Rotation Matrix Relating ...",
+      "saved_filename": "image_00.jpg"
+    },
+    {
+      "title": "momentinertia",
+      "link": "https://www3.eng.cam.ac.uk/~hemh1/gyroscopes/images/inertiamatrix.png",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5VOVRWy48izp2nEu_8q5ttv6wdxP-xJQfQQBcpFr3IxZdH4KwfauOhw&s",
+      "context_link": "https://www3.eng.cam.ac.uk/~hemh1/gyroscopes/momentinertia.html",
+      "width": 278,
+      "height": 136,
+      "size": 1255,
+      "format": "image/png",
+      "snippet": "momentinertia",
+      "saved_filename": "image_01.jpg"
+    },
+    {
+      "title": "Moment of Inertia Matrix & Principal Axis Frame | MATLAB Example ...",
+      "link": "https://i.ytimg.com/vi/-yB52SMUqKw/maxresdefault.jpg",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0UxKTXW7HjLV9VuNOk9ZSJDm89Fj3ncxmO_auGiIC6bJsd5-jJMo-xiY&s",
+      "context_link": "https://www.youtube.com/watch?v=-yB52SMUqKw",
+      "width": 1280,
+      "height": 720,
+      "size": 127383,
+      "format": "image/jpeg",
+      "snippet": "Moment of Inertia Matrix & Principal Axis Frame | MATLAB Example ...",
+      "saved_filename": "image_02.jpg"
+    },
+    {
+      "title": "coordinate systems - Inertia tensor but expressed after undergoing ...",
+      "link": "https://i.sstatic.net/LEFYa.png",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv1DHfPZUl6vQqn9nT6XoQ_1ZYoNFVBYUzspyUWAXO3iIK5pJkCCmVKQ&s",
+      "context_link": "https://physics.stackexchange.com/questions/711644/inertia-tensor-but-expressed-after-undergoing-rotation",
+      "width": 379,
+      "height": 419,
+      "size": 3117,
+      "format": "image/png",
+      "snippet": "coordinate systems - Inertia tensor but expressed after undergoing ...",
+      "saved_filename": "image_03.jpg"
+    },
+    {
+      "title": "The moment of inertia tensor | Chapter 25 Classical Mechanics 2 ...",
+      "link": "https://i.ytimg.com/vi/HxH7fAQjt70/maxresdefault.jpg",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxIXk8KQ4rnEN6sxxUzMSqyita5s3ZupsZQtay0AsQUUfsOMKaRkE-_nc&s",
+      "context_link": "https://www.youtube.com/watch?v=HxH7fAQjt70",
+      "width": 1280,
+      "height": 720,
+      "size": 140995,
+      "format": "image/jpeg",
+      "snippet": "The moment of inertia tensor | Chapter 25 Classical Mechanics 2 ...",
+      "saved_filename": "image_04.jpg"
+    }
+  ]
+}

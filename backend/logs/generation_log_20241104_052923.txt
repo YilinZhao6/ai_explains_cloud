@@ -1,0 +1,47 @@
+2024-11-04 05:29:23,722 - INFO - Starting Google search and content collection...
+2024-11-04 05:29:29,167 - INFO - Successfully completed Google search and content collection
+2024-11-04 05:29:29,167 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: QUantum Mechanics
+
+Extracting content from relevant URLs...
+Content from https://en.wikipedia.org/wiki/Quantum_mechanics saved to source_html\quantum_mechanics_overview.html
+Content from https://www.energy.gov/science/doe-explainsquantum-mechanics saved to source_html\doe_explanation_quantum.html
+Content from https://www.britannica.com/science/quantum-mechanics-physics saved to source_html\britannica_quantum_mechanics.html
+Content from https://plato.stanford.edu/entries/qm/ saved to source_html\stanford_philosophy_quantum.html
+
+Summary of saved files:
+URL: https://en.wikipedia.org/wiki/Quantum_mechanics
+Saved as: source_html\quantum_mechanics_overview.html
+--------------------------------------------------
+URL: https://www.energy.gov/science/doe-explainsquantum-mechanics
+Saved as: source_html\doe_explanation_quantum.html
+--------------------------------------------------
+URL: https://www.britannica.com/science/quantum-mechanics-physics
+Saved as: source_html\britannica_quantum_mechanics.html
+--------------------------------------------------
+URL: https://plato.stanford.edu/entries/qm/
+Saved as: source_html\stanford_philosophy_quantum.html
+--------------------------------------------------
+
+2024-11-04 05:29:29,168 - INFO - Starting outline generation...
+2024-11-04 05:29:57,963 - INFO - Successfully completed outline generation
+2024-11-04 05:29:57,963 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-04 05:29:57,963 - INFO - Starting article writing...
+2024-11-04 05:31:56,223 - INFO - Successfully completed article writing
+2024-11-04 05:31:56,223 - INFO - article writing output:
+Writing section: Introduction to Quantum Mechanics
+Completed section: Introduction to Quantum Mechanics
+Writing section: Historical Development of Quantum Theory
+Completed section: Historical Development of Quantum Theory
+Writing section: Basic Principles of Quantum Mechanics
+Completed section: Basic Principles of Quantum Mechanics
+Writing section: Mathematical Framework of Quantum Mechanics
+Completed section: Mathematical Framework of Quantum Mechanics
+Writing section: Applications of Quantum Mechanics
+Completed section: Applications of Quantum Mechanics
+Article successfully generated and saved to article.md
+
+2024-11-04 05:31:56,223 - INFO - Article generation completed successfully!
+2024-11-04 05:31:56,223 - INFO - Article successfully generated and saved to article.md

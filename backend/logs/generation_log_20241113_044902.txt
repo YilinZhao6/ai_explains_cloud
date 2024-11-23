@@ -1,0 +1,53 @@
+2024-11-13 04:49:02,523 - INFO - Starting parallel search operations...
+2024-11-13 04:49:02,524 - INFO - Starting Google search and content collection...
+2024-11-13 04:49:02,525 - INFO - Starting Archive vector search...
+2024-11-13 04:49:02,525 - INFO - Waiting for both search operations to complete...
+2024-11-13 04:49:05,208 - INFO - Successfully completed Archive vector search
+2024-11-13 04:49:05,208 - INFO - Archive vector search output:
+Loading vectors and chunks from all books...
+Loaded 1974 chunks from Principles_of_Physics
+
+Searching for: Quantum Superposition
+Results saved to F:\main\backend\source_html\topic_archive.html
+
+2024-11-13 04:49:10,392 - INFO - Successfully completed Google search and content collection
+2024-11-13 04:49:10,393 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: Quantum Superposition
+
+Extracting content from relevant URLs...
+Content from https://en.wikipedia.org/wiki/Quantum_superposition saved to source_html\quantum_superposition_overview.html
+Content from https://scienceexchange.caltech.edu/topics/quantum-science-explained/quantum-superposition saved to source_html\caltech_quantum_superposition.html
+Content from https://quantumatlas.umd.edu/entry/superposition/ saved to source_html\quantum_atlas_superposition_details.html
+
+Summary of saved files:
+URL: https://en.wikipedia.org/wiki/Quantum_superposition
+Saved as: source_html\quantum_superposition_overview.html
+--------------------------------------------------
+URL: https://scienceexchange.caltech.edu/topics/quantum-science-explained/quantum-superposition
+Saved as: source_html\caltech_quantum_superposition.html
+--------------------------------------------------
+URL: https://quantumatlas.umd.edu/entry/superposition/
+Saved as: source_html\quantum_atlas_superposition_details.html
+--------------------------------------------------
+
+2024-11-13 04:49:10,393 - INFO - Both search operations completed successfully!
+2024-11-13 04:49:10,393 - INFO - Starting outline generation...
+2024-11-13 04:49:30,021 - INFO - Successfully completed outline generation
+2024-11-13 04:49:30,021 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-13 04:49:30,021 - INFO - Starting article writing...
+2024-11-13 04:50:05,347 - INFO - Successfully completed article writing
+2024-11-13 04:50:05,347 - INFO - article writing output:
+Writing section: Introduction to Quantum Superposition
+Completed section: Introduction to Quantum Superposition
+Writing section: Mathematical Representation of Superposition
+Completed section: Mathematical Representation of Superposition
+Writing section: Experimental Evidence of Superposition
+Completed section: Experimental Evidence of Superposition
+Writing section: Challenges and Misconceptions
+Completed section: Challenges and Misconceptions
+Article successfully generated and saved to article.md
+
+2024-11-13 04:50:05,347 - INFO - Article generation completed successfully!
+2024-11-13 04:50:05,347 - INFO - Article successfully generated and saved to article.md

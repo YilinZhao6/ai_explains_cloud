@@ -1,0 +1,63 @@
+2024-11-03 17:19:18,043 - INFO - Created output directory: generation_output_20241103_171918
+2024-11-03 17:19:18,044 - INFO - Starting Google search and content collection...
+2024-11-03 17:19:24,037 - INFO - Successfully completed Google search and content collection
+2024-11-03 17:19:24,037 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: Quantum Mechanics
+
+Search results and analysis saved to search_results_20241103_171919.txt
+
+Extracting content from relevant URLs...
+Content from https://en.wikipedia.org/wiki/Quantum_mechanics saved to source_html\quantum_mechanics_overview.html
+Content from https://www.energy.gov/science/doe-explainsquantum-mechanics saved to source_html\doe_quantum_mechanics_explained.html
+Content from https://www.britannica.com/science/quantum-mechanics-physics saved to source_html\britannica_quantum_mechanics.html
+Content from https://plato.stanford.edu/entries/qm/ saved to source_html\stanford_philosophy_quantum.html
+Content from https://www.livescience.com/33816-quantum-mechanics-explanation.html saved to source_html\livescience_quantum_concepts.html
+
+Summary of saved files:
+URL: https://en.wikipedia.org/wiki/Quantum_mechanics
+Saved as: source_html\quantum_mechanics_overview.html
+--------------------------------------------------
+URL: https://www.energy.gov/science/doe-explainsquantum-mechanics
+Saved as: source_html\doe_quantum_mechanics_explained.html
+--------------------------------------------------
+URL: https://www.britannica.com/science/quantum-mechanics-physics
+Saved as: source_html\britannica_quantum_mechanics.html
+--------------------------------------------------
+URL: https://plato.stanford.edu/entries/qm/
+Saved as: source_html\stanford_philosophy_quantum.html
+--------------------------------------------------
+URL: https://www.livescience.com/33816-quantum-mechanics-explanation.html
+Saved as: source_html\livescience_quantum_concepts.html
+--------------------------------------------------
+
+2024-11-03 17:19:24,038 - INFO - Starting outline generation...
+2024-11-03 17:19:46,344 - INFO - Successfully completed outline generation
+2024-11-03 17:19:46,344 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-03 17:19:46,344 - INFO - Starting article writing...
+2024-11-03 17:20:39,588 - INFO - Successfully completed article writing
+2024-11-03 17:20:39,589 - INFO - article writing output:
+Writing section: Fundamental Concepts and Definitions
+Completed section: Fundamental Concepts and Definitions
+Writing section: Wave-Particle Duality
+Completed section: Wave-Particle Duality
+Writing section: Quantum States and Measurements
+Completed section: Quantum States and Measurements
+Writing section: Heisenberg Uncertainty Principle
+Completed section: Heisenberg Uncertainty Principle
+Article successfully generated and saved to article.md
+
+2024-11-03 17:20:39,604 - INFO - Copied article.md to output directory
+2024-11-03 17:20:39,606 - INFO - Copied article_outline.json to output directory
+2024-11-03 17:20:39,609 - INFO - Copied search_results_20241103_163646.txt to output directory
+2024-11-03 17:20:39,612 - INFO - Copied search_results_20241103_164231.txt to output directory
+2024-11-03 17:20:39,614 - INFO - Copied search_results_20241103_164806.txt to output directory
+2024-11-03 17:20:39,616 - INFO - Copied search_results_20241103_165410.txt to output directory
+2024-11-03 17:20:39,618 - INFO - Copied search_results_20241103_170218.txt to output directory
+2024-11-03 17:20:39,620 - INFO - Copied search_results_20241103_170355.txt to output directory
+2024-11-03 17:20:39,622 - INFO - Copied search_results_20241103_170837.txt to output directory
+2024-11-03 17:20:39,624 - INFO - Copied search_results_20241103_171919.txt to output directory
+2024-11-03 17:20:39,624 - INFO - Article generation completed successfully!
+2024-11-03 17:20:39,624 - INFO - All outputs have been saved to: generation_output_20241103_171918
+2024-11-03 17:20:39,624 - INFO - Article successfully generated and saved to article.md

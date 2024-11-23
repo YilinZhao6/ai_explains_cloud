@@ -1,0 +1,95 @@
+{
+  "topic": "Moment of Inertia",
+  "style_guide": "Clear structure with step-by-step explanations, conversational tone, minimal technical jargon with clear explanations when used, and visual elements for key concepts",
+  "sections": [
+    {
+      "section_title": "Introduction to Moment of Inertia",
+      "learning_goals": [
+        "Understand what moment of inertia is",
+        "Learn why it's important in rotational motion"
+      ],
+      "content_points": [
+        {
+          "objective": "Define moment of inertia",
+          "content_summary": "Explain moment of inertia as a measure of rotational inertia - the resistance of a body to changes in its rotational motion",
+          "sources": [
+            {
+              "file_name": "moment-of-inertia-byju.html",
+              "key_quote": "The moment of inertia is defined as the quantity expressed by the body resisting angular acceleration"
+            }
+          ],
+          "image_wanted": "Moment of inertia/rotational motion/physics"
+        }
+      ]
+    },
+    {
+      "section_title": "Basic Formula and Units",
+      "learning_goals": [
+        "Learn the basic formula for moment of inertia",
+        "Understand the units used"
+      ],
+      "content_points": [
+        {
+          "objective": "Present the basic formula",
+          "content_summary": "Explain I = mr² formula and its components",
+          "sources": [
+            {
+              "file_name": "moment-of-inertia-byju.html",
+              "key_quote": "In general form, moment of inertia is expressed as I = m × r²"
+            }
+          ],
+          "image_wanted": "Physics formula/moment of inertia/equation"
+        },
+        {
+          "objective": "Explain SI units",
+          "content_summary": "Describe how moment of inertia is measured in kg⋅m²",
+          "sources": [
+            {
+              "file_name": "moment-of-inertia-britannica.html",
+              "key_quote": "In the International System (SI), m is expressed in kilograms and r in metres"
+            }
+          ],
+          "image_wanted": ""
+        }
+      ]
+    },
+    {
+      "section_title": "Factors Affecting Moment of Inertia",
+      "learning_goals": [
+        "Understand what affects moment of inertia"
+      ],
+      "content_points": [
+        {
+          "objective": "List and explain key factors",
+          "content_summary": "Explain how density, shape, size, and axis of rotation affect moment of inertia",
+          "sources": [
+            {
+              "file_name": "moment-of-inertia-byju.html",
+              "key_quote": "The moment of inertia depends on the following factors: The density of the material, Shape and size of the body, Axis of rotation"
+            }
+          ],
+          "image_wanted": "Physics diagram/moment of inertia/factors"
+        }
+      ]
+    },
+    {
+      "section_title": "Real-World Applications",
+      "learning_goals": [
+        "Connect theory to practical applications"
+      ],
+      "content_points": [
+        {
+          "objective": "Demonstrate practical uses",
+          "content_summary": "Explain applications like figure skating spins and mechanical systems",
+          "sources": [
+            {
+              "file_name": "moment-of-inertia-wikipedia.html",
+              "key_quote": "The moment of inertia of a rotating flywheel is used in a machine to resist variations in applied torque to smooth its rotational output"
+            }
+          ],
+          "image_wanted": "Figure skating/rotation/physics"
+        }
+      ]
+    }
+  ]
+}

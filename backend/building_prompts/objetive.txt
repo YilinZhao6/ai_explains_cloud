@@ -1,0 +1,1 @@
+Hey, this code is for generating a personal self-learning article for a user, based on user's entered topic.

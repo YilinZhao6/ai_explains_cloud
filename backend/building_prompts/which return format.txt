@@ -1,0 +1,3 @@
+Hey, i am making an ai-wikipedia, basically user inputs the query, and we generate an explanation to the user based on user's knowledge level... We are thinking of creating a web interface. And it leads to the question. When we are testing with the system, we night not directly implement it on a web interface. However, in test version, we have do decide in which format we generate our explation. In our scenario, I want good fetch of mathematical formulas, able to insert graphs and captions, and potentially user will select certain part of text and ask questions....
+
+And also, i want this to be somehow could be directly implemented into the webpage! Do you think HTML would be good? Or what else format do you recommend?

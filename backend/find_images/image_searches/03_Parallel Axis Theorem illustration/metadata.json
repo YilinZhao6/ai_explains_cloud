@@ -1,0 +1,70 @@
+{
+  "query": "Parallel Axis Theorem illustration",
+  "timestamp": "2024-11-22 20:00:03",
+  "original_quote": "The moment of inertia $I$ of a body about any axis is equal to the moment of inertia $I_{cm}$ about a parallel axis through its center of mass plus the product of the mass $M$ of the body and the square of the distance $d$ between the two axes.",
+  "section_title": "Key Theorems: Parallel and Perpendicular Axis Theorems",
+  "reason": "The Parallel Axis Theorem is a key concept in understanding how to calculate moment of inertia for different orientations. An image that visualizes this theorem with an object and axes would help in comprehension.",
+  "description": "Illustration showing a rigid body with a marked center of mass, two parallel axes (one through the center of mass and one offset), and annotations explaining the Parallel Axis Theorem.",
+  "images": [
+    {
+      "title": "Parallel Axis Theorem & Moment of Inertia - Physics Practice ...",
+      "link": "https://i.ytimg.com/vi/JrkimXqnCLw/maxresdefault.jpg",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTK-pnAs4NnsQaE8DTA8foV4VR-SV-U0_H_g18z5xzbfnInOfl9Q72TA&s",
+      "context_link": "https://www.youtube.com/watch?v=JrkimXqnCLw",
+      "width": 1280,
+      "height": 720,
+      "size": 84733,
+      "format": "image/jpeg",
+      "snippet": "Parallel Axis Theorem & Moment of Inertia - Physics Practice ...",
+      "saved_filename": "image_00.jpg"
+    },
+    {
+      "title": "Parallel-Axis Theorem | Overview, Formula & Examples - Lesson ...",
+      "link": "https://study.com/cimages/multimages/16/parallelaxis.jpg",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu0OsNQHYup-pE0jRCi6I1ccxhHPIDZBrBsXPMafxOL5JgU9ls3DJX2g&s",
+      "context_link": "https://study.com/academy/lesson/the-parallel-axis-theorem-the-moment-of-inertia.html",
+      "width": 350,
+      "height": 219,
+      "size": 23311,
+      "format": "image/jpeg",
+      "snippet": "Parallel-Axis Theorem | Overview, Formula & Examples - Lesson ...",
+      "saved_filename": "image_01.jpg"
+    },
+    {
+      "title": "Parallel Axis Theorem Derivation - YouTube",
+      "link": "https://i.ytimg.com/vi/bjF1--cxgrA/maxresdefault.jpg",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkOJP5x7Kodha91cIvk4bi2t3ZX9dT84EzLSbQ6UHwNnPo4_EIdZ0CzOY&s",
+      "context_link": "https://www.youtube.com/watch?v=bjF1--cxgrA",
+      "width": 1280,
+      "height": 720,
+      "size": 95822,
+      "format": "image/jpeg",
+      "snippet": "Parallel Axis Theorem Derivation - YouTube",
+      "saved_filename": "image_02.jpg"
+    },
+    {
+      "title": "Example | C4.5 Parallel-Axis Theorem | Statics",
+      "link": "http://www.engineeringcorecourses.com/statics/C4-centreofmass-centroids-momentofinertia/images/Statics_C4.5_Example_Step1.JPG",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdmeNPlQ7GYOxqy5qF6trLNbTaFOmFXgvmxSvmUvcU2VySKh-hIxlIfS8&s",
+      "context_link": "http://www.engineeringcorecourses.com/statics/C4-centreofmass-centroids-momentofinertia/C4.5-parallel-axis-theorem/example/",
+      "width": 677,
+      "height": 255,
+      "size": 13949,
+      "format": "image/jpeg",
+      "snippet": "Example | C4.5 Parallel-Axis Theorem | Statics",
+      "saved_filename": "image_03.jpg"
+    },
+    {
+      "title": "Using the parallel axis theorem to calculate moments of inertia ...",
+      "link": "https://i.ytimg.com/vi/x3BHUNEjKJI/maxresdefault.jpg",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYSE356RKKzKCq5kqvvl8q7bRNvfHjfK68NpJV-dVTkhrNXBEuxHIOYw&s",
+      "context_link": "https://www.youtube.com/watch?v=x3BHUNEjKJI",
+      "width": 1280,
+      "height": 720,
+      "size": 100114,
+      "format": "image/jpeg",
+      "snippet": "Using the parallel axis theorem to calculate moments of inertia ...",
+      "saved_filename": "image_04.jpg"
+    }
+  ]
+}

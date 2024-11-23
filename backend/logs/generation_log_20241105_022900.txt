@@ -1,0 +1,39 @@
+2024-11-05 02:29:00,626 - INFO - Starting Google search and content collection...
+2024-11-05 02:29:06,156 - INFO - Successfully completed Google search and content collection
+2024-11-05 02:29:06,156 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: Moment of Inertia Tensor
+
+Extracting content from relevant URLs...
+Content from https://en.wikipedia.org/wiki/Moment_of_inertia saved to source_html\moment_of_inertia_overview.html
+Content from https://farside.ph.utexas.edu/teaching/336k/Newton/node64.html saved to source_html\moment_of_inertia_tensor_explained.html
+Content from https://web.chem.ox.ac.uk/teaching/Physics%20for%20CHemists/Rotation/Moment%20of%20inertia.html saved to source_html\educational_resource_moment_of_inertia.html
+
+Summary of saved files:
+URL: https://en.wikipedia.org/wiki/Moment_of_inertia
+Saved as: source_html\moment_of_inertia_overview.html
+--------------------------------------------------
+URL: https://farside.ph.utexas.edu/teaching/336k/Newton/node64.html
+Saved as: source_html\moment_of_inertia_tensor_explained.html
+--------------------------------------------------
+URL: https://web.chem.ox.ac.uk/teaching/Physics%20for%20CHemists/Rotation/Moment%20of%20inertia.html
+Saved as: source_html\educational_resource_moment_of_inertia.html
+--------------------------------------------------
+
+2024-11-05 02:29:06,157 - INFO - Starting outline generation...
+2024-11-05 02:29:46,386 - INFO - Successfully completed outline generation
+2024-11-05 02:29:46,386 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-05 02:29:46,386 - INFO - Starting article writing...
+2024-11-05 02:31:26,943 - INFO - Successfully completed article writing
+2024-11-05 02:31:26,943 - INFO - article writing output:
+Writing section: Introduction to Moment of Inertia
+Completed section: Introduction to Moment of Inertia
+Writing section: Calculating the Moment of Inertia Tensor
+Completed section: Calculating the Moment of Inertia Tensor
+Writing section: Applications and Implications of the Inertia Tensor
+Completed section: Applications and Implications of the Inertia Tensor
+Article successfully generated and saved to article.md
+
+2024-11-05 02:31:26,943 - INFO - Article generation completed successfully!
+2024-11-05 02:31:26,943 - INFO - Article successfully generated and saved to article.md

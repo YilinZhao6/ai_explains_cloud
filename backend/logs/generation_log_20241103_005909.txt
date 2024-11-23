@@ -1,0 +1,1 @@
+2024-11-03 00:59:09,343 - ERROR - Article generation failed: Required directory not found: user_profile

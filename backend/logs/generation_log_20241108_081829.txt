@@ -1,0 +1,57 @@
+2024-11-08 08:18:29,224 - INFO - Starting parallel search operations...
+2024-11-08 08:18:29,224 - INFO - Starting Google search and content collection...
+2024-11-08 08:18:29,225 - INFO - Starting Archive vector search...
+2024-11-08 08:18:29,226 - INFO - Waiting for both search operations to complete...
+2024-11-08 08:18:48,583 - INFO - Successfully completed Google search and content collection
+2024-11-08 08:18:48,583 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: Parallax
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+2024-11-08 08:22:06,860 - ERROR - Error in Archive vector search:
+Traceback (most recent call last):
+  File "F:\main\backend\vector_search.py", line 158, in <module>
+    main()
+  File "F:\main\backend\vector_search.py", line 152, in main
+    results_by_book = search_all_books(query, book_data)
+  File "F:\main\backend\vector_search.py", line 43, in search_all_books
+    query_response = client.embeddings.create(
+  File "C:\Users\Lenovo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\openai\resources\embeddings.py", line 124, in create
+    return self._post(
+  File "C:\Users\Lenovo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\openai\_base_client.py", line 1277, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "C:\Users\Lenovo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\openai\_base_client.py", line 954, in request
+    return self._request(
+  File "C:\Users\Lenovo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\openai\_base_client.py", line 990, in _request
+    response = self._client.send(
+  File "C:\Users\Lenovo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\httpx\_client.py", line 929, in send
+    raise exc
+  File "C:\Users\Lenovo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\httpx\_client.py", line 923, in send
+    response.read()
+  File "C:\Users\Lenovo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\httpx\_models.py", line 811, in read
+    self._content = b"".join(self.iter_bytes())
+  File "C:\Users\Lenovo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\httpx\_models.py", line 829, in iter_bytes
+    for raw_bytes in self.iter_raw():
+  File "C:\Users\Lenovo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\httpx\_models.py", line 887, in iter_raw
+    for raw_stream_bytes in self.stream:
+  File "C:\Users\Lenovo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\httpx\_client.py", line 124, in __iter__
+    for chunk in self._stream:
+  File "C:\Users\Lenovo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\httpx\_transports\default.py", line 111, in __iter__
+    for part in self._httpcore_stream:
+  File "C:\Users\Lenovo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\httpcore\_sync\connection_pool.py", line 361, in __iter__
+    for part in self._stream:
+  File "C:\Users\Lenovo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\httpcore\_sync\http11.py", line 337, in __iter__
+    raise exc
+  File "C:\Users\Lenovo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\httpcore\_sync\http11.py", line 329, in __iter__
+    for chunk in self._connection._receive_response_body(**kwargs):
+  File "C:\Users\Lenovo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\httpcore\_sync\http11.py", line 198, in _receive_response_body
+    event = self._receive_event(timeout=timeout)
+  File "C:\Users\Lenovo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\httpcore\_sync\http11.py", line 212, in _receive_event
+    data = self._network_stream.read(
+  File "C:\Users\Lenovo\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\httpcore\_backends\sync.py", line 126, in read
+    return self._sock.recv(max_bytes)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\lib\ssl.py", line 1227, in recv
+    return self.read(buflen)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\lib\ssl.py", line 1102, in read
+    return self._sslobj.read(len)
+KeyboardInterrupt
+

@@ -1,0 +1,75 @@
+{
+  "topic": "Photodisintegration",
+  "style_guide": "Clear structure with step-by-step explanations, conversational tone, minimal technical jargon, and visual aids where appropriate",
+  "sections": [
+    {
+      "section_title": "What is Photodisintegration?",
+      "learning_goals": [
+        "Understand the basic concept of photodisintegration",
+        "Learn how high-energy photons interact with atomic nuclei"
+      ],
+      "content_points": [
+        {
+          "objective": "Define photodisintegration in simple terms",
+          "content_summary": "Explain how photodisintegration is a nuclear process where an atomic nucleus absorbs high-energy gamma rays and releases subatomic particles",
+          "sources": [
+            {
+              "file_name": "photodisintegration_britannica.html",
+              "key_quote": "photodisintegration, in physics, nuclear reaction in which the absorption of high-energy electromagnetic radiation (a gamma-ray photon) causes the absorbing nucleus to change to another species by ejecting a subatomic particle"
+            }
+          ],
+          "image_wanted": "Nuclear reaction/gamma ray/atomic nucleus"
+        }
+      ]
+    },
+    {
+      "section_title": "Real-World Examples",
+      "learning_goals": [
+        "Understand practical applications and occurrences of photodisintegration"
+      ],
+      "content_points": [
+        {
+          "objective": "Explain photodisintegration in lightning",
+          "content_summary": "Describe how lightning produces gamma rays that can trigger photonuclear reactions",
+          "sources": [
+            {
+              "file_name": "photodisintegration_wikipedia.html",
+              "key_quote": "Terrestrial lightnings produce high-speed electrons that create bursts of gamma-rays as bremsstrahlung"
+            }
+          ],
+          "image_wanted": "Lightning/thunderstorm/gamma rays"
+        },
+        {
+          "objective": "Explain role in supernovae",
+          "content_summary": "Describe how photodisintegration affects dying stars and supernovae",
+          "sources": [
+            {
+              "file_name": "photodisintegration_cosmos.html",
+              "key_quote": "Photodisintegration in a core-collapse supernova undoes hundreds of thousands of years of nuclear fusion by splitting the iron nuclei into helium nuclei and neutrons"
+            }
+          ],
+          "image_wanted": "Supernova/stellar explosion/star death"
+        }
+      ]
+    },
+    {
+      "section_title": "Simple Nuclear Reactions",
+      "learning_goals": [
+        "Understand basic examples of photodisintegration reactions"
+      ],
+      "content_points": [
+        {
+          "objective": "Explain iron splitting reaction",
+          "content_summary": "Show how iron nuclei split into helium nuclei and neutrons",
+          "sources": [
+            {
+              "file_name": "photodisintegration_cosmos.html",
+              "key_quote": "γ + 56Fe → 134He + 4n"
+            }
+          ],
+          "image_wanted": ""
+        }
+      ]
+    }
+  ]
+}

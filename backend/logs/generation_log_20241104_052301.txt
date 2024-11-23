@@ -1,0 +1,43 @@
+2024-11-04 05:23:01,967 - INFO - Starting Google search and content collection...
+2024-11-04 05:23:17,645 - INFO - Successfully completed Google search and content collection
+2024-11-04 05:23:17,645 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: Quantum Mechanics
+
+Extracting content from relevant URLs...
+Content from https://en.wikipedia.org/wiki/Quantum_mechanics saved to source_html\quantum_mechanics_overview.html
+Content from https://www.energy.gov/science/doe-explainsquantum-mechanics saved to source_html\doe_quantum_mechanics_explained.html
+Content from https://www.britannica.com/science/quantum-mechanics-physics saved to source_html\britannica_quantum_physics_guide.html
+Content from https://plato.stanford.edu/entries/qm/ saved to source_html\stanford_philosophy_quantum_mechanics.html
+
+Summary of saved files:
+URL: https://en.wikipedia.org/wiki/Quantum_mechanics
+Saved as: source_html\quantum_mechanics_overview.html
+--------------------------------------------------
+URL: https://www.energy.gov/science/doe-explainsquantum-mechanics
+Saved as: source_html\doe_quantum_mechanics_explained.html
+--------------------------------------------------
+URL: https://www.britannica.com/science/quantum-mechanics-physics
+Saved as: source_html\britannica_quantum_physics_guide.html
+--------------------------------------------------
+URL: https://plato.stanford.edu/entries/qm/
+Saved as: source_html\stanford_philosophy_quantum_mechanics.html
+--------------------------------------------------
+
+2024-11-04 05:23:17,646 - INFO - Starting outline generation...
+2024-11-04 05:23:55,684 - INFO - Successfully completed outline generation
+2024-11-04 05:23:55,685 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-04 05:23:55,685 - INFO - Starting article writing...
+2024-11-04 05:24:44,503 - INFO - Successfully completed article writing
+2024-11-04 05:24:44,503 - INFO - article writing output:
+Writing section: Introduction to Quantum Mechanics
+Completed section: Introduction to Quantum Mechanics
+Writing section: Fundamental Principles of Quantum Mechanics
+Completed section: Fundamental Principles of Quantum Mechanics
+Writing section: Mathematical Foundation of Quantum Mechanics
+Error generating article: Could not parse response content as the length limit was reached - CompletionUsage(completion_tokens=3000, prompt_tokens=15286, total_tokens=18286, completion_tokens_details=CompletionTokensDetails(audio_tokens=None, reasoning_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=0))
+Failed to generate article: Could not parse response content as the length limit was reached - CompletionUsage(completion_tokens=3000, prompt_tokens=15286, total_tokens=18286, completion_tokens_details=CompletionTokensDetails(audio_tokens=None, reasoning_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=None, cached_tokens=0))
+
+2024-11-04 05:24:44,503 - INFO - Article generation completed successfully!
+2024-11-04 05:24:44,503 - INFO - Article successfully generated and saved to article.md

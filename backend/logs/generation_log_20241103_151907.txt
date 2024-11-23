@@ -1,0 +1,50 @@
+2024-11-03 15:19:07,908 - INFO - Created output directory: generation_output_20241103_151907
+2024-11-03 15:19:07,909 - INFO - Starting Google search and content collection...
+2024-11-03 15:19:12,031 - INFO - Successfully completed Google search and content collection
+2024-11-03 15:19:12,032 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: Parallax
+
+Search results and analysis saved to search_results_20241103_151909.txt
+
+Extracting content from relevant URLs...
+Content from https://en.wikipedia.org/wiki/Parallax saved to source_html\parallax_overview_wikipedia.html
+Content from https://parallaxresearch.org/ saved to source_html\parallax_research_institute.html
+Content from https://www.merriam-webster.com/dictionary/parallax saved to source_html\parallax_definition_glossary.html
+
+Summary of saved files:
+URL: https://en.wikipedia.org/wiki/Parallax
+Saved as: source_html\parallax_overview_wikipedia.html
+--------------------------------------------------
+URL: https://parallaxresearch.org/
+Saved as: source_html\parallax_research_institute.html
+--------------------------------------------------
+URL: https://www.merriam-webster.com/dictionary/parallax
+Saved as: source_html\parallax_definition_glossary.html
+--------------------------------------------------
+
+2024-11-03 15:19:12,033 - INFO - Starting outline generation...
+2024-11-03 15:19:28,366 - INFO - Successfully completed outline generation
+2024-11-03 15:19:28,366 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-03 15:19:28,366 - INFO - Starting article writing...
+2024-11-03 15:19:59,226 - INFO - Successfully completed article writing
+2024-11-03 15:19:59,226 - INFO - article writing output:
+Writing section: Fundamental Definition of Parallax
+Completed section: Fundamental Definition of Parallax
+Writing section: Astronomical Applications
+Completed section: Astronomical Applications
+Writing section: Distance Measurement Principles
+Completed section: Distance Measurement Principles
+Article successfully generated and saved to article.md
+
+2024-11-03 15:19:59,242 - INFO - Copied article.md to output directory
+2024-11-03 15:19:59,244 - INFO - Copied article_outline.json to output directory
+2024-11-03 15:19:59,247 - INFO - Copied search_results_20241103_151432.txt to output directory
+2024-11-03 15:19:59,250 - INFO - Copied search_results_20241103_151709.txt to output directory
+2024-11-03 15:19:59,252 - INFO - Copied search_results_20241103_151738.txt to output directory
+2024-11-03 15:19:59,254 - INFO - Copied search_results_20241103_151829.txt to output directory
+2024-11-03 15:19:59,256 - INFO - Copied search_results_20241103_151909.txt to output directory
+2024-11-03 15:19:59,256 - INFO - Article generation completed successfully!
+2024-11-03 15:19:59,257 - INFO - All outputs have been saved to: generation_output_20241103_151907
+2024-11-03 15:19:59,257 - INFO - Article successfully generated and saved to article.md

@@ -1,0 +1,70 @@
+{
+  "query": "moment of inertia concept illustration",
+  "timestamp": "2024-11-22 20:00:01",
+  "original_quote": "The moment of inertia, often denoted as $I$, is a fundamental concept in physics that quantifies an object's resistance to changes in its rotational motion.",
+  "section_title": "Introduction to Moment of Inertia",
+  "reason": "This passage introduces the concept of moment of inertia, which is central to understanding rotational dynamics. An image illustrating this concept could include a visual representation of an object with its axis of rotation and arrows indicating torque and angular acceleration.",
+  "description": "An illustration of an object (like a disk or cylinder) with an axis of rotation, showing arrows to represent torque and angular acceleration, highlighting how moment of inertia affects rotational motion.",
+  "images": [
+    {
+      "title": "Moment of inertia | Definition, Equation, Unit, & Facts | Britannica",
+      "link": "https://cdn.britannica.com/88/1688-004-0DB7CACB/inertia.jpg",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr70isugnRwHwIITTNlzma4kviYY-YLxNb60iA0w_F7JLVqdOdz0duB7g&s",
+      "context_link": "https://www.britannica.com/science/moment-of-inertia",
+      "width": 630,
+      "height": 370,
+      "size": 5744,
+      "format": "image/jpeg",
+      "snippet": "Moment of inertia | Definition, Equation, Unit, & Facts | Britannica",
+      "saved_filename": "image_00.jpg"
+    },
+    {
+      "title": "Moment of Inertia — Isaac Physics",
+      "link": "https://isaacphysics.org/images/content/concepts/physics/figures/moment_inertia_elemental_masses_3.svg",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKWid8zGHKT69s6Q2NVbqGfCrJOMWfBo41gFMFaWUtoNNyvTVAMKYzFGo&s",
+      "context_link": "https://isaacphysics.org/concepts/cp_moment_inertia",
+      "width": 563,
+      "height": 477,
+      "size": 47675,
+      "format": "image/svg+xml",
+      "snippet": "Moment of Inertia — Isaac Physics",
+      "saved_filename": "image_01.jpg"
+    },
+    {
+      "title": "Moment of Inertia - Formulas, MOI of Objects [Solved Examples]",
+      "link": "https://cdn1.byjus.com/wp-content/uploads/2020/11/Moment-of-InertiaArtboard-1-copy-8-8.png",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUs2LHjTKHQyU0fihl3xPTemnhx2JGcAs0dHRZfg0Qm4gOlLAeBrlOu6U&s",
+      "context_link": "https://byjus.com/jee/moment-of-inertia/",
+      "width": 750,
+      "height": 435,
+      "size": 22331,
+      "format": "image/png",
+      "snippet": "Moment of Inertia - Formulas, MOI of Objects [Solved Examples]",
+      "saved_filename": "image_02.jpg"
+    },
+    {
+      "title": "Understanding the Area Moment of Inertia | The Efficient Engineer",
+      "link": "https://efficientengineer.com/wp-content/uploads/second_moment_of_area.jpg",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgjBAZoHLEz_N1w3UtMNXriAAadPAB0a7sB4aqIJ-kA6tXmaVIrVXBzQ&s",
+      "context_link": "https://efficientengineer.com/area-moment-of-inertia/",
+      "width": 650,
+      "height": 272,
+      "size": 83996,
+      "format": "image/jpeg",
+      "snippet": "Understanding the Area Moment of Inertia | The Efficient Engineer",
+      "saved_filename": "image_03.jpg"
+    },
+    {
+      "title": "128 Moment Inertia Images, Stock Photos, and Vectors | Shutterstock",
+      "link": "https://www.shutterstock.com/image-vector/moment-inertia-thin-disc-260nw-1300881442.jpg",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSVTn2PrjJxsj_cW4dj2QYF6JpLBtn5BRBHnbwrAOyQr0uHqQGHJIhviQ&s",
+      "context_link": "https://www.shutterstock.com/search/moment-inertia",
+      "width": 460,
+      "height": 280,
+      "size": 19305,
+      "format": "image/jpeg",
+      "snippet": "128 Moment Inertia Images, Stock Photos, and Vectors | Shutterstock",
+      "saved_filename": "image_04.jpg"
+    }
+  ]
+}

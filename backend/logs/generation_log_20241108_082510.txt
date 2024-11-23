@@ -1,0 +1,63 @@
+2024-11-08 08:25:10,504 - INFO - Starting parallel search operations...
+2024-11-08 08:25:10,505 - INFO - Starting Google search and content collection...
+2024-11-08 08:25:10,505 - INFO - Starting Archive vector search...
+2024-11-08 08:25:10,506 - INFO - Waiting for both search operations to complete...
+2024-11-08 08:25:12,273 - INFO - Successfully completed Archive vector search
+2024-11-08 08:25:12,273 - INFO - Archive vector search output:
+Loading vectors and chunks from all books...
+Loaded 1974 chunks from Principles_of_Physics
+
+Searching for: p-p chain
+Results saved to F:\main\backend\source_html\topic_archive.html
+
+2024-11-08 08:25:17,512 - INFO - Successfully completed Google search and content collection
+2024-11-08 08:25:17,512 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: p-p chain
+
+Extracting content from relevant URLs...
+Content from https://en.wikipedia.org/wiki/Proton%E2%80%93proton_chain saved to source_html\proton_proton_chain_overview.html
+Content from http://burro.cwru.edu/academics/Astr221/StarPhys/ppchain.html saved to source_html\proton_proton_chain_steps.html
+Content from https://www.britannica.com/science/proton-proton-cycle saved to source_html\britannica_proton_proton_cycle.html
+Content from https://www.nature.com/articles/s41586-018-0624-y saved to source_html\nature_pp_chain_measurements.html
+Content from https://arxiv.org/abs/1004.2318 saved to source_html\arxiv_pp_chain_fusion_processes.html
+
+Summary of saved files:
+URL: https://en.wikipedia.org/wiki/Proton%E2%80%93proton_chain
+Saved as: source_html\proton_proton_chain_overview.html
+--------------------------------------------------
+URL: http://burro.cwru.edu/academics/Astr221/StarPhys/ppchain.html
+Saved as: source_html\proton_proton_chain_steps.html
+--------------------------------------------------
+URL: https://www.britannica.com/science/proton-proton-cycle
+Saved as: source_html\britannica_proton_proton_cycle.html
+--------------------------------------------------
+URL: https://www.nature.com/articles/s41586-018-0624-y
+Saved as: source_html\nature_pp_chain_measurements.html
+--------------------------------------------------
+URL: https://arxiv.org/abs/1004.2318
+Saved as: source_html\arxiv_pp_chain_fusion_processes.html
+--------------------------------------------------
+
+2024-11-08 08:25:17,512 - INFO - Both search operations completed successfully!
+2024-11-08 08:25:17,513 - INFO - Starting outline generation...
+2024-11-08 08:25:46,655 - INFO - Successfully completed outline generation
+2024-11-08 08:25:46,655 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-08 08:25:46,655 - INFO - Starting article writing...
+2024-11-08 08:26:37,462 - INFO - Successfully completed article writing
+2024-11-08 08:26:37,462 - INFO - article writing output:
+Writing section: Introduction to the Proton-Proton (p-p) Chain
+Completed section: Introduction to the Proton-Proton (p-p) Chain
+Writing section: Mechanism of the Proton-Proton Chain
+Completed section: Mechanism of the Proton-Proton Chain
+Writing section: Energy Production and Neutrinos in the p-p Chain
+Completed section: Energy Production and Neutrinos in the p-p Chain
+Writing section: Detection and Measurement of Solar Neutrinos
+Completed section: Detection and Measurement of Solar Neutrinos
+Writing section: Related Topics
+Completed section: Related Topics
+Article successfully generated and saved to article.md
+
+2024-11-08 08:26:37,462 - INFO - Article generation completed successfully!
+2024-11-08 08:26:37,462 - INFO - Article successfully generated and saved to article.md

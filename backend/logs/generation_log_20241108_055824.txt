@@ -1,0 +1,55 @@
+2024-11-08 05:58:24,613 - INFO - Starting parallel search operations...
+2024-11-08 05:58:24,613 - INFO - Starting Google search and content collection...
+2024-11-08 05:58:24,614 - INFO - Starting Archive vector search...
+2024-11-08 05:58:24,614 - INFO - Waiting for both search operations to complete...
+2024-11-08 05:58:26,250 - INFO - Successfully completed Archive vector search
+2024-11-08 05:58:26,250 - INFO - Archive vector search output:
+Loading vectors and chunks from all books...
+Loaded 1974 chunks from Principles_of_Physics
+
+Searching for: 123
+Results saved to F:\main\backend\source_html\topic_archive.html
+
+2024-11-08 05:58:31,637 - INFO - Successfully completed Google search and content collection
+2024-11-08 05:58:31,637 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: 123
+
+Extracting content from relevant URLs...
+Content from https://link.aps.org/doi/10.1103/PhysRevLett.123.230501 saved to source_html\rydberg_entanglement_study_123.html
+Content from https://www.revisor.mn.gov/laws/2024/0/Session+Law/Chapter/123/ saved to source_html\minnesota_laws_chapter_123.html
+Content from https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-123 saved to source_html\epa_state_programs_part_123.html
+
+Summary of saved files:
+URL: https://link.aps.org/doi/10.1103/PhysRevLett.123.230501
+Saved as: source_html\rydberg_entanglement_study_123.html
+--------------------------------------------------
+URL: https://www.revisor.mn.gov/laws/2024/0/Session+Law/Chapter/123/
+Saved as: source_html\minnesota_laws_chapter_123.html
+--------------------------------------------------
+URL: https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-123
+Saved as: source_html\epa_state_programs_part_123.html
+--------------------------------------------------
+
+2024-11-08 05:58:31,637 - INFO - Both search operations completed successfully!
+2024-11-08 05:58:31,637 - INFO - Starting outline generation...
+2024-11-08 05:58:56,885 - INFO - Successfully completed outline generation
+2024-11-08 05:58:56,885 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-08 05:58:56,886 - INFO - Starting article writing...
+2024-11-08 05:59:43,615 - INFO - Successfully completed article writing
+2024-11-08 05:59:43,615 - INFO - article writing output:
+Writing section: Introduction to the Concept of 123
+Completed section: Introduction to the Concept of 123
+Writing section: Regulatory Framework and Applications of 123
+Completed section: Regulatory Framework and Applications of 123
+Writing section: Interpretations and Challenges in Understanding 123
+Completed section: Interpretations and Challenges in Understanding 123
+Writing section: Impacts and Outcomes of Implementing 123
+Completed section: Impacts and Outcomes of Implementing 123
+Writing section: Related Topics
+Completed section: Related Topics
+Article successfully generated and saved to article.md
+
+2024-11-08 05:59:43,615 - INFO - Article generation completed successfully!
+2024-11-08 05:59:43,615 - INFO - Article successfully generated and saved to article.md

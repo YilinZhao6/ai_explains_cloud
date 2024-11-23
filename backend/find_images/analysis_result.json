@@ -1,0 +1,45 @@
+{
+  "suggestions": [
+    {
+      "index": 1,
+      "quote": "The moment of inertia, often denoted as $I$, is a fundamental concept in physics that quantifies an object's resistance to changes in its rotational motion.",
+      "section_title": "Introduction to Moment of Inertia",
+      "reason": "This passage introduces the concept of moment of inertia, which is central to understanding rotational dynamics. An image illustrating this concept could include a visual representation of an object with its axis of rotation and arrows indicating torque and angular acceleration.",
+      "image_description": "An illustration of an object (like a disk or cylinder) with an axis of rotation, showing arrows to represent torque and angular acceleration, highlighting how moment of inertia affects rotational motion.",
+      "search_query": "moment of inertia concept illustration"
+    },
+    {
+      "index": 2,
+      "quote": "The distribution of mass relative to the axis of rotation significantly affects the moment of inertia.",
+      "section_title": "Factors Affecting Moment of Inertia",
+      "reason": "This passage addresses how mass distribution influences the moment of inertia. An image showing various shapes with differently distributed masses in relation to their axes of rotation would clarify this concept.",
+      "image_description": "Diagrams of different 3D objects (like cylinders, rods, and spheres) with indications of mass distribution around their axes of rotation, showcasing how this affects their moment of inertia.",
+      "search_query": "mass distribution effect on moment of inertia"
+    },
+    {
+      "index": 3,
+      "quote": "The moment of inertia $I$ of a body about any axis is equal to the moment of inertia $I_{cm}$ about a parallel axis through its center of mass plus the product of the mass $M$ of the body and the square of the distance $d$ between the two axes.",
+      "section_title": "Key Theorems: Parallel and Perpendicular Axis Theorems",
+      "reason": "The Parallel Axis Theorem is a key concept in understanding how to calculate moment of inertia for different orientations. An image that visualizes this theorem with an object and axes would help in comprehension.",
+      "image_description": "Illustration showing a rigid body with a marked center of mass, two parallel axes (one through the center of mass and one offset), and annotations explaining the Parallel Axis Theorem.",
+      "search_query": "Parallel Axis Theorem illustration"
+    },
+    {
+      "index": 4,
+      "quote": "The moment of inertia is a pivotal concept in celestial mechanics, influencing the rotational dynamics of astronomical bodies such as planets, stars, and galaxies.",
+      "section_title": "Applications in Astrophysics",
+      "reason": "This passage connects moment of inertia to celestial mechanics. An image depicting celestial bodies with annotations showing how their moment of inertia affects their rotation would be useful.",
+      "image_description": "A diagram of celestial bodies (like a planet and a star) with their axes of rotation and moments of inertia indicated, showcasing their influences on stability and rotation.",
+      "search_query": "moment of inertia in celestial mechanics"
+    },
+    {
+      "index": 5,
+      "quote": "Inertia matrices are crucial for analyzing the three-dimensional rotational behavior of celestial bodies.",
+      "section_title": "Applications in Astrophysics",
+      "reason": "This quote introduces the concept of inertia matrices related to celestial bodies. A visual representation of an inertia matrix application to a 3D object would clarify its significance.",
+      "image_description": "An image of a 3D object (like an asteroid) with an inertia matrix overlay and axes, demonstrating its rotation behavior with labels directing attention to the principal axes.",
+      "search_query": "inertia matrix application in 3D rotation"
+    }
+  ],
+  "total_suggestions": 5
+}

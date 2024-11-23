@@ -1,0 +1,43 @@
+2024-11-03 22:03:28,106 - INFO - Starting Google search and content collection...
+2024-11-03 22:05:27,238 - INFO - Successfully completed Google search and content collection
+2024-11-03 22:05:27,238 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: Moment of Inertia
+
+Extracting content from relevant URLs...
+Content from https://en.wikipedia.org/wiki/Moment_of_inertia saved to source_html\moment_of_inertia_overview.html
+Content from http://hyperphysics.phy-astr.gsu.edu/hbase/mi.html saved to source_html\hyperphysics_moment_of_inertia.html
+Content from https://www.britannica.com/science/moment-of-inertia saved to source_html\britannica_moment_of_inertia_facts.html
+Content from https://byjus.com/jee/moment-of-inertia/ saved to source_html\byjus_moment_of_inertia_examples.html
+
+Summary of saved files:
+URL: https://en.wikipedia.org/wiki/Moment_of_inertia
+Saved as: source_html\moment_of_inertia_overview.html
+--------------------------------------------------
+URL: http://hyperphysics.phy-astr.gsu.edu/hbase/mi.html
+Saved as: source_html\hyperphysics_moment_of_inertia.html
+--------------------------------------------------
+URL: https://www.britannica.com/science/moment-of-inertia
+Saved as: source_html\britannica_moment_of_inertia_facts.html
+--------------------------------------------------
+URL: https://byjus.com/jee/moment-of-inertia/
+Saved as: source_html\byjus_moment_of_inertia_examples.html
+--------------------------------------------------
+
+2024-11-03 22:05:27,239 - INFO - Starting outline generation...
+2024-11-03 22:05:58,438 - INFO - Successfully completed outline generation
+2024-11-03 22:05:58,439 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-03 22:05:58,439 - INFO - Starting article writing...
+2024-11-03 22:06:55,135 - INFO - Successfully completed article writing
+2024-11-03 22:06:55,135 - INFO - article writing output:
+Writing section: Definition and Basic Concept
+Completed section: Definition and Basic Concept
+Writing section: Astronomical Applications
+Completed section: Astronomical Applications
+Writing section: Modern Measurement Techniques
+Completed section: Modern Measurement Techniques
+Article successfully generated and saved to article.md
+
+2024-11-03 22:06:55,135 - INFO - Article generation completed successfully!
+2024-11-03 22:06:55,136 - INFO - Article successfully generated and saved to article.md

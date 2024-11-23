@@ -1,0 +1,39 @@
+2024-11-03 23:15:28,692 - INFO - Starting Google search and content collection...
+2024-11-03 23:15:34,164 - INFO - Successfully completed Google search and content collection
+2024-11-03 23:15:34,164 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: schrodinger equation
+
+Extracting content from relevant URLs...
+Content from https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation saved to source_html\schrodinger_equation_overview.html
+Content from https://www.britannica.com/science/Schrodinger-equation saved to source_html\schrodinger_equation_explanation.html
+Content from http://hyperphysics.phy-astr.gsu.edu/hbase/quantum/schr.html saved to source_html\schrodinger_equation_physics.html
+Content from https://chem.libretexts.org/Courses/Grinnell_College/CHM_364%3A_Physical_Chemistry_2_(Grinnell_College)/03%3A_The_Schrodinger_Equation_and_a_Particle_in_a_Box/3.01%3A_The_Schrodinger_Equation saved to source_html\schrodinger_equation_chemistry.html
+
+Summary of saved files:
+URL: https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation
+Saved as: source_html\schrodinger_equation_overview.html
+--------------------------------------------------
+URL: https://www.britannica.com/science/Schrodinger-equation
+Saved as: source_html\schrodinger_equation_explanation.html
+--------------------------------------------------
+URL: http://hyperphysics.phy-astr.gsu.edu/hbase/quantum/schr.html
+Saved as: source_html\schrodinger_equation_physics.html
+--------------------------------------------------
+URL: https://chem.libretexts.org/Courses/Grinnell_College/CHM_364%3A_Physical_Chemistry_2_(Grinnell_College)/03%3A_The_Schrodinger_Equation_and_a_Particle_in_a_Box/3.01%3A_The_Schrodinger_Equation
+Saved as: source_html\schrodinger_equation_chemistry.html
+--------------------------------------------------
+
+2024-11-03 23:15:34,167 - INFO - Starting outline generation...
+2024-11-03 23:16:06,594 - INFO - Successfully completed outline generation
+2024-11-03 23:16:06,594 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-03 23:16:06,595 - INFO - Starting article writing...
+2024-11-03 23:16:09,574 - INFO - Successfully completed article writing
+2024-11-03 23:16:09,575 - INFO - article writing output:
+Writing section: Introduction to the Schrödinger Equation
+Error generating article: Error code: 429 - {'error': {'message': 'Request too large for gpt-4o in organization org-XsdVxH3zG4zpciUo8KgrASrr on tokens per min (TPM): Limit 30000, Requested 36847. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+Failed to generate article: Error code: 429 - {'error': {'message': 'Request too large for gpt-4o in organization org-XsdVxH3zG4zpciUo8KgrASrr on tokens per min (TPM): Limit 30000, Requested 36847. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+
+2024-11-03 23:16:09,577 - INFO - Article generation completed successfully!
+2024-11-03 23:16:09,578 - INFO - Article successfully generated and saved to article.md

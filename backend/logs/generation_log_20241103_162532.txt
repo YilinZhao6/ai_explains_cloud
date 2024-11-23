@@ -1,0 +1,60 @@
+2024-11-03 16:25:32,174 - INFO - Created output directory: generation_output_20241103_162532
+2024-11-03 16:25:32,175 - INFO - Starting Google search and content collection...
+2024-11-03 16:25:35,783 - INFO - Successfully completed Google search and content collection
+2024-11-03 16:25:35,783 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: Nuclear Reaction
+
+Search results and analysis saved to search_results_20241103_162533.txt
+
+Extracting content from relevant URLs...
+Content from https://en.wikipedia.org/wiki/Nuclear_reaction saved to source_html\nuclear_reaction_overview.html
+Content from https://www.britannica.com/science/nuclear-reaction saved to source_html\nuclear_reaction_britannica.html
+Content from https://www.iaea.org/newscenter/news/what-is-nuclear-fusion saved to source_html\what_is_nuclear_fusion_iaea.html
+
+Summary of saved files:
+URL: https://en.wikipedia.org/wiki/Nuclear_reaction
+Saved as: source_html\nuclear_reaction_overview.html
+--------------------------------------------------
+URL: https://www.britannica.com/science/nuclear-reaction
+Saved as: source_html\nuclear_reaction_britannica.html
+--------------------------------------------------
+URL: https://www.iaea.org/newscenter/news/what-is-nuclear-fusion
+Saved as: source_html\what_is_nuclear_fusion_iaea.html
+--------------------------------------------------
+
+2024-11-03 16:25:35,787 - INFO - Starting outline generation...
+2024-11-03 16:25:52,165 - INFO - Successfully completed outline generation
+2024-11-03 16:25:52,166 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-03 16:25:52,166 - INFO - Starting article writing...
+2024-11-03 16:26:27,693 - INFO - Successfully completed article writing
+2024-11-03 16:26:27,693 - INFO - article writing output:
+Writing section: Definition and Basic Concepts
+Completed section: Definition and Basic Concepts
+Writing section: Energy Conservation in Nuclear Reactions
+Completed section: Energy Conservation in Nuclear Reactions
+Writing section: Types of Nuclear Reactions
+Completed section: Types of Nuclear Reactions
+Writing section: Historical Development
+Completed section: Historical Development
+Article successfully generated and saved to article.md
+
+2024-11-03 16:26:27,712 - INFO - Copied article.md to output directory
+2024-11-03 16:26:27,714 - INFO - Copied article_outline.json to output directory
+2024-11-03 16:26:27,717 - INFO - Copied search_results_20241103_151432.txt to output directory
+2024-11-03 16:26:27,720 - INFO - Copied search_results_20241103_151709.txt to output directory
+2024-11-03 16:26:27,723 - INFO - Copied search_results_20241103_151738.txt to output directory
+2024-11-03 16:26:27,725 - INFO - Copied search_results_20241103_151829.txt to output directory
+2024-11-03 16:26:27,728 - INFO - Copied search_results_20241103_151909.txt to output directory
+2024-11-03 16:26:27,730 - INFO - Copied search_results_20241103_152533.txt to output directory
+2024-11-03 16:26:27,733 - INFO - Copied search_results_20241103_152716.txt to output directory
+2024-11-03 16:26:27,736 - INFO - Copied search_results_20241103_153029.txt to output directory
+2024-11-03 16:26:27,738 - INFO - Copied search_results_20241103_154902.txt to output directory
+2024-11-03 16:26:27,740 - INFO - Copied search_results_20241103_155215.txt to output directory
+2024-11-03 16:26:27,742 - INFO - Copied search_results_20241103_155635.txt to output directory
+2024-11-03 16:26:27,744 - INFO - Copied search_results_20241103_162255.txt to output directory
+2024-11-03 16:26:27,747 - INFO - Copied search_results_20241103_162533.txt to output directory
+2024-11-03 16:26:27,748 - INFO - Article generation completed successfully!
+2024-11-03 16:26:27,748 - INFO - All outputs have been saved to: generation_output_20241103_162532
+2024-11-03 16:26:27,748 - INFO - Article successfully generated and saved to article.md

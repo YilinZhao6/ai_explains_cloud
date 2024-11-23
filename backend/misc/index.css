@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600&display=swap');
+
+body {
+  font-family: 'Crimson Pro', serif;
+}
+
+.math {
+  font-family: 'Crimson Pro', serif;
+  font-size: 1.2em;
+}
+
+.prose h1 {
+  font-size: 2.2em;
+  line-height: 1.0;
+  margin-bottom: 0em;
+}
+
+.prose h2 {
+  font-size: 1.8em;
+  line-height: 1.4;
+  margin-bottom: 0.5em;
+}
+
+.prose h3 {
+  font-size: 1.5em;
+  line-height: 1.4;
+  margin-bottom: 0.5em;
+}
+
+.prose p, .prose ol, .key-points {
+  font-size: 1.3em;
+  line-height: 1.3;
+  margin-bottom: -0.5em;
+}
+
+figure {
+  float: right;
+  width: 30%;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f8f9fa;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 0.9em;
+}
+
+@import 'highlight.js/styles/github.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

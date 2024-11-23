@@ -1,0 +1,39 @@
+2024-11-05 01:09:04,339 - INFO - Starting Google search and content collection...
+2024-11-05 01:09:11,216 - INFO - Successfully completed Google search and content collection
+2024-11-05 01:09:11,216 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: 123
+
+Extracting content from relevant URLs...
+Content from https://link.aps.org/doi/10.1103/PhysRevLett.123.230501 saved to source_html\rydberg_entanglement_article_123.html
+Content from https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-123 saved to source_html\epa_part_123_regulations.html
+Content from https://malegislature.gov/laws/generallaws/partiv/titlei/chapter266/section123 saved to source_html\massachusetts_law_section_123.html
+
+Summary of saved files:
+URL: https://link.aps.org/doi/10.1103/PhysRevLett.123.230501
+Saved as: source_html\rydberg_entanglement_article_123.html
+--------------------------------------------------
+URL: https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-123
+Saved as: source_html\epa_part_123_regulations.html
+--------------------------------------------------
+URL: https://malegislature.gov/laws/generallaws/partiv/titlei/chapter266/section123
+Saved as: source_html\massachusetts_law_section_123.html
+--------------------------------------------------
+
+2024-11-05 01:09:11,217 - INFO - Starting outline generation...
+2024-11-05 01:09:22,339 - INFO - Successfully completed outline generation
+2024-11-05 01:09:22,339 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-05 01:09:22,339 - INFO - Starting article writing...
+2024-11-05 01:10:06,885 - INFO - Successfully completed article writing
+2024-11-05 01:10:06,885 - INFO - article writing output:
+Writing section: Defining the Nucleus
+Completed section: Defining the Nucleus
+Writing section: Nuclear Forces
+Completed section: Nuclear Forces
+Writing section: Types of Nuclei
+Completed section: Types of Nuclei
+Article successfully generated and saved to article.md
+
+2024-11-05 01:10:06,885 - INFO - Article generation completed successfully!
+2024-11-05 01:10:06,885 - INFO - Article successfully generated and saved to article.md

@@ -1,0 +1,45 @@
+2024-11-04 03:18:07,849 - INFO - Starting Google search and content collection...
+2024-11-04 03:18:15,105 - INFO - Successfully completed Google search and content collection
+2024-11-04 03:18:15,105 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: Schrodinger Equation
+
+Extracting content from relevant URLs...
+Content from https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation saved to source_html\schrodinger_equation_overview.html
+Content from https://www.britannica.com/science/Schrodinger-equation saved to source_html\schrodinger_equation_explanation.html
+Content from http://hyperphysics.phy-astr.gsu.edu/hbase/quantum/schr.html saved to source_html\hyperphysics_schrodinger_eq.html
+Content from https://chem.libretexts.org/Courses/Grinnell_College/CHM_364%3A_Physical_Chemistry_2_(Grinnell_College)/03%3A_The_Schrodinger_Equation_and_a_Particle_in_a_Box/3.01%3A_The_Schrodinger_Equation saved to source_html\chem_libretexts_schrodinger_eq.html
+
+Summary of saved files:
+URL: https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation
+Saved as: source_html\schrodinger_equation_overview.html
+--------------------------------------------------
+URL: https://www.britannica.com/science/Schrodinger-equation
+Saved as: source_html\schrodinger_equation_explanation.html
+--------------------------------------------------
+URL: http://hyperphysics.phy-astr.gsu.edu/hbase/quantum/schr.html
+Saved as: source_html\hyperphysics_schrodinger_eq.html
+--------------------------------------------------
+URL: https://chem.libretexts.org/Courses/Grinnell_College/CHM_364%3A_Physical_Chemistry_2_(Grinnell_College)/03%3A_The_Schrodinger_Equation_and_a_Particle_in_a_Box/3.01%3A_The_Schrodinger_Equation
+Saved as: source_html\chem_libretexts_schrodinger_eq.html
+--------------------------------------------------
+
+2024-11-04 03:18:15,106 - INFO - Starting outline generation...
+2024-11-04 03:18:59,697 - INFO - Successfully completed outline generation
+2024-11-04 03:18:59,697 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-04 03:18:59,697 - INFO - Starting article writing...
+2024-11-04 03:20:09,195 - INFO - Successfully completed article writing
+2024-11-04 03:20:09,195 - INFO - article writing output:
+Writing section: Introduction to the Schrödinger Equation
+Completed section: Introduction to the Schrödinger Equation
+Writing section: The Mathematical Formulation
+Completed section: The Mathematical Formulation
+Writing section: Applications of the Schrödinger Equation
+Completed section: Applications of the Schrödinger Equation
+Writing section: Understanding Complex Systems
+Completed section: Understanding Complex Systems
+Article successfully generated and saved to article.md
+
+2024-11-04 03:20:09,195 - INFO - Article generation completed successfully!
+2024-11-04 03:20:09,195 - INFO - Article successfully generated and saved to article.md

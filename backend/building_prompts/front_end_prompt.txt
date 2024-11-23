@@ -1,0 +1,12 @@
+
+Hey, I am creating a website (or it can be hosted locally in my computer) that generates a self-learning guide for a topic that user wants to study. it will take inputs from user, and then the website will generate a .md file (an example that is attached below) Displayed for user to read. and user will select some parts that he don't know to ask further questions...
+
+Here is the function that I want to succeed:
+--A very good chat interface. *like that of cohere coral. user enters the query, and the code in background will generate solutsions
+--The backaround code is written in python. The schema should be compatible with python
+--The user should be able to log in.
+--I am building this website for demonstration purposes for applying to Ycombinator.
+--It should be easy to deploy on some cloud services, e.g. on google.
+--I basically have the python code ready! all i need is a frontend. 
+
+So I would like to hear your advice. I hope this one will be not too complex!

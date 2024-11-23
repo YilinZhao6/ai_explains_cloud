@@ -1,0 +1,59 @@
+2024-11-08 08:21:52,414 - INFO - Starting parallel search operations...
+2024-11-08 08:21:52,415 - INFO - Starting Google search and content collection...
+2024-11-08 08:21:52,416 - INFO - Starting Archive vector search...
+2024-11-08 08:21:52,416 - INFO - Waiting for both search operations to complete...
+2024-11-08 08:21:54,345 - INFO - Successfully completed Archive vector search
+2024-11-08 08:21:54,345 - INFO - Archive vector search output:
+Loading vectors and chunks from all books...
+Loaded 1974 chunks from Principles_of_Physics
+
+Searching for: Moment of inertia
+Results saved to F:\main\backend\source_html\topic_archive.html
+
+2024-11-08 08:21:57,810 - INFO - Successfully completed Google search and content collection
+2024-11-08 08:21:57,810 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: Moment of inertia
+
+Extracting content from relevant URLs...
+Content from https://en.wikipedia.org/wiki/Moment_of_inertia saved to source_html\moment_of_inertia_wikipedia.html
+Content from http://hyperphysics.phy-astr.gsu.edu/hbase/mi.html saved to source_html\moment_of_inertia_hyperphysics.html
+Content from https://www.britannica.com/science/moment-of-inertia saved to source_html\britannica_moment_of_inertia.html
+Content from https://www.khanacademy.org/science/physics/torque-angular-momentum/torque-tutorial/a/rotational-inertia saved to source_html\khan_academy_rotational_inertia.html
+
+Summary of saved files:
+URL: https://en.wikipedia.org/wiki/Moment_of_inertia
+Saved as: source_html\moment_of_inertia_wikipedia.html
+--------------------------------------------------
+URL: http://hyperphysics.phy-astr.gsu.edu/hbase/mi.html
+Saved as: source_html\moment_of_inertia_hyperphysics.html
+--------------------------------------------------
+URL: https://www.britannica.com/science/moment-of-inertia
+Saved as: source_html\britannica_moment_of_inertia.html
+--------------------------------------------------
+URL: https://www.khanacademy.org/science/physics/torque-angular-momentum/torque-tutorial/a/rotational-inertia
+Saved as: source_html\khan_academy_rotational_inertia.html
+--------------------------------------------------
+
+2024-11-08 08:21:57,810 - INFO - Both search operations completed successfully!
+2024-11-08 08:21:57,810 - INFO - Starting outline generation...
+2024-11-08 08:22:27,474 - INFO - Successfully completed outline generation
+2024-11-08 08:22:27,474 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-08 08:22:27,474 - INFO - Starting article writing...
+2024-11-08 08:23:17,538 - INFO - Successfully completed article writing
+2024-11-08 08:23:17,538 - INFO - article writing output:
+Writing section: Introduction to Moment of Inertia
+Completed section: Introduction to Moment of Inertia
+Writing section: Mathematical Formulation of Moment of Inertia
+Completed section: Mathematical Formulation of Moment of Inertia
+Writing section: Factors Influencing Moment of Inertia
+Completed section: Factors Influencing Moment of Inertia
+Writing section: Applications of Moment of Inertia
+Completed section: Applications of Moment of Inertia
+Writing section: Related Topics
+Completed section: Related Topics
+Article successfully generated and saved to article.md
+
+2024-11-08 08:23:17,538 - INFO - Article generation completed successfully!
+2024-11-08 08:23:17,539 - INFO - Article successfully generated and saved to article.md

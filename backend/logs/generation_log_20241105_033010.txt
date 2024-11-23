@@ -1,0 +1,37 @@
+2024-11-05 03:30:10,295 - INFO - Starting Google search and content collection...
+2024-11-05 03:30:14,309 - INFO - Successfully completed Google search and content collection
+2024-11-05 03:30:14,309 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: 123
+
+Extracting content from relevant URLs...
+Content from https://link.aps.org/doi/10.1103/PhysRevLett.123.230501 saved to source_html\rydberg_entanglement_study_123.html
+Content from https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-123 saved to source_html\epa_state_program_regulations_123.html
+Content from https://malegislature.gov/laws/generallaws/partiv/titlei/chapter266/section123 saved to source_html\massachusetts_trespass_law_section_123.html
+
+Summary of saved files:
+URL: https://link.aps.org/doi/10.1103/PhysRevLett.123.230501
+Saved as: source_html\rydberg_entanglement_study_123.html
+--------------------------------------------------
+URL: https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-123
+Saved as: source_html\epa_state_program_regulations_123.html
+--------------------------------------------------
+URL: https://malegislature.gov/laws/generallaws/partiv/titlei/chapter266/section123
+Saved as: source_html\massachusetts_trespass_law_section_123.html
+--------------------------------------------------
+
+2024-11-05 03:30:14,310 - INFO - Starting outline generation...
+2024-11-05 03:30:38,217 - INFO - Successfully completed outline generation
+2024-11-05 03:30:38,217 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-05 03:30:38,217 - INFO - Starting article writing...
+2024-11-05 03:30:55,861 - INFO - Successfully completed article writing
+2024-11-05 03:30:55,862 - INFO - article writing output:
+Writing section: Introduction to Topic 123
+Completed section: Introduction to Topic 123
+Writing section: Regulatory Framework of Topic 123
+Completed section: Regulatory Framework of Topic 123
+Article successfully generated and saved to article.md
+
+2024-11-05 03:30:55,862 - INFO - Article generation completed successfully!
+2024-11-05 03:30:55,862 - INFO - Article successfully generated and saved to article.md

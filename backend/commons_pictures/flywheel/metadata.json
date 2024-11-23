@@ -1,0 +1,27 @@
+{
+    "search_query": "Flywheel",
+    "timestamp": "2024-10-26 20:35:22",
+    "number_of_images": 2,
+    "images": [
+        {
+            "filename": "Flywheel__2__jpg.jpg",
+            "title": "Flywheel (2).jpg",
+            "description": "Flywheel",
+            "resolution": "2964x2296",
+            "size_bytes": 1211688,
+            "mime_type": "",
+            "commons_url": "https://commons.wikimedia.org/wiki/File:Flywheel_(2).jpg",
+            "local_path": "c:\\Users\\Lenovo\\Desktop\\explain_everything\\1026\\commons_pictures\\flywheel\\Flywheel__2__jpg.jpg"
+        },
+        {
+            "filename": "Nota-203-1_flywheel_03_jpg.jpg",
+            "title": "Nota-203-1 flywheel 03.jpg",
+            "description": "Flywheel+capstan assembly of the Soviet Nota-203 tape recorder. There are two grooves for the belt, one for 9 cm/s and one for 19 cm/s speeds. The bayonet-like lugs and cutouts assist in changing the speed.",
+            "resolution": "3468x2312",
+            "size_bytes": 1519281,
+            "mime_type": "",
+            "commons_url": "https://commons.wikimedia.org/wiki/File:Nota-203-1_flywheel_03.jpg",
+            "local_path": "c:\\Users\\Lenovo\\Desktop\\explain_everything\\1026\\commons_pictures\\flywheel\\Nota-203-1_flywheel_03_jpg.jpg"
+        }
+    ]
+}

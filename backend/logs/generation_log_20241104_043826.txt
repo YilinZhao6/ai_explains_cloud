@@ -1,0 +1,41 @@
+2024-11-04 04:38:26,295 - INFO - Starting Google search and content collection...
+2024-11-04 04:38:34,368 - INFO - Successfully completed Google search and content collection
+2024-11-04 04:38:34,368 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: Parallax
+
+Extracting content from relevant URLs...
+Content from https://en.wikipedia.org/wiki/Parallax saved to source_html\wikipedia_parallax_definition.html
+Content from https://parallaxresearch.org/ saved to source_html\parallax_research_innovations.html
+Content from https://www.merriam-webster.com/dictionary/parallax saved to source_html\merriam_webster_parallax_meaning.html
+
+Summary of saved files:
+URL: https://en.wikipedia.org/wiki/Parallax
+Saved as: source_html\wikipedia_parallax_definition.html
+--------------------------------------------------
+URL: https://parallaxresearch.org/
+Saved as: source_html\parallax_research_innovations.html
+--------------------------------------------------
+URL: https://www.merriam-webster.com/dictionary/parallax
+Saved as: source_html\merriam_webster_parallax_meaning.html
+--------------------------------------------------
+
+2024-11-04 04:38:34,369 - INFO - Starting outline generation...
+2024-11-04 04:38:53,246 - INFO - Successfully completed outline generation
+2024-11-04 04:38:53,246 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-04 04:38:53,246 - INFO - Starting article writing...
+2024-11-04 04:39:21,689 - INFO - Successfully completed article writing
+2024-11-04 04:39:21,689 - INFO - article writing output:
+Writing section: Introduction to Parallax
+Completed section: Introduction to Parallax
+Writing section: The Mechanics of Parallax
+Completed section: The Mechanics of Parallax
+Writing section: Parallax Applications
+Completed section: Parallax Applications
+Writing section: Advancements and Implications of Parallax in Astronomy
+Completed section: Advancements and Implications of Parallax in Astronomy
+Article successfully generated and saved to article.md
+
+2024-11-04 04:39:21,689 - INFO - Article generation completed successfully!
+2024-11-04 04:39:21,689 - INFO - Article successfully generated and saved to article.md

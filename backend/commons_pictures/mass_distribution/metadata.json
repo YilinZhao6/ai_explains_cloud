@@ -1,0 +1,37 @@
+{
+    "search_query": "mass distribution",
+    "timestamp": "2024-10-27 04:22:32",
+    "number_of_images": 3,
+    "images": [
+        {
+            "filename": "Discret_uniform_distribution_mass_6_svg.svg",
+            "title": "Discret uniform distribution mass 6.svg",
+            "description": "Fonction de masse d'une loi discrète uniforme (n=6)",
+            "resolution": "339x196",
+            "size_bytes": 20536,
+            "mime_type": "",
+            "commons_url": "https://commons.wikimedia.org/wiki/File:Discret_uniform_distribution_mass_6.svg",
+            "local_path": "C:\\Users\\Lenovo\\Desktop\\explain_everything\\main\\commons_pictures\\mass_distribution\\Discret_uniform_distribution_mass_6_svg.svg"
+        },
+        {
+            "filename": "Mass_distribution_line_segment_svg.svg",
+            "title": "Mass distribution line segment.svg",
+            "description": "An illustration of a mass distribution",
+            "resolution": "552x336",
+            "size_bytes": 6703,
+            "mime_type": "",
+            "commons_url": "https://commons.wikimedia.org/wiki/File:Mass_distribution_line_segment.svg",
+            "local_path": "C:\\Users\\Lenovo\\Desktop\\explain_everything\\main\\commons_pictures\\mass_distribution\\Mass_distribution_line_segment_svg.svg"
+        },
+        {
+            "filename": "Mass_distribution_of_low-mass_objects__geminiann05008b__tiff.tiff",
+            "title": "Mass distribution of low-mass objects (geminiann05008b).tiff",
+            "description": "Mass distribution of low-mass objects (at an assumed age of 1 Myr) in the surveyed area of the Trapezium region. The IMF peaks at 0.2 M<sub>sun</sub>, and declines through the brown dwarf regime. The increase at Log(M/M<sub>sun</sub>) = - 2.4 is due to background contamination.",
+            "resolution": "625x598",
+            "size_bytes": 262238,
+            "mime_type": "",
+            "commons_url": "https://commons.wikimedia.org/wiki/File:Mass_distribution_of_low-mass_objects_(geminiann05008b).tiff",
+            "local_path": "C:\\Users\\Lenovo\\Desktop\\explain_everything\\main\\commons_pictures\\mass_distribution\\Mass_distribution_of_low-mass_objects__geminiann05008b__tiff.tiff"
+        }
+    ]
+}

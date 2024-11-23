@@ -1,0 +1,41 @@
+2024-11-05 02:03:13,926 - INFO - Starting Google search and content collection...
+2024-11-05 02:03:17,682 - INFO - Successfully completed Google search and content collection
+2024-11-05 02:03:17,682 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: Parallax
+
+Extracting content from relevant URLs...
+Content from https://en.wikipedia.org/wiki/Parallax saved to source_html\parallax_overview_and_applications.html
+Content from https://parallaxresearch.org/ saved to source_html\parallax_research_advancements.html
+Content from https://www.merriam-webster.com/dictionary/parallax saved to source_html\parallax_definition_and_context.html
+
+Summary of saved files:
+URL: https://en.wikipedia.org/wiki/Parallax
+Saved as: source_html\parallax_overview_and_applications.html
+--------------------------------------------------
+URL: https://parallaxresearch.org/
+Saved as: source_html\parallax_research_advancements.html
+--------------------------------------------------
+URL: https://www.merriam-webster.com/dictionary/parallax
+Saved as: source_html\parallax_definition_and_context.html
+--------------------------------------------------
+
+2024-11-05 02:03:17,683 - INFO - Starting outline generation...
+2024-11-05 02:03:33,945 - INFO - Successfully completed outline generation
+2024-11-05 02:03:33,945 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-05 02:03:33,945 - INFO - Starting article writing...
+2024-11-05 02:04:43,604 - INFO - Successfully completed article writing
+2024-11-05 02:04:43,604 - INFO - article writing output:
+Writing section: Introduction to Parallax
+Completed section: Introduction to Parallax
+Writing section: Mechanics of Parallax in Astronomy
+Completed section: Mechanics of Parallax in Astronomy
+Writing section: Applications of Parallax
+Completed section: Applications of Parallax
+Writing section: Technological and Research Advancements in Parallax
+Completed section: Technological and Research Advancements in Parallax
+Article successfully generated and saved to article.md
+
+2024-11-05 02:04:43,604 - INFO - Article generation completed successfully!
+2024-11-05 02:04:43,604 - INFO - Article successfully generated and saved to article.md

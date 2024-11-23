@@ -1,0 +1,87 @@
+2024-11-01 19:39:50,189 - ERROR - Pipeline failed: [Errno 2] No such file or directory: '3-selection.py'
+Traceback (most recent call last):
+  File "F:\main\backend\find_images\image_master.py", line 134, in main
+    pipeline = ImageProcessingPipeline()
+  File "F:\main\backend\find_images\image_master.py", line 51, in __init__
+    self.selector = import_script("3-selection.py", "image_selector")
+  File "F:\main\backend\find_images\image_master.py", line 32, in import_script
+    spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 982, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1039, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: '3-selection.py'
+2024-11-01 19:40:24,704 - INFO - Setting up directories...
+2024-11-01 19:40:24,707 - INFO - Step 1/4: Analyzing markdown content...
+2024-11-01 19:40:36,104 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-01 19:40:36,112 - INFO - Analysis complete. Found 5 image suggestions
+2024-11-01 19:40:36,113 - INFO - Step 2/4: Downloading images...
+2024-11-01 19:40:36,114 - ERROR - Pipeline failed: module 'image_downloader' has no attribute 'main_async'
+Traceback (most recent call last):
+  File "F:\main\backend\find_images\image_master.py", line 95, in run_pipeline
+    await self.downloader.main_async()
+AttributeError: module 'image_downloader' has no attribute 'main_async'
+2024-11-01 19:40:36,116 - ERROR - Pipeline failed: module 'image_downloader' has no attribute 'main_async'
+Traceback (most recent call last):
+  File "F:\main\backend\find_images\image_master.py", line 135, in main
+    asyncio.run(pipeline.run_pipeline())
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "F:\main\backend\find_images\image_master.py", line 95, in run_pipeline
+    await self.downloader.main_async()
+AttributeError: module 'image_downloader' has no attribute 'main_async'
+2024-11-01 19:42:07,832 - INFO - Setting up directories...
+2024-11-01 19:42:07,835 - INFO - Step 1/4: Analyzing markdown content...
+2024-11-01 19:42:13,868 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-01 19:42:13,876 - INFO - Analysis complete. Found 5 image suggestions
+2024-11-01 19:42:13,877 - INFO - Step 2/4: Downloading images...
+2024-11-01 19:42:13,878 - ERROR - Pipeline failed: module 'image_downloader' has no attribute 'main_async'
+Traceback (most recent call last):
+  File "F:\main\backend\find_images\image_master.py", line 95, in run_pipeline
+    await self.downloader.main_async()
+AttributeError: module 'image_downloader' has no attribute 'main_async'
+2024-11-01 19:42:13,880 - ERROR - Pipeline failed: module 'image_downloader' has no attribute 'main_async'
+Traceback (most recent call last):
+  File "F:\main\backend\find_images\image_master.py", line 135, in main
+    asyncio.run(pipeline.run_pipeline())
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "F:\main\backend\find_images\image_master.py", line 95, in run_pipeline
+    await self.downloader.main_async()
+AttributeError: module 'image_downloader' has no attribute 'main_async'
+2024-11-01 19:43:52,363 - INFO - Setting up directories...
+2024-11-01 19:43:52,366 - INFO - Step 1/4: Analyzing markdown content...
+2024-11-01 19:43:59,784 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-01 19:43:59,792 - INFO - Analysis complete. Found 5 image suggestions
+2024-11-01 19:43:59,793 - INFO - Step 2/4: Downloading images...
+2024-11-01 19:43:59,794 - ERROR - Pipeline failed: module 'image_downloader' has no attribute 'main_async'
+Traceback (most recent call last):
+  File "F:\main\backend\find_images\image_master.py", line 95, in run_pipeline
+    await self.downloader.main_async()
+AttributeError: module 'image_downloader' has no attribute 'main_async'
+2024-11-01 19:43:59,795 - ERROR - Pipeline failed: module 'image_downloader' has no attribute 'main_async'
+Traceback (most recent call last):
+  File "F:\main\backend\find_images\image_master.py", line 135, in main
+    asyncio.run(pipeline.run_pipeline())
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "F:\main\backend\find_images\image_master.py", line 95, in run_pipeline
+    await self.downloader.main_async()
+AttributeError: module 'image_downloader' has no attribute 'main_async'
+2024-11-01 20:13:30,821 - ERROR - Pipeline failed: [Errno 2] No such file or directory: '2-10-syn.py'
+Traceback (most recent call last):
+  File "F:\main\backend\find_images\3-syn.py", line 168, in main
+    pipeline = ImageProcessingPipeline()
+  File "F:\main\backend\find_images\3-syn.py", line 51, in __init__
+    self.downloader = import_script("2-10-syn.py", "image_downloader")
+  File "F:\main\backend\find_images\3-syn.py", line 33, in import_script
+    spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 982, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1039, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: '2-10-syn.py'

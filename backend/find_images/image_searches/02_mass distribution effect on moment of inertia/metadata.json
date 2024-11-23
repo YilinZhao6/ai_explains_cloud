@@ -1,0 +1,70 @@
+{
+  "query": "mass distribution effect on moment of inertia",
+  "timestamp": "2024-11-22 20:00:02",
+  "original_quote": "The distribution of mass relative to the axis of rotation significantly affects the moment of inertia.",
+  "section_title": "Factors Affecting Moment of Inertia",
+  "reason": "This passage addresses how mass distribution influences the moment of inertia. An image showing various shapes with differently distributed masses in relation to their axes of rotation would clarify this concept.",
+  "description": "Diagrams of different 3D objects (like cylinders, rods, and spheres) with indications of mass distribution around their axes of rotation, showcasing how this affects their moment of inertia.",
+  "images": [
+    {
+      "title": "Moment of Inertia & Mass Distribution - YouTube",
+      "link": "https://i.ytimg.com/vi/ZD_DzEZG3Ow/maxresdefault.jpg",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMSmy2gk8QYhA_Bt5Aksvb8IuHKOnQ8WUj9aZkiowbFFB39Jaog13bBA&s",
+      "context_link": "https://www.youtube.com/watch?v=ZD_DzEZG3Ow",
+      "width": 1280,
+      "height": 720,
+      "size": 44622,
+      "format": "image/jpeg",
+      "snippet": "Moment of Inertia & Mass Distribution - YouTube",
+      "saved_filename": "image_00.jpg"
+    },
+    {
+      "title": "Rotation",
+      "link": "https://ux1.eiu.edu/~cfadd/3050/Ch08Rot/Images/MomtTable.gif",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0ZESOn2xFITAa7dLKjZ2AT-IZCZb_7jKnPflQZyrF9TgzTfnkN9T_gA&s",
+      "context_link": "https://ux1.eiu.edu/~cfadd/3050/Ch08Rot/RotMs.html",
+      "width": 482,
+      "height": 302,
+      "size": 16593,
+      "format": "image/gif",
+      "snippet": "Rotation",
+      "saved_filename": "image_01.jpg"
+    },
+    {
+      "title": "Home",
+      "link": "http://sites.science.oregonstate.edu/~hadlekat/COURSES/ph212/rigidRotation/images/12_12_figure.jpg?crc=4129788671",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9aFBA9kXsRL82QLbKxG5Ej_JuFHnswUWuTgzvls5LAxZBB7Ox9CfcoA&s",
+      "context_link": "http://sites.science.oregonstate.edu/~hadlekat/COURSES/ph212/rigidRotation/",
+      "width": 600,
+      "height": 466,
+      "size": 120260,
+      "format": "image/jpeg",
+      "snippet": "Home",
+      "saved_filename": "image_02.jpg"
+    },
+    {
+      "title": "Moment of inertia of rigid body || How mass distribution affect ...",
+      "link": "https://i.ytimg.com/vi/I2cNAIraXdI/hqdefault.jpg",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpO0TXGZwDGi4yCIIKn0SsgwOcck4QMBsgY_-bJj6o3ppLvqf-VfkDEt4&s",
+      "context_link": "https://www.youtube.com/watch?v=I2cNAIraXdI",
+      "width": 480,
+      "height": 360,
+      "size": 18813,
+      "format": "image/jpeg",
+      "snippet": "Moment of inertia of rigid body || How mass distribution affect ...",
+      "saved_filename": "image_03.jpg"
+    },
+    {
+      "title": "How to Calculate Moment of Inertia | MOI Calculation",
+      "link": "https://raptor-scientific.com/content/uploads/2023/10/MG-2-Real-World-Examples-of-Moment-of-Inertia-MOI.png",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-X1XIQffj5FxcQJz7E9NOqCxjaCG1ZGttBHhtzG4Ogp8PdACm3DVE034&s",
+      "context_link": "https://raptor-scientific.com/resources/calculating-moment-of-inertia/",
+      "width": 2055,
+      "height": 3650,
+      "size": 519485,
+      "format": "image/png",
+      "snippet": "How to Calculate Moment of Inertia | MOI Calculation",
+      "saved_filename": "image_04.jpg"
+    }
+  ]
+}

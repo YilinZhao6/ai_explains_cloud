@@ -1,0 +1,43 @@
+2024-11-03 22:24:30,524 - INFO - Starting Google search and content collection...
+2024-11-03 22:24:44,790 - INFO - Successfully completed Google search and content collection
+2024-11-03 22:24:44,790 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: Quantum Mechanics
+
+Extracting content from relevant URLs...
+Content from https://en.wikipedia.org/wiki/Quantum_mechanics saved to source_html\quantum_mechanics_overview.html
+Content from https://www.energy.gov/science/doe-explainsquantum-mechanics saved to source_html\doe_explains_quantum.html
+Content from https://www.britannica.com/science/quantum-mechanics-physics saved to source_html\britannica_quantum_physics.html
+Content from https://plato.stanford.edu/entries/qm/ saved to source_html\stanford_quantum_mechanics.html
+Content from https://www.livescience.com/33816-quantum-mechanics-explanation.html saved to source_html\livescience_quantum_explanation.html
+
+Summary of saved files:
+URL: https://en.wikipedia.org/wiki/Quantum_mechanics
+Saved as: source_html\quantum_mechanics_overview.html
+--------------------------------------------------
+URL: https://www.energy.gov/science/doe-explainsquantum-mechanics
+Saved as: source_html\doe_explains_quantum.html
+--------------------------------------------------
+URL: https://www.britannica.com/science/quantum-mechanics-physics
+Saved as: source_html\britannica_quantum_physics.html
+--------------------------------------------------
+URL: https://plato.stanford.edu/entries/qm/
+Saved as: source_html\stanford_quantum_mechanics.html
+--------------------------------------------------
+URL: https://www.livescience.com/33816-quantum-mechanics-explanation.html
+Saved as: source_html\livescience_quantum_explanation.html
+--------------------------------------------------
+
+2024-11-03 22:24:44,791 - INFO - Starting outline generation...
+2024-11-03 22:25:12,262 - INFO - Successfully completed outline generation
+2024-11-03 22:25:12,262 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-03 22:25:12,262 - INFO - Starting article writing...
+2024-11-03 22:25:16,200 - INFO - Successfully completed article writing
+2024-11-03 22:25:16,200 - INFO - article writing output:
+Writing section: Introduction to Quantum Mechanics
+Error generating article: Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'Number of request tokens has exceeded your daily rate limit (https://docs.anthropic.com/en/api/rate-limits); see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Failed to generate article: Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'Number of request tokens has exceeded your daily rate limit (https://docs.anthropic.com/en/api/rate-limits); see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+
+2024-11-03 22:25:16,200 - INFO - Article generation completed successfully!
+2024-11-03 22:25:16,200 - INFO - Article successfully generated and saved to article.md

@@ -1,0 +1,39 @@
+2024-11-03 22:04:56,656 - INFO - Starting Google search and content collection...
+2024-11-03 22:05:00,708 - INFO - Successfully completed Google search and content collection
+2024-11-03 22:05:00,709 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: Parallax
+
+Extracting content from relevant URLs...
+Content from https://en.wikipedia.org/wiki/Parallax saved to source_html\understanding_parallax_concept.html
+Content from https://parallaxresearch.org/ saved to source_html\parallax_innovation_technology.html
+Content from https://www.merriam-webster.com/dictionary/parallax saved to source_html\definition_and_meaning_parallax.html
+
+Summary of saved files:
+URL: https://en.wikipedia.org/wiki/Parallax
+Saved as: source_html\understanding_parallax_concept.html
+--------------------------------------------------
+URL: https://parallaxresearch.org/
+Saved as: source_html\parallax_innovation_technology.html
+--------------------------------------------------
+URL: https://www.merriam-webster.com/dictionary/parallax
+Saved as: source_html\definition_and_meaning_parallax.html
+--------------------------------------------------
+
+2024-11-03 22:05:00,709 - INFO - Starting outline generation...
+2024-11-03 22:05:18,566 - INFO - Successfully completed outline generation
+2024-11-03 22:05:18,566 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-03 22:05:18,566 - INFO - Starting article writing...
+2024-11-03 22:06:02,180 - INFO - Successfully completed article writing
+2024-11-03 22:06:02,180 - INFO - article writing output:
+Writing section: Definition and Basic Concept
+Completed section: Definition and Basic Concept
+Writing section: Astronomical Applications
+Completed section: Astronomical Applications
+Writing section: Distance Measurement Principles
+Completed section: Distance Measurement Principles
+Article successfully generated and saved to article.md
+
+2024-11-03 22:06:02,180 - INFO - Article generation completed successfully!
+2024-11-03 22:06:02,180 - INFO - Article successfully generated and saved to article.md

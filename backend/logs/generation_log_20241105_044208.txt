@@ -1,0 +1,43 @@
+2024-11-05 04:42:08,670 - INFO - Starting Google search and content collection...
+2024-11-05 04:42:12,918 - INFO - Successfully completed Google search and content collection
+2024-11-05 04:42:12,918 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: Parallax
+
+Extracting content from relevant URLs...
+Content from https://en.wikipedia.org/wiki/Parallax saved to source_html\wikipedia_parallax_overview.html
+Content from https://parallaxresearch.org/ saved to source_html\parallax_research_institute.html
+Content from https://www.merriam-webster.com/dictionary/parallax saved to source_html\merriam_webster_parallax_definition.html
+
+Summary of saved files:
+URL: https://en.wikipedia.org/wiki/Parallax
+Saved as: source_html\wikipedia_parallax_overview.html
+--------------------------------------------------
+URL: https://parallaxresearch.org/
+Saved as: source_html\parallax_research_institute.html
+--------------------------------------------------
+URL: https://www.merriam-webster.com/dictionary/parallax
+Saved as: source_html\merriam_webster_parallax_definition.html
+--------------------------------------------------
+
+2024-11-05 04:42:12,919 - INFO - Starting outline generation...
+2024-11-05 04:42:41,946 - INFO - Successfully completed outline generation
+2024-11-05 04:42:41,946 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-05 04:42:41,946 - INFO - Starting article writing...
+2024-11-05 04:43:40,162 - INFO - Successfully completed article writing
+2024-11-05 04:43:40,162 - INFO - article writing output:
+Writing section: Definition and Basic Concepts of Parallax
+Completed section: Definition and Basic Concepts of Parallax
+Writing section: Astronomical Applications of Parallax
+Completed section: Astronomical Applications of Parallax
+Writing section: Parallax in Optical Instruments
+Completed section: Parallax in Optical Instruments
+Writing section: Measurement Techniques Using Parallax
+Completed section: Measurement Techniques Using Parallax
+Writing section: Related Topics
+Completed section: Related Topics
+Article successfully generated and saved to article.md
+
+2024-11-05 04:43:40,162 - INFO - Article generation completed successfully!
+2024-11-05 04:43:40,162 - INFO - Article successfully generated and saved to article.md

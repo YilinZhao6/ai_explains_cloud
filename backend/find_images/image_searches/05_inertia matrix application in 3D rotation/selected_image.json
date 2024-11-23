@@ -1,0 +1,20 @@
+{
+  "original_quote": "Inertia matrices are crucial for analyzing the three-dimensional rotational behavior of celestial bodies.",
+  "section_title": "Applications in Astrophysics",
+  "reason": "This quote introduces the concept of inertia matrices related to celestial bodies. A visual representation of an inertia matrix application to a 3D object would clarify its significance.",
+  "description": "An image of a 3D object (like an asteroid) with an inertia matrix overlay and axes, demonstrating its rotation behavior with labels directing attention to the principal axes.",
+  "selected_image": {
+    "title": "momentinertia",
+    "link": "https://www3.eng.cam.ac.uk/~hemh1/gyroscopes/images/inertiamatrix.png",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5VOVRWy48izp2nEu_8q5ttv6wdxP-xJQfQQBcpFr3IxZdH4KwfauOhw&s",
+    "context_link": "https://www3.eng.cam.ac.uk/~hemh1/gyroscopes/momentinertia.html",
+    "width": 278,
+    "height": 136,
+    "size": 1255,
+    "format": "image/png",
+    "snippet": "momentinertia",
+    "saved_filename": "image_01.jpg",
+    "explanation": "Image 01 provides a clear and relevant depiction of an inertia matrix applied to a 3D object. The image includes a simple structure with an overlay of the inertia matrix on a 3D object, likely a celestial body, and highlights the principal axes. This visual representation aligns well with the context of analyzing rotational behavior using inertia matrices.",
+    "caption": "Inertia matrix applied to a 3D object, illustrating rotational behavior."
+  }
+}

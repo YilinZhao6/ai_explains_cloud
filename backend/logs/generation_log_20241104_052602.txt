@@ -1,0 +1,51 @@
+2024-11-04 05:26:02,476 - INFO - Starting Google search and content collection...
+2024-11-04 05:26:10,728 - INFO - Successfully completed Google search and content collection
+2024-11-04 05:26:10,728 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: Quantum Mechanics
+
+Extracting content from relevant URLs...
+Content from https://en.wikipedia.org/wiki/Quantum_mechanics saved to source_html\quantum_mechanics_overview.html
+Content from https://www.energy.gov/science/doe-explainsquantum-mechanics saved to source_html\doe_explains_quantum_mechanics.html
+Content from https://www.britannica.com/science/quantum-mechanics-physics saved to source_html\britannica_quantum_mechanics.html
+Content from https://plato.stanford.edu/entries/qm/ saved to source_html\stanford_philosophy_quantum.html
+Content from https://www.livescience.com/33816-quantum-mechanics-explanation.html saved to source_html\livescience_quantum_concepts.html
+
+Summary of saved files:
+URL: https://en.wikipedia.org/wiki/Quantum_mechanics
+Saved as: source_html\quantum_mechanics_overview.html
+--------------------------------------------------
+URL: https://www.energy.gov/science/doe-explainsquantum-mechanics
+Saved as: source_html\doe_explains_quantum_mechanics.html
+--------------------------------------------------
+URL: https://www.britannica.com/science/quantum-mechanics-physics
+Saved as: source_html\britannica_quantum_mechanics.html
+--------------------------------------------------
+URL: https://plato.stanford.edu/entries/qm/
+Saved as: source_html\stanford_philosophy_quantum.html
+--------------------------------------------------
+URL: https://www.livescience.com/33816-quantum-mechanics-explanation.html
+Saved as: source_html\livescience_quantum_concepts.html
+--------------------------------------------------
+
+2024-11-04 05:26:10,732 - INFO - Starting outline generation...
+2024-11-04 05:27:09,323 - INFO - Successfully completed outline generation
+2024-11-04 05:27:09,324 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-04 05:27:09,325 - INFO - Starting article writing...
+2024-11-04 05:28:01,609 - INFO - Successfully completed article writing
+2024-11-04 05:28:01,609 - INFO - article writing output:
+Writing section: Introduction to Quantum Mechanics
+Completed section: Introduction to Quantum Mechanics
+Writing section: Historical Development of Quantum Mechanics
+Completed section: Historical Development of Quantum Mechanics
+Writing section: Core Principles of Quantum Mechanics
+Completed section: Core Principles of Quantum Mechanics
+Writing section: Fundamental Theories and Equations
+Completed section: Fundamental Theories and Equations
+Writing section: Quantum Mechanics and its Philosophical Implications
+Completed section: Quantum Mechanics and its Philosophical Implications
+Article successfully generated and saved to article.md
+
+2024-11-04 05:28:01,612 - INFO - Article generation completed successfully!
+2024-11-04 05:28:01,613 - INFO - Article successfully generated and saved to article.md

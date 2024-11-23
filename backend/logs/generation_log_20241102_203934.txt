@@ -1,0 +1,16 @@
+2024-11-02 20:39:34,528 - INFO - Created output directory: generation_output_20241102_203934
+2024-11-02 20:39:34,544 - INFO - Copied article.md to output directory
+2024-11-02 20:39:34,546 - INFO - Copied article_outline.json to output directory
+2024-11-02 20:39:34,550 - INFO - Copied search_results_20241102_034256.txt to output directory
+2024-11-02 20:39:34,553 - INFO - Copied search_results_20241102_034415.txt to output directory
+2024-11-02 20:39:34,555 - INFO - Copied search_results_20241102_034740.txt to output directory
+2024-11-02 20:39:34,557 - INFO - Copied search_results_20241102_034839.txt to output directory
+2024-11-02 20:39:34,559 - INFO - Copied search_results_20241102_035408.txt to output directory
+2024-11-02 20:39:34,564 - INFO - Copied search_results_20241102_040056.txt to output directory
+2024-11-02 20:39:34,566 - INFO - Copied search_results_20241102_040450.txt to output directory
+2024-11-02 20:39:34,569 - INFO - Copied search_results_20241102_040654.txt to output directory
+2024-11-02 20:39:34,571 - INFO - Copied search_results_20241102_040803.txt to output directory
+2024-11-02 20:39:34,573 - INFO - Copied search_results_20241102_040937.txt to output directory
+2024-11-02 20:39:34,573 - INFO - Article generation completed successfully!
+2024-11-02 20:39:34,574 - INFO - All outputs have been saved to: generation_output_20241102_203934
+2024-11-02 20:39:34,574 - INFO - Article successfully generated and saved to article.md

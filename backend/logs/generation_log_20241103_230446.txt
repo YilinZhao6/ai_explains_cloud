@@ -1,0 +1,38 @@
+2024-11-03 23:04:46,961 - INFO - Starting Google search and content collection...
+2024-11-03 23:04:54,724 - INFO - Successfully completed Google search and content collection
+2024-11-03 23:04:54,724 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: schrodinger equation
+
+Extracting content from relevant URLs...
+Content from https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation saved to source_html\schrodinger_equation_overview.html
+Content from https://www.britannica.com/science/Schrodinger-equation saved to source_html\schrodinger_equation_facts_britannica.html
+Content from http://hyperphysics.phy-astr.gsu.edu/hbase/quantum/schr.html saved to source_html\hyperphysics_schrodinger_equation.html
+Content from https://chem.libretexts.org/Courses/Grinnell_College/CHM_364%3A_Physical_Chemistry_2_(Grinnell_College)/03%3A_The_Schrodinger_Equation_and_a_Particle_in_a_Box/3.01%3A_The_Schrodinger_Equation saved to source_html\chem_libretexts_schrodinger_equation.html
+
+Summary of saved files:
+URL: https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation
+Saved as: source_html\schrodinger_equation_overview.html
+--------------------------------------------------
+URL: https://www.britannica.com/science/Schrodinger-equation
+Saved as: source_html\schrodinger_equation_facts_britannica.html
+--------------------------------------------------
+URL: http://hyperphysics.phy-astr.gsu.edu/hbase/quantum/schr.html
+Saved as: source_html\hyperphysics_schrodinger_equation.html
+--------------------------------------------------
+URL: https://chem.libretexts.org/Courses/Grinnell_College/CHM_364%3A_Physical_Chemistry_2_(Grinnell_College)/03%3A_The_Schrodinger_Equation_and_a_Particle_in_a_Box/3.01%3A_The_Schrodinger_Equation
+Saved as: source_html\chem_libretexts_schrodinger_equation.html
+--------------------------------------------------
+
+2024-11-03 23:04:54,725 - INFO - Starting outline generation...
+2024-11-03 23:05:33,151 - INFO - Successfully completed outline generation
+2024-11-03 23:05:33,152 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-03 23:05:33,152 - INFO - Starting article writing...
+2024-11-03 23:05:33,987 - INFO - Successfully completed article writing
+2024-11-03 23:05:33,987 - INFO - article writing output:
+Error generating article: 'gbk' codec can't encode character '\xf6' in position 37: illegal multibyte sequence
+Failed to generate article: 'gbk' codec can't encode character '\xf6' in position 37: illegal multibyte sequence
+
+2024-11-03 23:05:33,987 - INFO - Article generation completed successfully!
+2024-11-03 23:05:33,987 - INFO - Article successfully generated and saved to article.md

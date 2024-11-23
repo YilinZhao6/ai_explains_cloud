@@ -1,0 +1,57 @@
+2024-11-07 05:12:00,006 - INFO - Starting parallel search operations...
+2024-11-07 05:12:00,006 - INFO - Starting Google search and content collection...
+2024-11-07 05:12:00,007 - INFO - Starting Archive vector search...
+2024-11-07 05:12:00,007 - INFO - Waiting for both search operations to complete...
+2024-11-07 05:12:01,745 - INFO - Successfully completed Archive vector search
+2024-11-07 05:12:01,745 - INFO - Archive vector search output:
+Loading vectors and chunks from all books...
+Loaded 1974 chunks from Principles_of_Physics
+
+Searching for: Orbital Motion
+Results saved to F:\main\backend\source_html\topic_archive.html
+
+2024-11-07 05:12:03,954 - INFO - Successfully completed Google search and content collection
+2024-11-07 05:12:03,954 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: Orbital Motion
+
+Extracting content from relevant URLs...
+Content from https://www.physicsclassroom.com/Physics-Interactives/Circular-and-Satellite-Motion/Orbital-Motion/Orbital-Motion-Interactive saved to source_html\orbital_motion_interactive_simulation.html
+Content from https://flexbooks.ck12.org/cbook/ck-12-middle-school-physical-science-flexbook-2.0/section/10.11/primary/lesson/orbital-motion-ms-ps/ saved to source_html\ck12_orbital_motion_lesson.html
+Content from https://en.wikipedia.org/wiki/Orbital_mechanics saved to source_html\wikipedia_orbital_mechanics_summary.html
+
+Summary of saved files:
+URL: https://www.physicsclassroom.com/Physics-Interactives/Circular-and-Satellite-Motion/Orbital-Motion/Orbital-Motion-Interactive
+Saved as: source_html\orbital_motion_interactive_simulation.html
+--------------------------------------------------
+URL: https://flexbooks.ck12.org/cbook/ck-12-middle-school-physical-science-flexbook-2.0/section/10.11/primary/lesson/orbital-motion-ms-ps/
+Saved as: source_html\ck12_orbital_motion_lesson.html
+--------------------------------------------------
+URL: https://en.wikipedia.org/wiki/Orbital_mechanics
+Saved as: source_html\wikipedia_orbital_mechanics_summary.html
+--------------------------------------------------
+
+2024-11-07 05:12:03,954 - INFO - Both search operations completed successfully!
+2024-11-07 05:12:03,954 - INFO - Starting outline generation...
+2024-11-07 05:12:36,507 - INFO - Successfully completed outline generation
+2024-11-07 05:12:36,508 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-07 05:12:36,508 - INFO - Starting article writing...
+2024-11-07 05:14:22,100 - INFO - Successfully completed article writing
+2024-11-07 05:14:22,101 - INFO - article writing output:
+Writing section: Introduction to Orbital Motion
+Completed section: Introduction to Orbital Motion
+Writing section: Fundamental Laws Governing Orbital Motion
+Completed section: Fundamental Laws Governing Orbital Motion
+Writing section: Types of Orbits
+Completed section: Types of Orbits
+Writing section: The Dynamics of Satellite Motion
+Completed section: The Dynamics of Satellite Motion
+Writing section: Applications of Orbital Motion in Astrophysics
+Completed section: Applications of Orbital Motion in Astrophysics
+Writing section: Related Topics
+Completed section: Related Topics
+Article successfully generated and saved to article.md
+
+2024-11-07 05:14:22,101 - INFO - Article generation completed successfully!
+2024-11-07 05:14:22,101 - INFO - Article successfully generated and saved to article.md

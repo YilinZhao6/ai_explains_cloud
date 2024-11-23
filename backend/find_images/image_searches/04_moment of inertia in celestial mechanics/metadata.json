@@ -1,0 +1,70 @@
+{
+  "query": "moment of inertia in celestial mechanics",
+  "timestamp": "2024-11-22 20:00:03",
+  "original_quote": "The moment of inertia is a pivotal concept in celestial mechanics, influencing the rotational dynamics of astronomical bodies such as planets, stars, and galaxies.",
+  "section_title": "Applications in Astrophysics",
+  "reason": "This passage connects moment of inertia to celestial mechanics. An image depicting celestial bodies with annotations showing how their moment of inertia affects their rotation would be useful.",
+  "description": "A diagram of celestial bodies (like a planet and a star) with their axes of rotation and moments of inertia indicated, showcasing their influences on stability and rotation.",
+  "images": [
+    {
+      "title": "𝐓𝐡𝐞 𝐈𝐧𝐞𝐫𝐭𝐢𝐚 𝐌𝐚𝐭𝐫𝐢𝐱 | 𝐎𝐫𝐛𝐢𝐭𝐚𝐥 ...",
+      "link": "https://i.ytimg.com/vi/uJA3uPRvRn0/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB1F8CqVY08TcdZfk62IkC4EqTz-A",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZKtcDNJ8nSsTe-LT602ofVqsc6bILvtVmbBHxLxpReWPRGROgi51IyA&s",
+      "context_link": "https://www.youtube.com/watch?v=uJA3uPRvRn0",
+      "width": 686,
+      "height": 386,
+      "size": 22942,
+      "format": "image/jpeg",
+      "snippet": "𝐓𝐡𝐞 𝐈𝐧𝐞𝐫𝐭𝐢𝐚 𝐌𝐚𝐭𝐫𝐢𝐱 | 𝐎𝐫𝐛𝐢𝐭𝐚𝐥 ...",
+      "saved_filename": "image_00.jpg"
+    },
+    {
+      "title": "Mechanics - Rigid Bodies, Forces, Motion | Britannica",
+      "link": "https://cdn.britannica.com/66/2466-050-CD55FC51/Moments-of-Inertia-for-Uniform-Bodies.jpg",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkGTQB4nc7vFQDauL2zjD1MkAQHb2dOicOiB61zcdgY3wPf2bfGm6PVA&s",
+      "context_link": "https://www.britannica.com/science/mechanics/Rigid-bodies",
+      "width": 1600,
+      "height": 1140,
+      "size": 147435,
+      "format": "image/jpeg",
+      "snippet": "Mechanics - Rigid Bodies, Forces, Motion | Britannica",
+      "saved_filename": "image_01.jpg"
+    },
+    {
+      "title": "Properties of the moment of inertia in the problem of three bodies ...",
+      "link": "https://media.springernature.com/full/springer-static/cover-hires/journal/10569",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXKCepbiM67UlP5uId7i_T7AIZwXcmzk9DYpmrzoeLfKBzsFDHSldJs7o&s",
+      "context_link": "https://link.springer.com/article/10.1007/BF01230394",
+      "width": 827,
+      "height": 1257,
+      "size": 357747,
+      "format": "image/",
+      "snippet": "Properties of the moment of inertia in the problem of three bodies ...",
+      "saved_filename": "image_02.jpg"
+    },
+    {
+      "title": "𝐓𝐡𝐞 𝐈𝐧𝐞𝐫𝐭𝐢𝐚 𝐌𝐚𝐭𝐫𝐢𝐱 | 𝐎𝐫𝐛𝐢𝐭𝐚𝐥 ...",
+      "link": "https://i.ytimg.com/vi/bGFAVyOhnYo/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLD00uH8ZpKVEeV9FIPpgCtV7RWoRQ",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT74k2oxfVV-DleEM17FGd4bgcvx9TYqjoKjH8ujnMkYCr0RghYwIiD-A&s",
+      "context_link": "https://www.youtube.com/watch?v=uJA3uPRvRn0",
+      "width": 686,
+      "height": 386,
+      "size": 22626,
+      "format": "image/jpeg",
+      "snippet": "𝐓𝐡𝐞 𝐈𝐧𝐞𝐫𝐭𝐢𝐚 𝐌𝐚𝐭𝐫𝐢𝐱 | 𝐎𝐫𝐛𝐢𝐭𝐚𝐥 ...",
+      "saved_filename": "image_03.jpg"
+    },
+    {
+      "title": "Rotational inertia | Intro to Mechanics Class Notes | Fiveable",
+      "link": "https://rwu.pressbooks.pub/app/uploads/sites/12/2019/08/Screen-Shot-2019-08-05-at-7.58.48-PM.png",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGjkBwFF5favNkWqHhn0yglWy3Eo_tb_8Wxn8rjX7RbymOwHqOpo95ug&s",
+      "context_link": "https://library.fiveable.me/introduction-mechanics/unit-5/rotational-inertia/study-guide/gPox3YqdIuOdEjJH",
+      "width": 976,
+      "height": 1336,
+      "size": 197378,
+      "format": "image/png",
+      "snippet": "Rotational inertia | Intro to Mechanics Class Notes | Fiveable",
+      "saved_filename": "image_04.jpg"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+2024-10-30 05:09:53,809 - INFO - Created output directory: generation_output_20241030_050953
+2024-10-30 05:09:53,809 - INFO - Starting Google search and content collection...
+2024-10-30 05:09:59,006 - INFO - Successfully completed Google search and content collection
+2024-10-30 05:09:59,006 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: Moment of Inertia
+
+Search results and analysis saved to search_results_20241030_050955.txt
+
+Extracting content from relevant URLs...
+Content from https://en.wikipedia.org/wiki/Moment_of_inertia saved to source_html\moment_of_inertia_overview.html
+Content from http://hyperphysics.phy-astr.gsu.edu/hbase/mi.html saved to source_html\hyperphysics_moment_of_inertia.html
+Content from https://www.britannica.com/science/moment-of-inertia saved to source_html\britannica_moment_of_inertia_definition.html
+Content from https://byjus.com/jee/moment-of-inertia/ saved to source_html\byjus_moment_of_inertia_formulas.html
+
+Summary of saved files:
+URL: https://en.wikipedia.org/wiki/Moment_of_inertia
+Saved as: source_html\moment_of_inertia_overview.html
+--------------------------------------------------
+URL: http://hyperphysics.phy-astr.gsu.edu/hbase/mi.html
+Saved as: source_html\hyperphysics_moment_of_inertia.html
+--------------------------------------------------
+URL: https://www.britannica.com/science/moment-of-inertia
+Saved as: source_html\britannica_moment_of_inertia_definition.html
+--------------------------------------------------
+URL: https://byjus.com/jee/moment-of-inertia/
+Saved as: source_html\byjus_moment_of_inertia_formulas.html
+--------------------------------------------------
+
+2024-10-30 05:09:59,007 - INFO - Starting outline generation...

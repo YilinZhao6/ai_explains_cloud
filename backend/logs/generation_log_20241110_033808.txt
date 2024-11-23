@@ -1,0 +1,53 @@
+2024-11-10 03:38:08,900 - INFO - Starting parallel search operations...
+2024-11-10 03:38:08,901 - INFO - Starting Google search and content collection...
+2024-11-10 03:38:08,901 - INFO - Starting Archive vector search...
+2024-11-10 03:38:08,902 - INFO - Waiting for both search operations to complete...
+2024-11-10 03:38:10,605 - INFO - Successfully completed Archive vector search
+2024-11-10 03:38:10,605 - INFO - Archive vector search output:
+Loading vectors and chunks from all books...
+Loaded 1974 chunks from Principles_of_Physics
+
+Searching for: quantum entanglement
+Results saved to F:\main\backend\source_html\topic_archive.html
+
+2024-11-10 03:38:13,975 - INFO - Successfully completed Google search and content collection
+2024-11-10 03:38:13,976 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: quantum entanglement
+
+Extracting content from relevant URLs...
+Content from https://en.wikipedia.org/wiki/Quantum_entanglement saved to source_html\quantum_entanglement_overview.html
+Content from https://www.space.com/31933-quantum-entanglement-action-at-a-distance.html saved to source_html\quantum_entanglement_space.html
+Content from https://scienceexchange.caltech.edu/topics/quantum-science-explained/entanglement saved to source_html\caltech_quantum_entanglement_explained.html
+
+Summary of saved files:
+URL: https://en.wikipedia.org/wiki/Quantum_entanglement
+Saved as: source_html\quantum_entanglement_overview.html
+--------------------------------------------------
+URL: https://www.space.com/31933-quantum-entanglement-action-at-a-distance.html
+Saved as: source_html\quantum_entanglement_space.html
+--------------------------------------------------
+URL: https://scienceexchange.caltech.edu/topics/quantum-science-explained/entanglement
+Saved as: source_html\caltech_quantum_entanglement_explained.html
+--------------------------------------------------
+
+2024-11-10 03:38:13,976 - INFO - Both search operations completed successfully!
+2024-11-10 03:38:13,976 - INFO - Starting outline generation...
+2024-11-10 03:38:37,442 - INFO - Successfully completed outline generation
+2024-11-10 03:38:37,442 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-10 03:38:37,442 - INFO - Starting article writing...
+2024-11-10 03:39:13,405 - INFO - Successfully completed article writing
+2024-11-10 03:39:13,405 - INFO - article writing output:
+Writing section: Understanding Quantum Entanglement
+Completed section: Understanding Quantum Entanglement
+Writing section: How Quantum Entanglement Works
+Completed section: How Quantum Entanglement Works
+Writing section: Applications and Future of Quantum Entanglement
+Completed section: Applications and Future of Quantum Entanglement
+Writing section: Related Topics
+Completed section: Related Topics
+Article successfully generated and saved to article.md
+
+2024-11-10 03:39:13,405 - INFO - Article generation completed successfully!
+2024-11-10 03:39:13,405 - INFO - Article successfully generated and saved to article.md

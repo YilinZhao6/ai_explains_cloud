@@ -1,0 +1,59 @@
+2024-11-03 15:25:31,762 - INFO - Created output directory: generation_output_20241103_152531
+2024-11-03 15:25:31,762 - INFO - Starting Google search and content collection...
+2024-11-03 15:25:37,080 - INFO - Successfully completed Google search and content collection
+2024-11-03 15:25:37,080 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: Toffoli Gates
+
+Search results and analysis saved to search_results_20241103_152533.txt
+
+Extracting content from relevant URLs...
+Content from https://en.wikipedia.org/wiki/Toffoli_gate saved to source_html\toffoli_gate_overview.html
+Content from https://pennylane.ai/qml/glossary/what-is-a-toffoli-gate/ saved to source_html\pennylane_toffoli_explained.html
+Content from https://arxiv.org/abs/0806.0654 saved to source_html\efficient_toffoli_gates_research.html
+Content from https://link.aps.org/doi/10.1103/PhysRevA.87.022328 saved to source_html\fault_tolerant_toffoli_designs.html
+Content from https://link.aps.org/doi/10.1103/PhysRevA.75.022313 saved to source_html\efficient_toffoli_gate_methods.html
+
+Summary of saved files:
+URL: https://en.wikipedia.org/wiki/Toffoli_gate
+Saved as: source_html\toffoli_gate_overview.html
+--------------------------------------------------
+URL: https://pennylane.ai/qml/glossary/what-is-a-toffoli-gate/
+Saved as: source_html\pennylane_toffoli_explained.html
+--------------------------------------------------
+URL: https://arxiv.org/abs/0806.0654
+Saved as: source_html\efficient_toffoli_gates_research.html
+--------------------------------------------------
+URL: https://link.aps.org/doi/10.1103/PhysRevA.87.022328
+Saved as: source_html\fault_tolerant_toffoli_designs.html
+--------------------------------------------------
+URL: https://link.aps.org/doi/10.1103/PhysRevA.75.022313
+Saved as: source_html\efficient_toffoli_gate_methods.html
+--------------------------------------------------
+
+2024-11-03 15:25:37,080 - INFO - Starting outline generation...
+2024-11-03 15:25:52,757 - INFO - Successfully completed outline generation
+2024-11-03 15:25:52,757 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-03 15:25:52,758 - INFO - Starting article writing...
+2024-11-03 15:26:17,358 - INFO - Successfully completed article writing
+2024-11-03 15:26:17,358 - INFO - article writing output:
+Writing section: Definition and Basic Concepts
+Completed section: Definition and Basic Concepts
+Writing section: Reversibility and Universal Properties
+Completed section: Reversibility and Universal Properties
+Writing section: Quantum Computing Applications
+Completed section: Quantum Computing Applications
+Article successfully generated and saved to article.md
+
+2024-11-03 15:26:17,375 - INFO - Copied article.md to output directory
+2024-11-03 15:26:17,378 - INFO - Copied article_outline.json to output directory
+2024-11-03 15:26:17,381 - INFO - Copied search_results_20241103_151432.txt to output directory
+2024-11-03 15:26:17,383 - INFO - Copied search_results_20241103_151709.txt to output directory
+2024-11-03 15:26:17,385 - INFO - Copied search_results_20241103_151738.txt to output directory
+2024-11-03 15:26:17,387 - INFO - Copied search_results_20241103_151829.txt to output directory
+2024-11-03 15:26:17,389 - INFO - Copied search_results_20241103_151909.txt to output directory
+2024-11-03 15:26:17,391 - INFO - Copied search_results_20241103_152533.txt to output directory
+2024-11-03 15:26:17,391 - INFO - Article generation completed successfully!
+2024-11-03 15:26:17,392 - INFO - All outputs have been saved to: generation_output_20241103_152531
+2024-11-03 15:26:17,392 - INFO - Article successfully generated and saved to article.md

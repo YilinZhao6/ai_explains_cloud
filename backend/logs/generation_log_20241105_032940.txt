@@ -1,0 +1,39 @@
+2024-11-05 03:29:40,874 - INFO - Starting Google search and content collection...
+2024-11-05 03:29:52,097 - INFO - Successfully completed Google search and content collection
+2024-11-05 03:29:52,097 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: 123
+
+Extracting content from relevant URLs...
+Content from https://link.aps.org/doi/10.1103/PhysRevLett.123.230501 saved to source_html\rydberg_entanglement_study_123.html
+Content from https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-123 saved to source_html\environmental_regulations_123.html
+Content from https://malegislature.gov/laws/generallaws/partiv/titlei/chapter266/section123 saved to source_html\massachusetts_land_law_section_123.html
+
+Summary of saved files:
+URL: https://link.aps.org/doi/10.1103/PhysRevLett.123.230501
+Saved as: source_html\rydberg_entanglement_study_123.html
+--------------------------------------------------
+URL: https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-123
+Saved as: source_html\environmental_regulations_123.html
+--------------------------------------------------
+URL: https://malegislature.gov/laws/generallaws/partiv/titlei/chapter266/section123
+Saved as: source_html\massachusetts_land_law_section_123.html
+--------------------------------------------------
+
+2024-11-05 03:29:52,098 - INFO - Starting outline generation...
+2024-11-05 03:30:24,798 - INFO - Successfully completed outline generation
+2024-11-05 03:30:24,798 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-05 03:30:24,799 - INFO - Starting article writing...
+2024-11-05 03:30:50,226 - INFO - Successfully completed article writing
+2024-11-05 03:30:50,226 - INFO - article writing output:
+Writing section: Introduction to CFR Part 123
+Completed section: Introduction to CFR Part 123
+Writing section: Key Provisions of State Program Requirements
+Completed section: Key Provisions of State Program Requirements
+Writing section: Compliance and Enforcement Provisions
+Completed section: Compliance and Enforcement Provisions
+Article successfully generated and saved to article.md
+
+2024-11-05 03:30:50,226 - INFO - Article generation completed successfully!
+2024-11-05 03:30:50,226 - INFO - Article successfully generated and saved to article.md

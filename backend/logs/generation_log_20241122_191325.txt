@@ -1,0 +1,6 @@
+2024-11-22 19:13:25,014 - ERROR - Article generation failed: Required file not found: Search_google-1.py
+2024-11-22 19:13:25,151 - ERROR - Article generation failed: Required file not found: Search_google-1.py
+2024-11-22 19:13:25,252 - ERROR - Article generation failed: Required file not found: Search_google-1.py
+2024-11-22 19:13:25,382 - ERROR - Article generation failed: Required file not found: Search_google-1.py
+2024-11-22 19:13:25,510 - ERROR - Article generation failed: Required file not found: Search_google-1.py
+2024-11-22 19:13:25,654 - ERROR - Article generation failed: Required file not found: Search_google-1.py

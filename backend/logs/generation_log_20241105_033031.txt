@@ -1,0 +1,37 @@
+2024-11-05 03:30:31,638 - INFO - Starting Google search and content collection...
+2024-11-05 03:30:36,248 - INFO - Successfully completed Google search and content collection
+2024-11-05 03:30:36,248 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: 123
+
+Extracting content from relevant URLs...
+Content from https://link.aps.org/doi/10.1103/PhysRevLett.123.230501 saved to source_html\rydberg_entanglement_123_study.html
+Content from https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-123 saved to source_html\40_cfr_part_123_environmental_rules.html
+Content from https://malegislature.gov/laws/generallaws/partiv/titlei/chapter266/section123 saved to source_html\massachusetts_general_law_sec_123.html
+
+Summary of saved files:
+URL: https://link.aps.org/doi/10.1103/PhysRevLett.123.230501
+Saved as: source_html\rydberg_entanglement_123_study.html
+--------------------------------------------------
+URL: https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-123
+Saved as: source_html\40_cfr_part_123_environmental_rules.html
+--------------------------------------------------
+URL: https://malegislature.gov/laws/generallaws/partiv/titlei/chapter266/section123
+Saved as: source_html\massachusetts_general_law_sec_123.html
+--------------------------------------------------
+
+2024-11-05 03:30:36,249 - INFO - Starting outline generation...
+2024-11-05 03:31:00,033 - INFO - Successfully completed outline generation
+2024-11-05 03:31:00,033 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-05 03:31:00,034 - INFO - Starting article writing...
+2024-11-05 03:31:31,114 - INFO - Successfully completed article writing
+2024-11-05 03:31:31,114 - INFO - article writing output:
+Writing section: Understanding NPDES Permitting System
+Completed section: Understanding NPDES Permitting System
+Writing section: The Role of States in the NPDES Program
+Completed section: The Role of States in the NPDES Program
+Article successfully generated and saved to article.md
+
+2024-11-05 03:31:31,114 - INFO - Article generation completed successfully!
+2024-11-05 03:31:31,114 - INFO - Article successfully generated and saved to article.md

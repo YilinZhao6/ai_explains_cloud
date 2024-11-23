@@ -1,0 +1,59 @@
+2024-11-08 05:53:02,011 - INFO - Starting parallel search operations...
+2024-11-08 05:53:02,011 - INFO - Starting Google search and content collection...
+2024-11-08 05:53:02,012 - INFO - Starting Archive vector search...
+2024-11-08 05:53:02,012 - INFO - Waiting for both search operations to complete...
+2024-11-08 05:53:03,984 - INFO - Successfully completed Archive vector search
+2024-11-08 05:53:03,984 - INFO - Archive vector search output:
+Loading vectors and chunks from all books...
+Loaded 1974 chunks from Principles_of_Physics
+
+Searching for: parallax
+Results saved to F:\main\backend\source_html\topic_archive.html
+
+2024-11-08 05:53:05,766 - INFO - Successfully completed Google search and content collection
+2024-11-08 05:53:05,766 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: parallax
+
+Extracting content from relevant URLs...
+Content from https://en.wikipedia.org/wiki/Parallax saved to source_html\wikipedia_parallax_overview.html
+Content from https://parallaxresearch.org/ saved to source_html\parallax_research_institute.html
+Content from https://www.merriam-webster.com/dictionary/parallax saved to source_html\merriam_webster_parallax_definition.html
+
+Summary of saved files:
+URL: https://en.wikipedia.org/wiki/Parallax
+Saved as: source_html\wikipedia_parallax_overview.html
+--------------------------------------------------
+URL: https://parallaxresearch.org/
+Saved as: source_html\parallax_research_institute.html
+--------------------------------------------------
+URL: https://www.merriam-webster.com/dictionary/parallax
+Saved as: source_html\merriam_webster_parallax_definition.html
+--------------------------------------------------
+
+2024-11-08 05:53:05,766 - INFO - Both search operations completed successfully!
+2024-11-08 05:53:05,767 - INFO - Starting outline generation...
+2024-11-08 05:53:25,163 - INFO - Successfully completed outline generation
+2024-11-08 05:53:25,163 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-08 05:53:25,163 - INFO - Starting article writing...
+2024-11-08 05:54:43,346 - INFO - Successfully completed article writing
+2024-11-08 05:54:43,346 - INFO - article writing output:
+Writing section: Introduction to Parallax
+Completed section: Introduction to Parallax
+Writing section: Applications of Parallax in Astronomy
+Completed section: Applications of Parallax in Astronomy
+Writing section: Parallax in Optical Instruments
+Completed section: Parallax in Optical Instruments
+Writing section: Parallax in Visual Perception
+Completed section: Parallax in Visual Perception
+Writing section: Mathematical Basis of Parallax
+Completed section: Mathematical Basis of Parallax
+Writing section: Historical Significance and Technological Evolution
+Completed section: Historical Significance and Technological Evolution
+Writing section: Related Topics
+Completed section: Related Topics
+Article successfully generated and saved to article.md
+
+2024-11-08 05:54:43,346 - INFO - Article generation completed successfully!
+2024-11-08 05:54:43,346 - INFO - Article successfully generated and saved to article.md

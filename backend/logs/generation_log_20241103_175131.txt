@@ -1,0 +1,43 @@
+2024-11-03 17:51:31,949 - INFO - Starting Google search and content collection...
+2024-11-03 17:51:37,454 - INFO - Successfully completed Google search and content collection
+2024-11-03 17:51:37,455 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: Quantum Mechanics
+
+Extracting content from relevant URLs...
+Content from https://en.wikipedia.org/wiki/Quantum_mechanics saved to source_html\quantum_mechanics_overview.html
+Content from https://www.energy.gov/science/doe-explainsquantum-mechanics saved to source_html\doe_explains_quantum_mechanics.html
+Content from https://www.britannica.com/science/quantum-mechanics-physics saved to source_html\britannica_quantum_mechanics.html
+Content from https://plato.stanford.edu/entries/qm/ saved to source_html\stanford_philosophy_quantum_mechanics.html
+
+Summary of saved files:
+URL: https://en.wikipedia.org/wiki/Quantum_mechanics
+Saved as: source_html\quantum_mechanics_overview.html
+--------------------------------------------------
+URL: https://www.energy.gov/science/doe-explainsquantum-mechanics
+Saved as: source_html\doe_explains_quantum_mechanics.html
+--------------------------------------------------
+URL: https://www.britannica.com/science/quantum-mechanics-physics
+Saved as: source_html\britannica_quantum_mechanics.html
+--------------------------------------------------
+URL: https://plato.stanford.edu/entries/qm/
+Saved as: source_html\stanford_philosophy_quantum_mechanics.html
+--------------------------------------------------
+
+2024-11-03 17:51:37,455 - INFO - Starting outline generation...
+2024-11-03 17:51:58,845 - INFO - Successfully completed outline generation
+2024-11-03 17:51:58,845 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-03 17:51:58,845 - INFO - Starting article writing...
+2024-11-03 17:52:39,683 - INFO - Successfully completed article writing
+2024-11-03 17:52:39,683 - INFO - article writing output:
+Writing section: Fundamental Concepts of Quantum Mechanics
+Completed section: Fundamental Concepts of Quantum Mechanics
+Writing section: Wave-Particle Duality
+Completed section: Wave-Particle Duality
+Writing section: Quantum Measurement and Uncertainty
+Completed section: Quantum Measurement and Uncertainty
+Article successfully generated and saved to article.md
+
+2024-11-03 17:52:39,683 - INFO - Article generation completed successfully!
+2024-11-03 17:52:39,683 - INFO - Article successfully generated and saved to article.md

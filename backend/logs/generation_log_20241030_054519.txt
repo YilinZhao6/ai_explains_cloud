@@ -1,0 +1,43 @@
+2024-10-30 05:45:19,976 - INFO - Created output directory: generation_output_20241030_054519
+2024-10-30 05:45:19,976 - INFO - Starting Google search and content collection...
+2024-10-30 05:45:23,315 - INFO - Successfully completed Google search and content collection
+2024-10-30 05:45:23,315 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: Toffoli Gates
+
+Search results and analysis saved to search_results_20241030_054521.txt
+
+Extracting content from relevant URLs...
+Content from https://en.wikipedia.org/wiki/Toffoli_gate saved to source_html\toffoli_gate_overview.html
+Content from https://pennylane.ai/qml/glossary/what-is-a-toffoli-gate saved to source_html\understanding_toffoli_gate.html
+Content from https://arxiv.org/abs/0806.0654 saved to source_html\efficient_toffoli_gates_paper.html
+
+Summary of saved files:
+URL: https://en.wikipedia.org/wiki/Toffoli_gate
+Saved as: source_html\toffoli_gate_overview.html
+--------------------------------------------------
+URL: https://pennylane.ai/qml/glossary/what-is-a-toffoli-gate
+Saved as: source_html\understanding_toffoli_gate.html
+--------------------------------------------------
+URL: https://arxiv.org/abs/0806.0654
+Saved as: source_html\efficient_toffoli_gates_paper.html
+--------------------------------------------------
+
+2024-10-30 05:45:23,333 - INFO - Copied article.md to output directory
+2024-10-30 05:45:23,335 - INFO - Copied article_outline.json to output directory
+2024-10-30 05:45:23,337 - INFO - Copied search_results_20241030_050556.txt to output directory
+2024-10-30 05:45:23,340 - INFO - Copied search_results_20241030_050610.txt to output directory
+2024-10-30 05:45:23,342 - INFO - Copied search_results_20241030_050844.txt to output directory
+2024-10-30 05:45:23,344 - INFO - Copied search_results_20241030_050955.txt to output directory
+2024-10-30 05:45:23,345 - INFO - Copied search_results_20241030_051331.txt to output directory
+2024-10-30 05:45:23,348 - INFO - Copied search_results_20241030_051852.txt to output directory
+2024-10-30 05:45:23,351 - INFO - Copied search_results_20241030_052300.txt to output directory
+2024-10-30 05:45:23,352 - INFO - Copied search_results_20241030_052922.txt to output directory
+2024-10-30 05:45:23,354 - INFO - Copied search_results_20241030_053217.txt to output directory
+2024-10-30 05:45:23,356 - INFO - Copied search_results_20241030_053815.txt to output directory
+2024-10-30 05:45:23,358 - INFO - Copied search_results_20241030_053954.txt to output directory
+2024-10-30 05:45:23,359 - INFO - Copied search_results_20241030_054007.txt to output directory
+2024-10-30 05:45:23,361 - INFO - Copied search_results_20241030_054331.txt to output directory
+2024-10-30 05:45:23,362 - INFO - Copied search_results_20241030_054521.txt to output directory
+2024-10-30 05:45:23,363 - INFO - Article generation completed successfully!
+2024-10-30 05:45:23,363 - INFO - All outputs have been saved to: generation_output_20241030_054519
+2024-10-30 05:45:23,363 - INFO - Article successfully generated and saved to article.md

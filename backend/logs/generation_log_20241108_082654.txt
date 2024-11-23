@@ -1,0 +1,53 @@
+2024-11-08 08:26:54,359 - INFO - Starting parallel search operations...
+2024-11-08 08:26:54,359 - INFO - Starting Google search and content collection...
+2024-11-08 08:26:54,360 - INFO - Starting Archive vector search...
+2024-11-08 08:26:54,360 - INFO - Waiting for both search operations to complete...
+2024-11-08 08:26:56,096 - INFO - Successfully completed Archive vector search
+2024-11-08 08:26:56,096 - INFO - Archive vector search output:
+Loading vectors and chunks from all books...
+Loaded 1974 chunks from Principles_of_Physics
+
+Searching for: Schrodinger Equation
+Results saved to F:\main\backend\source_html\topic_archive.html
+
+2024-11-08 08:27:03,459 - INFO - Successfully completed Google search and content collection
+2024-11-08 08:27:03,459 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: Schrodinger Equation
+
+Extracting content from relevant URLs...
+Content from https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation saved to source_html\schrodinger_equation_wikipedia.html
+Content from https://www.britannica.com/science/Schrodinger-equation saved to source_html\schrodinger_equation_britannica.html
+Content from http://hyperphysics.phy-astr.gsu.edu/hbase/quantum/schr.html saved to source_html\schrodinger_equation_hyperphysics.html
+
+Summary of saved files:
+URL: https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation
+Saved as: source_html\schrodinger_equation_wikipedia.html
+--------------------------------------------------
+URL: https://www.britannica.com/science/Schrodinger-equation
+Saved as: source_html\schrodinger_equation_britannica.html
+--------------------------------------------------
+URL: http://hyperphysics.phy-astr.gsu.edu/hbase/quantum/schr.html
+Saved as: source_html\schrodinger_equation_hyperphysics.html
+--------------------------------------------------
+
+2024-11-08 08:27:03,459 - INFO - Both search operations completed successfully!
+2024-11-08 08:27:03,459 - INFO - Starting outline generation...
+2024-11-08 08:27:28,550 - INFO - Successfully completed outline generation
+2024-11-08 08:27:28,550 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-08 08:27:28,550 - INFO - Starting article writing...
+2024-11-08 08:28:28,164 - INFO - Successfully completed article writing
+2024-11-08 08:28:28,165 - INFO - article writing output:
+Writing section: Introduction to Schrödinger Equation
+Completed section: Introduction to Schrödinger Equation
+Writing section: Mathematical Formulation of Schrödinger Equation
+Completed section: Mathematical Formulation of Schrödinger Equation
+Writing section: Applications of Schrödinger Equation in Quantum Mechanics
+Completed section: Applications of Schrödinger Equation in Quantum Mechanics
+Writing section: Related Topics
+Completed section: Related Topics
+Article successfully generated and saved to article.md
+
+2024-11-08 08:28:28,166 - INFO - Article generation completed successfully!
+2024-11-08 08:28:28,166 - INFO - Article successfully generated and saved to article.md

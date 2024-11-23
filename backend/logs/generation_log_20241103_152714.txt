@@ -1,0 +1,51 @@
+2024-11-03 15:27:14,482 - INFO - Created output directory: generation_output_20241103_152714
+2024-11-03 15:27:14,482 - INFO - Starting Google search and content collection...
+2024-11-03 15:27:19,295 - INFO - Successfully completed Google search and content collection
+2024-11-03 15:27:19,296 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: Schorodinger Equation
+
+Search results and analysis saved to search_results_20241103_152716.txt
+
+Extracting content from relevant URLs...
+Content from https://physics.stackexchange.com/questions/135872/what-does-the-schrodinger-equation-really-mean saved to source_html\what_schrodinger_equation_means.html
+Content from https://physics.stackexchange.com/questions/46929/schrodingers-equation-explanation-to-non-physicist saved to source_html\schrodinger_equation_non_physicist.html
+Content from https://arxiv.org/abs/0904.0939 saved to source_html\parallel_algorithm_3d_schrodinger.html
+Content from https://pubs.rsc.org/en/content/articlelanding/2023/sc/d3sc01202f saved to source_html\reaction_discovery_schrodinger_equation.html
+
+Summary of saved files:
+URL: https://physics.stackexchange.com/questions/135872/what-does-the-schrodinger-equation-really-mean
+Saved as: source_html\what_schrodinger_equation_means.html
+--------------------------------------------------
+URL: https://physics.stackexchange.com/questions/46929/schrodingers-equation-explanation-to-non-physicist
+Saved as: source_html\schrodinger_equation_non_physicist.html
+--------------------------------------------------
+URL: https://arxiv.org/abs/0904.0939
+Saved as: source_html\parallel_algorithm_3d_schrodinger.html
+--------------------------------------------------
+URL: https://pubs.rsc.org/en/content/articlelanding/2023/sc/d3sc01202f
+Saved as: source_html\reaction_discovery_schrodinger_equation.html
+--------------------------------------------------
+
+2024-11-03 15:27:19,296 - INFO - Starting outline generation...
+2024-11-03 15:27:36,304 - INFO - Successfully completed outline generation
+2024-11-03 15:27:36,305 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-03 15:27:36,305 - INFO - Starting article writing...
+2024-11-03 15:27:37,139 - INFO - Successfully completed article writing
+2024-11-03 15:27:37,139 - INFO - article writing output:
+Error generating article: 'gbk' codec can't encode character '\xf6' in position 41: illegal multibyte sequence
+Failed to generate article: 'gbk' codec can't encode character '\xf6' in position 41: illegal multibyte sequence
+
+2024-11-03 15:27:37,154 - INFO - Copied article.md to output directory
+2024-11-03 15:27:37,157 - INFO - Copied article_outline.json to output directory
+2024-11-03 15:27:37,160 - INFO - Copied search_results_20241103_151432.txt to output directory
+2024-11-03 15:27:37,162 - INFO - Copied search_results_20241103_151709.txt to output directory
+2024-11-03 15:27:37,164 - INFO - Copied search_results_20241103_151738.txt to output directory
+2024-11-03 15:27:37,166 - INFO - Copied search_results_20241103_151829.txt to output directory
+2024-11-03 15:27:37,168 - INFO - Copied search_results_20241103_151909.txt to output directory
+2024-11-03 15:27:37,170 - INFO - Copied search_results_20241103_152533.txt to output directory
+2024-11-03 15:27:37,172 - INFO - Copied search_results_20241103_152716.txt to output directory
+2024-11-03 15:27:37,172 - INFO - Article generation completed successfully!
+2024-11-03 15:27:37,172 - INFO - All outputs have been saved to: generation_output_20241103_152714
+2024-11-03 15:27:37,172 - INFO - Article successfully generated and saved to article.md

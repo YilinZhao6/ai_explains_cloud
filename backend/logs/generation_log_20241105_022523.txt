@@ -1,0 +1,39 @@
+2024-11-05 02:25:23,820 - INFO - Starting Google search and content collection...
+2024-11-05 02:25:28,356 - INFO - Successfully completed Google search and content collection
+2024-11-05 02:25:28,357 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: Parallax
+
+Extracting content from relevant URLs...
+Content from https://en.wikipedia.org/wiki/Parallax saved to source_html\wikipedia_parallax_definition.html
+Content from https://parallaxresearch.org/ saved to source_html\parallax_research_institute.html
+Content from https://www.merriam-webster.com/dictionary/parallax saved to source_html\merriam_webster_parallax.html
+
+Summary of saved files:
+URL: https://en.wikipedia.org/wiki/Parallax
+Saved as: source_html\wikipedia_parallax_definition.html
+--------------------------------------------------
+URL: https://parallaxresearch.org/
+Saved as: source_html\parallax_research_institute.html
+--------------------------------------------------
+URL: https://www.merriam-webster.com/dictionary/parallax
+Saved as: source_html\merriam_webster_parallax.html
+--------------------------------------------------
+
+2024-11-05 02:25:28,357 - INFO - Starting outline generation...
+2024-11-05 02:26:03,632 - INFO - Successfully completed outline generation
+2024-11-05 02:26:03,632 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-05 02:26:03,633 - INFO - Starting article writing...
+2024-11-05 02:27:30,624 - INFO - Successfully completed article writing
+2024-11-05 02:27:30,624 - INFO - article writing output:
+Writing section: Introduction to Parallax
+Completed section: Introduction to Parallax
+Writing section: Mathematical Principles of Parallax
+Completed section: Mathematical Principles of Parallax
+Writing section: Parallax in Astronomy
+Completed section: Parallax in Astronomy
+Article successfully generated and saved to article.md
+
+2024-11-05 02:27:30,624 - INFO - Article generation completed successfully!
+2024-11-05 02:27:30,624 - INFO - Article successfully generated and saved to article.md

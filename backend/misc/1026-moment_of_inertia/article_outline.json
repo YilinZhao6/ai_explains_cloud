@@ -1,0 +1,72 @@
+{
+  "topic": "Moment of Inertia",
+  "style_guide": "Clear structure with step-by-step explanations, conversational tone, minimal technical jargon with clear explanations when used, and highlighted key points",
+  "sections": [
+    {
+      "section_title": "Basic Understanding of Moment of Inertia",
+      "learning_goals": [
+        "Understand what moment of inertia is",
+        "Learn why it's important in rotational motion"
+      ],
+      "content_points": [
+        {
+          "objective": "Define moment of inertia",
+          "content_summary": "Explain moment of inertia as a measure of rotational inertia that determines how difficult it is to change an object's rotation",
+          "sources": [
+            {
+              "file_name": "moment-of-inertia-byju.html",
+              "key_quote": "The moment of inertia is defined as the quantity expressed by the body resisting angular acceleration, which is the sum of the product of the mass of every particle with its square of the distance from the axis of rotation."
+            }
+          ]
+        },
+        {
+          "objective": "Explain the basic formula",
+          "content_summary": "Present the general formula I = mr² and explain its components",
+          "sources": [
+            {
+              "file_name": "moment-of-inertia-byju.html",
+              "key_quote": "In general form, moment of inertia is expressed as I = m × r²"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Factors Affecting Moment of Inertia",
+      "learning_goals": [
+        "Understand what affects an object's moment of inertia",
+        "Learn how mass distribution impacts rotational motion"
+      ],
+      "content_points": [
+        {
+          "objective": "List key factors",
+          "content_summary": "Explain how density, shape, size, and axis of rotation affect moment of inertia",
+          "sources": [
+            {
+              "file_name": "moment-of-inertia-byju.html",
+              "key_quote": "The moment of inertia depends on the following factors: The density of the material, Shape and size of the body, Axis of rotation (distribution of mass relative to the axis)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "Practical Applications",
+      "learning_goals": [
+        "Understand real-world applications of moment of inertia"
+      ],
+      "content_points": [
+        {
+          "objective": "Demonstrate practical uses",
+          "content_summary": "Explain applications in machinery and everyday life",
+          "sources": [
+            {
+              "file_name": "moment-of-inertia-wikipedia.html",
+              "key_quote": "The moment of inertia of a rotating flywheel is used in a machine to resist variations in applied torque to smooth its rotational output."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

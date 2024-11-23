@@ -1,0 +1,46 @@
+2024-10-30 03:39:35,799 - INFO - Created output directory: generation_output_20241030_033935
+2024-10-30 03:39:35,800 - INFO - Starting Google search and content collection...
+2024-10-30 03:39:40,884 - INFO - Successfully completed Google search and content collection
+2024-10-30 03:39:40,884 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: Moment of Inertia
+
+Search results and analysis saved to search_results_20241030_033937.txt
+
+Extracting content from relevant URLs...
+Content from https://en.wikipedia.org/wiki/Moment_of_inertia saved to source_html\moment_of_inertia_wikipedia.html
+Content from http://hyperphysics.phy-astr.gsu.edu/hbase/mi.html saved to source_html\hyperphysics_moment_of_inertia.html
+Content from https://www.britannica.com/science/moment-of-inertia saved to source_html\britannica_definition_moi.html
+Content from https://byjus.com/jee/moment-of-inertia/ saved to source_html\byjus_moment_of_inertia_examples.html
+
+Summary of saved files:
+URL: https://en.wikipedia.org/wiki/Moment_of_inertia
+Saved as: source_html\moment_of_inertia_wikipedia.html
+--------------------------------------------------
+URL: http://hyperphysics.phy-astr.gsu.edu/hbase/mi.html
+Saved as: source_html\hyperphysics_moment_of_inertia.html
+--------------------------------------------------
+URL: https://www.britannica.com/science/moment-of-inertia
+Saved as: source_html\britannica_definition_moi.html
+--------------------------------------------------
+URL: https://byjus.com/jee/moment-of-inertia/
+Saved as: source_html\byjus_moment_of_inertia_examples.html
+--------------------------------------------------
+
+2024-10-30 03:39:40,887 - INFO - Starting outline generation...
+2024-10-30 03:40:13,510 - INFO - Successfully completed outline generation
+2024-10-30 03:40:13,510 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-10-30 03:40:13,511 - INFO - Starting article writing...
+2024-10-30 03:40:17,092 - INFO - Successfully completed article writing
+2024-10-30 03:40:17,093 - INFO - article writing output:
+Error generating article: Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'Number of request tokens has exceeded your per-minute rate limit (https://docs.anthropic.com/en/api/rate-limits); see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Failed to generate article: Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'Number of request tokens has exceeded your per-minute rate limit (https://docs.anthropic.com/en/api/rate-limits); see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+
+2024-10-30 03:40:17,112 - INFO - Copied article.md to output directory
+2024-10-30 03:40:17,114 - INFO - Copied article_outline.json to output directory
+2024-10-30 03:40:17,116 - INFO - Copied search_results_20241030_033656.txt to output directory
+2024-10-30 03:40:17,118 - INFO - Copied search_results_20241030_033741.txt to output directory
+2024-10-30 03:40:17,120 - INFO - Copied search_results_20241030_033937.txt to output directory
+2024-10-30 03:40:17,121 - INFO - Article generation completed successfully!
+2024-10-30 03:40:17,121 - INFO - All outputs have been saved to: generation_output_20241030_033935

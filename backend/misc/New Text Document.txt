@@ -1,0 +1,45 @@
+import pypandoc
+import os
+
+def convert_md_to_mediawiki(input_file: str, output_file: str = None) -> str:
+    """
+    Convert Markdown file to MediaWiki markup using pandoc.
+    
+    Args:
+        input_file: Path to input Markdown file
+        output_file: Optional path to output file. If not provided, returns the converted text
+        
+    Returns:
+        Converted MediaWiki text if output_file is None
+    """
+    try:
+        # Convert the file
+        output = pypandoc.convert_file(
+            input_file,
+            'mediawiki',
+            format='markdown',
+            extra_args=['--wrap=none']  # Prevents line wrapping
+        )
+        
+        # If output file is specified, write to it
+        if output_file:
+            with open(output_file, 'w', encoding='utf-8') as f:
+                f.write(output)
+            return f"Conversion complete. Output written to {output_file}"
+            
+        return output
+        
+    except OSError as e:
+        if 'pandoc' in str(e):
+            return "Error: Pandoc is not installed. Please install pandoc first:\n" \
+                   "- Linux: sudo apt-get install pandoc\n" \
+                   "- Mac: brew install pandoc\n" \
+                   "- Windows: download installer from https://pandoc.org/installing.html"
+        raise
+    except Exception as e:
+        return f"Error during conversion: {str(e)}"
+
+if __name__ == '__main__':
+    # Example usage
+    result = convert_md_to_mediawiki('article.md', 'output.wiki')
+    print(result)

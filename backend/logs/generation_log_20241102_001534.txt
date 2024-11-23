@@ -1,0 +1,51 @@
+2024-11-02 00:15:34,142 - INFO - Created output directory: generation_output_20241102_001534
+2024-11-02 00:15:34,142 - INFO - Starting Google search and content collection...
+2024-11-02 00:15:39,587 - INFO - Successfully completed Google search and content collection
+2024-11-02 00:15:39,587 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: Photodisintegration
+
+Search results and analysis saved to search_results_20241102_001535.txt
+
+Extracting content from relevant URLs...
+Content from https://en.wikipedia.org/wiki/Photodisintegration saved to source_html\photodisintegration_overview.html
+Content from https://www.britannica.com/science/photodisintegration saved to source_html\photodisintegration_in_physics.html
+Content from https://astronomy.swin.edu.au/cosmos/P/Photodisintegration saved to source_html\photodisintegration_supernova_role.html
+
+Summary of saved files:
+URL: https://en.wikipedia.org/wiki/Photodisintegration
+Saved as: source_html\photodisintegration_overview.html
+--------------------------------------------------
+URL: https://www.britannica.com/science/photodisintegration
+Saved as: source_html\photodisintegration_in_physics.html
+--------------------------------------------------
+URL: https://astronomy.swin.edu.au/cosmos/P/Photodisintegration
+Saved as: source_html\photodisintegration_supernova_role.html
+--------------------------------------------------
+
+2024-11-02 00:15:39,588 - INFO - Starting outline generation...
+2024-11-02 00:15:57,687 - INFO - Successfully completed outline generation
+2024-11-02 00:15:57,687 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-02 00:15:57,687 - INFO - Starting article writing...
+2024-11-02 00:16:29,290 - INFO - Successfully completed article writing
+2024-11-02 00:16:29,291 - INFO - article writing output:
+Writing section: Definition and Basic Concept
+Completed section: Definition and Basic Concept
+Writing section: Types of Photodisintegration Reactions
+Completed section: Types of Photodisintegration Reactions
+Writing section: Role in Stellar Evolution
+Completed section: Role in Stellar Evolution
+Writing section: Natural Occurrences
+Completed section: Natural Occurrences
+Article successfully generated and saved to article.md
+
+2024-11-02 00:16:29,306 - INFO - Copied article.md to output directory
+2024-11-02 00:16:29,308 - INFO - Copied article_outline.json to output directory
+2024-11-02 00:16:29,311 - INFO - Copied search_results_20241101_234935.txt to output directory
+2024-11-02 00:16:29,312 - INFO - Copied search_results_20241101_235138.txt to output directory
+2024-11-02 00:16:29,313 - INFO - Copied search_results_20241102_000344.txt to output directory
+2024-11-02 00:16:29,315 - INFO - Copied search_results_20241102_001535.txt to output directory
+2024-11-02 00:16:29,315 - INFO - Article generation completed successfully!
+2024-11-02 00:16:29,315 - INFO - All outputs have been saved to: generation_output_20241102_001534
+2024-11-02 00:16:29,315 - INFO - Article successfully generated and saved to article.md

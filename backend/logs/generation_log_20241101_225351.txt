@@ -1,0 +1,34 @@
+2024-11-01 22:53:51,979 - INFO - Created output directory: generation_output_20241101_225351
+2024-11-01 22:53:51,980 - INFO - Starting Google search and content collection...
+2024-11-01 22:53:56,827 - INFO - Successfully completed Google search and content collection
+2024-11-01 22:53:56,828 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: Photodisintegration
+
+Search results and analysis saved to search_results_20241101_225353.txt
+
+Extracting content from relevant URLs...
+Content from https://en.wikipedia.org/wiki/Photodisintegration saved to source_html\photodisintegration_wikipedia_overview.html
+Content from https://www.britannica.com/science/photodisintegration saved to source_html\photodisintegration_britannica_entry.html
+Content from https://astronomy.swin.edu.au/cosmos/P/Photodisintegration saved to source_html\photodisintegration_cosmos_astronomy.html
+
+Summary of saved files:
+URL: https://en.wikipedia.org/wiki/Photodisintegration
+Saved as: source_html\photodisintegration_wikipedia_overview.html
+--------------------------------------------------
+URL: https://www.britannica.com/science/photodisintegration
+Saved as: source_html\photodisintegration_britannica_entry.html
+--------------------------------------------------
+URL: https://astronomy.swin.edu.au/cosmos/P/Photodisintegration
+Saved as: source_html\photodisintegration_cosmos_astronomy.html
+--------------------------------------------------
+
+2024-11-01 22:53:56,851 - INFO - Copied article.md to output directory
+2024-11-01 22:53:56,854 - INFO - Copied article_outline.json to output directory
+2024-11-01 22:53:56,857 - INFO - Copied search_results_20241101_224418.txt to output directory
+2024-11-01 22:53:56,860 - INFO - Copied search_results_20241101_224523.txt to output directory
+2024-11-01 22:53:56,863 - INFO - Copied search_results_20241101_225125.txt to output directory
+2024-11-01 22:53:56,865 - INFO - Copied search_results_20241101_225336.txt to output directory
+2024-11-01 22:53:56,868 - INFO - Copied search_results_20241101_225353.txt to output directory
+2024-11-01 22:53:56,869 - INFO - Article generation completed successfully!
+2024-11-01 22:53:56,869 - INFO - All outputs have been saved to: generation_output_20241101_225351
+2024-11-01 22:53:56,870 - INFO - Article successfully generated and saved to article.md

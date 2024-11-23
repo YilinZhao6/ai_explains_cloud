@@ -1,0 +1,30 @@
+2024-10-30 05:06:09,236 - INFO - Created output directory: generation_output_20241030_050609
+2024-10-30 05:06:09,236 - INFO - Starting Google search and content collection...
+2024-10-30 05:06:13,707 - INFO - Successfully completed Google search and content collection
+2024-10-30 05:06:13,707 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: Moment of Inertia
+
+Search results and analysis saved to search_results_20241030_050610.txt
+
+Extracting content from relevant URLs...
+Content from https://en.wikipedia.org/wiki/Moment_of_inertia saved to source_html\moment_of_inertia_wikipedia.html
+Content from http://hyperphysics.phy-astr.gsu.edu/hbase/mi.html saved to source_html\moment_of_inertia_hyperphysics.html
+Content from https://www.britannica.com/science/moment-of-inertia saved to source_html\moment_of_inertia_britannica.html
+
+Summary of saved files:
+URL: https://en.wikipedia.org/wiki/Moment_of_inertia
+Saved as: source_html\moment_of_inertia_wikipedia.html
+--------------------------------------------------
+URL: http://hyperphysics.phy-astr.gsu.edu/hbase/mi.html
+Saved as: source_html\moment_of_inertia_hyperphysics.html
+--------------------------------------------------
+URL: https://www.britannica.com/science/moment-of-inertia
+Saved as: source_html\moment_of_inertia_britannica.html
+--------------------------------------------------
+
+2024-10-30 05:06:13,731 - INFO - Copied article.md to output directory
+2024-10-30 05:06:13,733 - INFO - Copied article_outline.json to output directory
+2024-10-30 05:06:13,737 - INFO - Copied search_results_20241030_050556.txt to output directory
+2024-10-30 05:06:13,739 - INFO - Copied search_results_20241030_050610.txt to output directory
+2024-10-30 05:06:13,739 - INFO - Article generation completed successfully!
+2024-10-30 05:06:13,740 - INFO - All outputs have been saved to: generation_output_20241030_050609

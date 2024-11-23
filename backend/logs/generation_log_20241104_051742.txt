@@ -1,0 +1,39 @@
+2024-11-04 05:17:42,770 - INFO - Starting Google search and content collection...
+2024-11-04 05:17:48,647 - INFO - Successfully completed Google search and content collection
+2024-11-04 05:17:48,648 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: Parallax
+
+Extracting content from relevant URLs...
+Content from https://en.wikipedia.org/wiki/Parallax saved to source_html\wikipedia_parallax_overview.html
+Content from https://parallaxresearch.org/ saved to source_html\parallax_research_innovation.html
+Content from https://www.merriam-webster.com/dictionary/parallax saved to source_html\merriam_webster_parallax_definition.html
+
+Summary of saved files:
+URL: https://en.wikipedia.org/wiki/Parallax
+Saved as: source_html\wikipedia_parallax_overview.html
+--------------------------------------------------
+URL: https://parallaxresearch.org/
+Saved as: source_html\parallax_research_innovation.html
+--------------------------------------------------
+URL: https://www.merriam-webster.com/dictionary/parallax
+Saved as: source_html\merriam_webster_parallax_definition.html
+--------------------------------------------------
+
+2024-11-04 05:17:48,649 - INFO - Starting outline generation...
+2024-11-04 05:18:05,581 - INFO - Successfully completed outline generation
+2024-11-04 05:18:05,581 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-04 05:18:05,581 - INFO - Starting article writing...
+2024-11-04 05:18:33,683 - INFO - Successfully completed article writing
+2024-11-04 05:18:33,683 - INFO - article writing output:
+Writing section: Definition of Parallax
+Completed section: Definition of Parallax
+Writing section: The Science Behind Parallax
+Completed section: The Science Behind Parallax
+Writing section: Applications and Implications of Parallax
+Completed section: Applications and Implications of Parallax
+Article successfully generated and saved to article.md
+
+2024-11-04 05:18:33,683 - INFO - Article generation completed successfully!
+2024-11-04 05:18:33,683 - INFO - Article successfully generated and saved to article.md

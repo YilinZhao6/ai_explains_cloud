@@ -1,0 +1,20 @@
+{
+  "original_quote": "The moment of inertia is a pivotal concept in celestial mechanics, influencing the rotational dynamics of astronomical bodies such as planets, stars, and galaxies.",
+  "section_title": "Applications in Astrophysics",
+  "reason": "This passage connects moment of inertia to celestial mechanics. An image depicting celestial bodies with annotations showing how their moment of inertia affects their rotation would be useful.",
+  "description": "A diagram of celestial bodies (like a planet and a star) with their axes of rotation and moments of inertia indicated, showcasing their influences on stability and rotation.",
+  "selected_image": {
+    "title": "Mechanics - Rigid Bodies, Forces, Motion | Britannica",
+    "link": "https://cdn.britannica.com/66/2466-050-CD55FC51/Moments-of-Inertia-for-Uniform-Bodies.jpg",
+    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkGTQB4nc7vFQDauL2zjD1MkAQHb2dOicOiB61zcdgY3wPf2bfGm6PVA&s",
+    "context_link": "https://www.britannica.com/science/mechanics/Rigid-bodies",
+    "width": 1600,
+    "height": 1140,
+    "size": 147435,
+    "format": "image/jpeg",
+    "snippet": "Mechanics - Rigid Bodies, Forces, Motion | Britannica",
+    "saved_filename": "image_01.jpg",
+    "explanation": "The image titled 'image_01.jpg' from Britannica provides a clear and simple diagram of moments of inertia for uniform bodies. It is relevant to the context as it visually represents how different shapes and masses influence rotational dynamics, which is a key aspect of celestial mechanics. The image is devoid of excessive text and focuses on the concept of moment of inertia, making it an ideal match for the context provided.",
+    "caption": "Diagram illustrating moments of inertia for various celestial bodies."
+  }
+}

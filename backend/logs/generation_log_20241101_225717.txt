@@ -1,0 +1,53 @@
+2024-11-01 22:57:17,222 - INFO - Created output directory: generation_output_20241101_225717
+2024-11-01 22:57:17,222 - INFO - Starting Google search and content collection...
+2024-11-01 22:57:22,083 - INFO - Successfully completed Google search and content collection
+2024-11-01 22:57:22,083 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: Photodisintegration
+
+Search results and analysis saved to search_results_20241101_225718.txt
+
+Extracting content from relevant URLs...
+Content from https://en.wikipedia.org/wiki/Photodisintegration saved to source_html\photodisintegration_overview.html
+Content from https://www.britannica.com/science/photodisintegration saved to source_html\photodisintegration_britannica.html
+Content from https://astronomy.swin.edu.au/cosmos/P/Photodisintegration saved to source_html\photodisintegration_astronomy.html
+
+Summary of saved files:
+URL: https://en.wikipedia.org/wiki/Photodisintegration
+Saved as: source_html\photodisintegration_overview.html
+--------------------------------------------------
+URL: https://www.britannica.com/science/photodisintegration
+Saved as: source_html\photodisintegration_britannica.html
+--------------------------------------------------
+URL: https://astronomy.swin.edu.au/cosmos/P/Photodisintegration
+Saved as: source_html\photodisintegration_astronomy.html
+--------------------------------------------------
+
+2024-11-01 22:57:22,084 - INFO - Starting outline generation...
+2024-11-01 22:57:36,817 - INFO - Successfully completed outline generation
+2024-11-01 22:57:36,817 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-01 22:57:36,817 - INFO - Starting article writing...
+2024-11-01 22:58:00,656 - INFO - Successfully completed article writing
+2024-11-01 22:58:00,656 - INFO - article writing output:
+Writing section: Definition and Basic Concept
+Completed section: Definition and Basic Concept
+Writing section: Nuclear Reactions in Photodisintegration
+Completed section: Nuclear Reactions in Photodisintegration
+Writing section: Astrophysical Significance
+Completed section: Astrophysical Significance
+Article successfully generated and saved to article.md
+
+2024-11-01 22:58:00,671 - INFO - Copied article.md to output directory
+2024-11-01 22:58:00,673 - INFO - Copied article_outline.json to output directory
+2024-11-01 22:58:00,675 - INFO - Copied search_results_20241101_224418.txt to output directory
+2024-11-01 22:58:00,677 - INFO - Copied search_results_20241101_224523.txt to output directory
+2024-11-01 22:58:00,678 - INFO - Copied search_results_20241101_225125.txt to output directory
+2024-11-01 22:58:00,681 - INFO - Copied search_results_20241101_225336.txt to output directory
+2024-11-01 22:58:00,683 - INFO - Copied search_results_20241101_225353.txt to output directory
+2024-11-01 22:58:00,685 - INFO - Copied search_results_20241101_225442.txt to output directory
+2024-11-01 22:58:00,687 - INFO - Copied search_results_20241101_225455.txt to output directory
+2024-11-01 22:58:00,688 - INFO - Copied search_results_20241101_225718.txt to output directory
+2024-11-01 22:58:00,688 - INFO - Article generation completed successfully!
+2024-11-01 22:58:00,688 - INFO - All outputs have been saved to: generation_output_20241101_225717
+2024-11-01 22:58:00,688 - INFO - Article successfully generated and saved to article.md

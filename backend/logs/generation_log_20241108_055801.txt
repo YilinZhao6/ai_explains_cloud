@@ -1,0 +1,63 @@
+2024-11-08 05:58:01,450 - INFO - Starting parallel search operations...
+2024-11-08 05:58:01,451 - INFO - Starting Google search and content collection...
+2024-11-08 05:58:01,452 - INFO - Starting Archive vector search...
+2024-11-08 05:58:01,452 - INFO - Waiting for both search operations to complete...
+2024-11-08 05:58:03,043 - INFO - Successfully completed Archive vector search
+2024-11-08 05:58:03,044 - INFO - Archive vector search output:
+Loading vectors and chunks from all books...
+Loaded 1974 chunks from Principles_of_Physics
+
+Searching for: quantum mechanics
+Results saved to F:\main\backend\source_html\topic_archive.html
+
+2024-11-08 05:58:08,577 - INFO - Successfully completed Google search and content collection
+2024-11-08 05:58:08,578 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: quantum mechanics
+
+Extracting content from relevant URLs...
+Content from https://en.wikipedia.org/wiki/Quantum_mechanics saved to source_html\quantum_mechanics_overview.html
+Content from https://www.britannica.com/science/quantum-mechanics-physics saved to source_html\quantum_mechanics_britannica.html
+Content from https://www.energy.gov/science/doe-explainsquantum-mechanics saved to source_html\doe_explains_quantum_mechanics.html
+Content from https://plato.stanford.edu/entries/qm/ saved to source_html\stanford_philosophy_qm.html
+Content from https://www.livescience.com/33816-quantum-mechanics-explanation.html saved to source_html\livescience_quantum_mechanics.html
+
+Summary of saved files:
+URL: https://en.wikipedia.org/wiki/Quantum_mechanics
+Saved as: source_html\quantum_mechanics_overview.html
+--------------------------------------------------
+URL: https://www.britannica.com/science/quantum-mechanics-physics
+Saved as: source_html\quantum_mechanics_britannica.html
+--------------------------------------------------
+URL: https://www.energy.gov/science/doe-explainsquantum-mechanics
+Saved as: source_html\doe_explains_quantum_mechanics.html
+--------------------------------------------------
+URL: https://plato.stanford.edu/entries/qm/
+Saved as: source_html\stanford_philosophy_qm.html
+--------------------------------------------------
+URL: https://www.livescience.com/33816-quantum-mechanics-explanation.html
+Saved as: source_html\livescience_quantum_mechanics.html
+--------------------------------------------------
+
+2024-11-08 05:58:08,578 - INFO - Both search operations completed successfully!
+2024-11-08 05:58:08,578 - INFO - Starting outline generation...
+2024-11-08 05:58:46,025 - INFO - Successfully completed outline generation
+2024-11-08 05:58:46,025 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-08 05:58:46,025 - INFO - Starting article writing...
+2024-11-08 05:59:26,526 - INFO - Successfully completed article writing
+2024-11-08 05:59:26,526 - INFO - article writing output:
+Writing section: Introduction to Quantum Mechanics
+Completed section: Introduction to Quantum Mechanics
+Writing section: Fundamental Principles and Concepts
+Completed section: Fundamental Principles and Concepts
+Writing section: Applications and Implications
+Completed section: Applications and Implications
+Writing section: Interpretations and Philosophical Implications
+Completed section: Interpretations and Philosophical Implications
+Writing section: Related Topics
+Completed section: Related Topics
+Article successfully generated and saved to article.md
+
+2024-11-08 05:59:26,526 - INFO - Article generation completed successfully!
+2024-11-08 05:59:26,526 - INFO - Article successfully generated and saved to article.md

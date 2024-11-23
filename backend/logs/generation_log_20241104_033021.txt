@@ -1,0 +1,39 @@
+2024-11-04 03:30:21,724 - INFO - Starting Google search and content collection...
+2024-11-04 03:30:29,135 - INFO - Successfully completed Google search and content collection
+2024-11-04 03:30:29,135 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: 123
+
+Extracting content from relevant URLs...
+Content from https://link.aps.org/doi/10.1103/PhysRevLett.123.230501 saved to source_html\rydberg_mediated_entanglement_123.html
+Content from https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-123 saved to source_html\state_program_requirements_123.html
+Content from https://leg.colorado.gov/bills/hb23-1304 saved to source_html\proposition_123_housing_programs.html
+
+Summary of saved files:
+URL: https://link.aps.org/doi/10.1103/PhysRevLett.123.230501
+Saved as: source_html\rydberg_mediated_entanglement_123.html
+--------------------------------------------------
+URL: https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-123
+Saved as: source_html\state_program_requirements_123.html
+--------------------------------------------------
+URL: https://leg.colorado.gov/bills/hb23-1304
+Saved as: source_html\proposition_123_housing_programs.html
+--------------------------------------------------
+
+2024-11-04 03:30:29,136 - INFO - Starting outline generation...
+2024-11-04 03:30:52,767 - INFO - Successfully completed outline generation
+2024-11-04 03:30:52,767 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-04 03:30:52,767 - INFO - Starting article writing...
+2024-11-04 03:31:15,984 - INFO - Successfully completed article writing
+2024-11-04 03:31:15,984 - INFO - article writing output:
+Writing section: Introduction to Zero Discharge of Pollutants
+Completed section: Introduction to Zero Discharge of Pollutants
+Writing section: State Program Implementation and Challenges
+Completed section: State Program Implementation and Challenges
+Writing section: Role of EPA and Federal Oversight
+Completed section: Role of EPA and Federal Oversight
+Article successfully generated and saved to article.md
+
+2024-11-04 03:31:15,984 - INFO - Article generation completed successfully!
+2024-11-04 03:31:15,984 - INFO - Article successfully generated and saved to article.md

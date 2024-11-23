@@ -1,0 +1,41 @@
+2024-10-30 04:57:59,469 - INFO - Created output directory: generation_output_20241030_045759
+2024-10-30 04:57:59,469 - INFO - Starting Google search and content collection...
+2024-10-30 04:58:04,670 - INFO - Successfully completed Google search and content collection
+2024-10-30 04:58:04,670 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: Moment of Inertia
+
+Search results and analysis saved to search_results_20241030_045800.txt
+
+Extracting content from relevant URLs...
+Content from https://en.wikipedia.org/wiki/Moment_of_inertia saved to source_html\moment_of_inertia_wikipedia.html
+Content from http://hyperphysics.phy-astr.gsu.edu/hbase/mi.html saved to source_html\hyperphysics_moment_inertia.html
+Content from https://www.britannica.com/science/moment-of-inertia saved to source_html\britannica_moment_inertia_entry.html
+Content from https://byjus.com/jee/moment-of-inertia/ saved to source_html\byjus_moi_formulas_examples.html
+
+Summary of saved files:
+URL: https://en.wikipedia.org/wiki/Moment_of_inertia
+Saved as: source_html\moment_of_inertia_wikipedia.html
+--------------------------------------------------
+URL: http://hyperphysics.phy-astr.gsu.edu/hbase/mi.html
+Saved as: source_html\hyperphysics_moment_inertia.html
+--------------------------------------------------
+URL: https://www.britannica.com/science/moment-of-inertia
+Saved as: source_html\britannica_moment_inertia_entry.html
+--------------------------------------------------
+URL: https://byjus.com/jee/moment-of-inertia/
+Saved as: source_html\byjus_moi_formulas_examples.html
+--------------------------------------------------
+
+2024-10-30 04:58:04,686 - INFO - Copied article.md to output directory
+2024-10-30 04:58:04,688 - INFO - Copied article_outline.json to output directory
+2024-10-30 04:58:04,690 - INFO - Copied search_results_20241030_033656.txt to output directory
+2024-10-30 04:58:04,691 - INFO - Copied search_results_20241030_033741.txt to output directory
+2024-10-30 04:58:04,693 - INFO - Copied search_results_20241030_033937.txt to output directory
+2024-10-30 04:58:04,696 - INFO - Copied search_results_20241030_034630.txt to output directory
+2024-10-30 04:58:04,698 - INFO - Copied search_results_20241030_035040.txt to output directory
+2024-10-30 04:58:04,701 - INFO - Copied search_results_20241030_043535.txt to output directory
+2024-10-30 04:58:04,703 - INFO - Copied search_results_20241030_044523.txt to output directory
+2024-10-30 04:58:04,705 - INFO - Copied search_results_20241030_045535.txt to output directory
+2024-10-30 04:58:04,708 - INFO - Copied search_results_20241030_045800.txt to output directory
+2024-10-30 04:58:04,708 - INFO - Article generation completed successfully!
+2024-10-30 04:58:04,708 - INFO - All outputs have been saved to: generation_output_20241030_045759

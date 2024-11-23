@@ -1,0 +1,50 @@
+2024-10-30 05:18:50,764 - INFO - Created output directory: generation_output_20241030_051850
+2024-10-30 05:18:50,764 - INFO - Starting Google search and content collection...
+2024-10-30 05:18:54,669 - INFO - Successfully completed Google search and content collection
+2024-10-30 05:18:54,669 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: Toffoli Gates
+
+Search results and analysis saved to search_results_20241030_051852.txt
+
+Extracting content from relevant URLs...
+Content from https://en.wikipedia.org/wiki/Toffoli_gate saved to source_html\toffoli_gate_overview.html
+Content from https://pennylane.ai/qml/glossary/what-is-a-toffoli-gate saved to source_html\what_is_a_toffoli_gate.html
+Content from https://arxiv.org/abs/0806.0654 saved to source_html\efficient_toffoli_gates_research.html
+
+Summary of saved files:
+URL: https://en.wikipedia.org/wiki/Toffoli_gate
+Saved as: source_html\toffoli_gate_overview.html
+--------------------------------------------------
+URL: https://pennylane.ai/qml/glossary/what-is-a-toffoli-gate
+Saved as: source_html\what_is_a_toffoli_gate.html
+--------------------------------------------------
+URL: https://arxiv.org/abs/0806.0654
+Saved as: source_html\efficient_toffoli_gates_research.html
+--------------------------------------------------
+
+2024-10-30 05:18:54,670 - INFO - Starting outline generation...
+2024-10-30 05:19:08,962 - INFO - Successfully completed outline generation
+2024-10-30 05:19:08,962 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-10-30 05:19:08,962 - INFO - Starting article writing...
+2024-10-30 05:19:36,195 - INFO - Successfully completed article writing
+2024-10-30 05:19:36,195 - INFO - article writing output:
+Writing section: Introduction to Toffoli Gates
+Completed section: Introduction to Toffoli Gates
+Writing section: How Toffoli Gates Work
+Completed section: How Toffoli Gates Work
+Writing section: Applications and Importance
+Completed section: Applications and Importance
+Article successfully generated and saved to article.md
+
+2024-10-30 05:19:36,214 - INFO - Copied article.md to output directory
+2024-10-30 05:19:36,216 - INFO - Copied article_outline.json to output directory
+2024-10-30 05:19:36,220 - INFO - Copied search_results_20241030_050556.txt to output directory
+2024-10-30 05:19:36,222 - INFO - Copied search_results_20241030_050610.txt to output directory
+2024-10-30 05:19:36,224 - INFO - Copied search_results_20241030_050844.txt to output directory
+2024-10-30 05:19:36,226 - INFO - Copied search_results_20241030_050955.txt to output directory
+2024-10-30 05:19:36,228 - INFO - Copied search_results_20241030_051331.txt to output directory
+2024-10-30 05:19:36,230 - INFO - Copied search_results_20241030_051852.txt to output directory
+2024-10-30 05:19:36,230 - INFO - Article generation completed successfully!
+2024-10-30 05:19:36,230 - INFO - All outputs have been saved to: generation_output_20241030_051850

@@ -1,0 +1,39 @@
+2024-11-05 01:27:18,915 - INFO - Starting Google search and content collection...
+2024-11-05 01:27:22,515 - INFO - Successfully completed Google search and content collection
+2024-11-05 01:27:22,515 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: parallax
+
+Extracting content from relevant URLs...
+Content from https://en.wikipedia.org/wiki/Parallax saved to source_html\parallax_overview_astronomy.html
+Content from https://parallaxresearch.org/ saved to source_html\parallax_research_innovation.html
+Content from https://www.merriam-webster.com/dictionary/parallax saved to source_html\parallax_definition_meaning.html
+
+Summary of saved files:
+URL: https://en.wikipedia.org/wiki/Parallax
+Saved as: source_html\parallax_overview_astronomy.html
+--------------------------------------------------
+URL: https://parallaxresearch.org/
+Saved as: source_html\parallax_research_innovation.html
+--------------------------------------------------
+URL: https://www.merriam-webster.com/dictionary/parallax
+Saved as: source_html\parallax_definition_meaning.html
+--------------------------------------------------
+
+2024-11-05 01:27:22,516 - INFO - Starting outline generation...
+2024-11-05 01:27:41,191 - INFO - Successfully completed outline generation
+2024-11-05 01:27:41,191 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-05 01:27:41,191 - INFO - Starting article writing...
+2024-11-05 01:28:16,614 - INFO - Successfully completed article writing
+2024-11-05 01:28:16,614 - INFO - article writing output:
+Writing section: Introduction to Parallax
+Completed section: Introduction to Parallax
+Writing section: Parallax in Astronomy
+Completed section: Parallax in Astronomy
+Writing section: Applications and Implications of Parallax
+Completed section: Applications and Implications of Parallax
+Article successfully generated and saved to article.md
+
+2024-11-05 01:28:16,614 - INFO - Article generation completed successfully!
+2024-11-05 01:28:16,614 - INFO - Article successfully generated and saved to article.md

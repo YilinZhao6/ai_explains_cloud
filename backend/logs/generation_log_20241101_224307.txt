@@ -1,0 +1,9 @@
+2024-11-01 22:43:07,821 - INFO - Created output directory: generation_output_20241101_224307
+2024-11-01 22:43:07,821 - INFO - Starting Google search and content collection...
+2024-11-01 22:43:08,995 - ERROR - Error in Google search and content collection:
+Traceback (most recent call last):
+  File "F:\main\backend\Search_google-1.py", line 10, in <module>
+    from extract_webpage import save_content_html
+ModuleNotFoundError: No module named 'extract_webpage'
+
+2024-11-01 22:43:08,995 - ERROR - Article generation failed: Command '['C:\\Users\\Lenovo\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\python.exe', 'Search_google-1.py']' returned non-zero exit status 1.

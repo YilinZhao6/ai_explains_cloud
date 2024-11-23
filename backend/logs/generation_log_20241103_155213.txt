@@ -1,0 +1,59 @@
+2024-11-03 15:52:13,901 - INFO - Created output directory: generation_output_20241103_155213
+2024-11-03 15:52:13,901 - INFO - Starting Google search and content collection...
+2024-11-03 15:52:18,662 - INFO - Successfully completed Google search and content collection
+2024-11-03 15:52:18,662 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: Schrodinger Equation
+
+Search results and analysis saved to search_results_20241103_155215.txt
+
+Extracting content from relevant URLs...
+Content from https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation saved to source_html\schrodinger_equation_overview.html
+Content from https://www.britannica.com/science/Schrodinger-equation saved to source_html\britannica_schrodinger_explanation.html
+Content from http://hyperphysics.phy-astr.gsu.edu/hbase/quantum/schr.html saved to source_html\hyperphysics_schrodinger_details.html
+Content from https://chem.libretexts.org/Courses/Grinnell_College/CHM_364%3A_Physical_Chemistry_2_(Grinnell_College)/03%3A_The_Schrodinger_Equation_and_a_Particle_in_a_Box/3.01%3A_The_Schrodinger_Equation saved to source_html\chem_libretexts_schrodinger_concepts.html
+
+Summary of saved files:
+URL: https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation
+Saved as: source_html\schrodinger_equation_overview.html
+--------------------------------------------------
+URL: https://www.britannica.com/science/Schrodinger-equation
+Saved as: source_html\britannica_schrodinger_explanation.html
+--------------------------------------------------
+URL: http://hyperphysics.phy-astr.gsu.edu/hbase/quantum/schr.html
+Saved as: source_html\hyperphysics_schrodinger_details.html
+--------------------------------------------------
+URL: https://chem.libretexts.org/Courses/Grinnell_College/CHM_364%3A_Physical_Chemistry_2_(Grinnell_College)/03%3A_The_Schrodinger_Equation_and_a_Particle_in_a_Box/3.01%3A_The_Schrodinger_Equation
+Saved as: source_html\chem_libretexts_schrodinger_concepts.html
+--------------------------------------------------
+
+2024-11-03 15:52:18,663 - INFO - Starting outline generation...
+2024-11-03 15:52:39,995 - INFO - Successfully completed outline generation
+2024-11-03 15:52:39,995 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-03 15:52:39,995 - INFO - Starting article writing...
+2024-11-03 15:53:12,043 - INFO - Successfully completed article writing
+2024-11-03 15:53:12,043 - INFO - article writing output:
+Writing section: Introduction and Definition
+Completed section: Introduction and Definition
+Writing section: Mathematical Formulation
+Completed section: Mathematical Formulation
+Writing section: Applications and Examples
+Completed section: Applications and Examples
+Article successfully generated and saved to article.md
+
+2024-11-03 15:53:12,059 - INFO - Copied article.md to output directory
+2024-11-03 15:53:12,061 - INFO - Copied article_outline.json to output directory
+2024-11-03 15:53:12,063 - INFO - Copied search_results_20241103_151432.txt to output directory
+2024-11-03 15:53:12,065 - INFO - Copied search_results_20241103_151709.txt to output directory
+2024-11-03 15:53:12,067 - INFO - Copied search_results_20241103_151738.txt to output directory
+2024-11-03 15:53:12,070 - INFO - Copied search_results_20241103_151829.txt to output directory
+2024-11-03 15:53:12,072 - INFO - Copied search_results_20241103_151909.txt to output directory
+2024-11-03 15:53:12,074 - INFO - Copied search_results_20241103_152533.txt to output directory
+2024-11-03 15:53:12,076 - INFO - Copied search_results_20241103_152716.txt to output directory
+2024-11-03 15:53:12,078 - INFO - Copied search_results_20241103_153029.txt to output directory
+2024-11-03 15:53:12,080 - INFO - Copied search_results_20241103_154902.txt to output directory
+2024-11-03 15:53:12,082 - INFO - Copied search_results_20241103_155215.txt to output directory
+2024-11-03 15:53:12,082 - INFO - Article generation completed successfully!
+2024-11-03 15:53:12,082 - INFO - All outputs have been saved to: generation_output_20241103_155213
+2024-11-03 15:53:12,083 - INFO - Article successfully generated and saved to article.md

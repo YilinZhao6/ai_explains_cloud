@@ -1,0 +1,39 @@
+2024-11-04 05:33:46,183 - INFO - Starting Google search and content collection...
+2024-11-04 05:33:51,017 - INFO - Successfully completed Google search and content collection
+2024-11-04 05:33:51,017 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: Moment of Inertia
+
+Extracting content from relevant URLs...
+Content from https://en.wikipedia.org/wiki/Moment_of_inertia saved to source_html\moment_of_inertia_overview.html
+Content from http://hyperphysics.phy-astr.gsu.edu/hbase/mi.html saved to source_html\hyperphysics_moment_of_inertia.html
+Content from https://www.britannica.com/science/moment-of-inertia saved to source_html\britannica_moment_of_inertia_info.html
+
+Summary of saved files:
+URL: https://en.wikipedia.org/wiki/Moment_of_inertia
+Saved as: source_html\moment_of_inertia_overview.html
+--------------------------------------------------
+URL: http://hyperphysics.phy-astr.gsu.edu/hbase/mi.html
+Saved as: source_html\hyperphysics_moment_of_inertia.html
+--------------------------------------------------
+URL: https://www.britannica.com/science/moment-of-inertia
+Saved as: source_html\britannica_moment_of_inertia_info.html
+--------------------------------------------------
+
+2024-11-04 05:33:51,018 - INFO - Starting outline generation...
+2024-11-04 05:34:22,809 - INFO - Successfully completed outline generation
+2024-11-04 05:34:22,809 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-04 05:34:22,810 - INFO - Starting article writing...
+2024-11-04 05:35:16,822 - INFO - Successfully completed article writing
+2024-11-04 05:35:16,822 - INFO - article writing output:
+Writing section: Introduction to Moment of Inertia
+Completed section: Introduction to Moment of Inertia
+Writing section: Calculating Moment of Inertia
+Completed section: Calculating Moment of Inertia
+Writing section: Applications of Moment of Inertia
+Completed section: Applications of Moment of Inertia
+Article successfully generated and saved to article.md
+
+2024-11-04 05:35:16,822 - INFO - Article generation completed successfully!
+2024-11-04 05:35:16,823 - INFO - Article successfully generated and saved to article.md

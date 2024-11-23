@@ -1,0 +1,6 @@
+2024-11-02 22:59:18,967 - INFO - Created output directory: generation_output_20241102_225918
+2024-11-02 22:59:18,985 - INFO - Copied article.md to output directory
+2024-11-02 22:59:18,988 - INFO - Copied article_outline.json to output directory
+2024-11-02 22:59:18,989 - INFO - Article generation completed successfully!
+2024-11-02 22:59:18,989 - INFO - All outputs have been saved to: generation_output_20241102_225918
+2024-11-02 22:59:18,989 - INFO - Article successfully generated and saved to article.md

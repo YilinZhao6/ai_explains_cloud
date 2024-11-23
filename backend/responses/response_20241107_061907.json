@@ -1,0 +1,4 @@
+{
+  "concept": "Parallax in Astronomy",
+  "explanation": "The principle of parallax is essential in astronomy for measuring the distances to celestial bodies, such as stars. It is based on the apparent shift in the position of an object when observed from two different vantage points. In astrophysics, astronomers utilize this concept by observing a star from two distinct positions in Earth's orbit around the Sun. This observable shift allows them to calculate the distance to the star using trigonometry. Specifically, the formula:\n\n$$\n\\text{Distance (parsecs)} = \\frac{1}{p(\\text{arcseconds})}\n$$\n\nis used, where \\( p \\) is the parallax angle measured in arcseconds. This method is primarily applicable for nearby stars and forms the foundational rung in the cosmic distance ladder, which includes various methods of measuring distances across the universe."
+}

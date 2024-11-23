@@ -1,0 +1,37 @@
+{
+    "search_query": "figure skating spin",
+    "timestamp": "2024-10-27 04:22:27",
+    "number_of_images": 3,
+    "images": [
+        {
+            "filename": "2011_World_Figure_Skating_Championships_jpg.jpg",
+            "title": "2011 World Figure Skating Championships.jpg",
+            "description": "2011 World Figure Skating Championships, free skating.",
+            "resolution": "1461x1128",
+            "size_bytes": 525217,
+            "mime_type": "",
+            "commons_url": "https://commons.wikimedia.org/wiki/File:2011_World_Figure_Skating_Championships.jpg",
+            "local_path": "C:\\Users\\Lenovo\\Desktop\\explain_everything\\main\\commons_pictures\\figure_skating_spin\\2011_World_Figure_Skating_Championships_jpg.jpg"
+        },
+        {
+            "filename": "Caroline_Zhang_combo_spin_JPG.JPG",
+            "title": "Caroline Zhang combo spin.JPG",
+            "description": "Caroline Zhang performing a combination spin during her long program at 2007 Skate America to the music Ave Maria. Caroline won a bronze medal at this, her first senior international, competition.",
+            "resolution": "4039x893",
+            "size_bytes": 697089,
+            "mime_type": "",
+            "commons_url": "https://commons.wikimedia.org/wiki/File:Caroline_Zhang_combo_spin.JPG",
+            "local_path": "C:\\Users\\Lenovo\\Desktop\\explain_everything\\main\\commons_pictures\\figure_skating_spin\\Caroline_Zhang_combo_spin_JPG.JPG"
+        },
+        {
+            "filename": "Spin-entry-trace_png.png",
+            "title": "Spin-entry-trace.png",
+            "description": "Trace on the ice left on a forward scratch spin",
+            "resolution": "118x135",
+            "size_bytes": 1546,
+            "mime_type": "",
+            "commons_url": "https://commons.wikimedia.org/wiki/File:Spin-entry-trace.png",
+            "local_path": "C:\\Users\\Lenovo\\Desktop\\explain_everything\\main\\commons_pictures\\figure_skating_spin\\Spin-entry-trace_png.png"
+        }
+    ]
+}

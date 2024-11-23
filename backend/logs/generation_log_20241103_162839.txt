@@ -1,0 +1,25 @@
+2024-11-03 16:28:39,580 - INFO - Created output directory: generation_output_20241103_162839
+2024-11-03 16:28:39,580 - INFO - Starting Google search and content collection...
+2024-11-03 16:28:43,482 - INFO - Successfully completed Google search and content collection
+2024-11-03 16:28:43,482 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: nuclear reaction
+
+Search results and analysis saved to search_results_20241103_162841.txt
+
+Extracting content from relevant URLs...
+Content from https://en.wikipedia.org/wiki/Nuclear_reaction saved to source_html\nuclear_reaction_overview.html
+Content from https://www.britannica.com/science/nuclear-reaction saved to source_html\nuclear_reaction_definition.html
+Content from https://www.iaea.org/newscenter/news/what-is-nuclear-fusion saved to source_html\nuclear_fusion_explained.html
+
+Summary of saved files:
+URL: https://en.wikipedia.org/wiki/Nuclear_reaction
+Saved as: source_html\nuclear_reaction_overview.html
+--------------------------------------------------
+URL: https://www.britannica.com/science/nuclear-reaction
+Saved as: source_html\nuclear_reaction_definition.html
+--------------------------------------------------
+URL: https://www.iaea.org/newscenter/news/what-is-nuclear-fusion
+Saved as: source_html\nuclear_fusion_explained.html
+--------------------------------------------------
+
+2024-11-03 16:28:43,483 - INFO - Starting outline generation...

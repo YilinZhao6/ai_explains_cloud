@@ -1,0 +1,52 @@
+2024-11-01 22:54:54,233 - INFO - Created output directory: generation_output_20241101_225454
+2024-11-01 22:54:54,234 - INFO - Starting Google search and content collection...
+2024-11-01 22:54:58,765 - INFO - Successfully completed Google search and content collection
+2024-11-01 22:54:58,766 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: Photodisintegration
+
+Search results and analysis saved to search_results_20241101_225455.txt
+
+Extracting content from relevant URLs...
+Content from https://en.wikipedia.org/wiki/Photodisintegration saved to source_html\photodisintegration_wikipedia.html
+Content from https://www.britannica.com/science/photodisintegration saved to source_html\photodisintegration_britannica.html
+Content from https://astronomy.swin.edu.au/cosmos/P/Photodisintegration saved to source_html\photodisintegration_cosmos.html
+
+Summary of saved files:
+URL: https://en.wikipedia.org/wiki/Photodisintegration
+Saved as: source_html\photodisintegration_wikipedia.html
+--------------------------------------------------
+URL: https://www.britannica.com/science/photodisintegration
+Saved as: source_html\photodisintegration_britannica.html
+--------------------------------------------------
+URL: https://astronomy.swin.edu.au/cosmos/P/Photodisintegration
+Saved as: source_html\photodisintegration_cosmos.html
+--------------------------------------------------
+
+2024-11-01 22:54:58,770 - INFO - Starting outline generation...
+2024-11-01 22:55:14,323 - INFO - Successfully completed outline generation
+2024-11-01 22:55:14,323 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-01 22:55:14,324 - INFO - Starting article writing...
+2024-11-01 22:55:40,435 - INFO - Successfully completed article writing
+2024-11-01 22:55:40,436 - INFO - article writing output:
+Writing section: Definition and Basic Concept
+Completed section: Definition and Basic Concept
+Writing section: Nuclear Reactions and Products
+Completed section: Nuclear Reactions and Products
+Writing section: Astrophysical Significance
+Completed section: Astrophysical Significance
+Article successfully generated and saved to article.md
+
+2024-11-01 22:55:40,455 - INFO - Copied article.md to output directory
+2024-11-01 22:55:40,458 - INFO - Copied article_outline.json to output directory
+2024-11-01 22:55:40,463 - INFO - Copied search_results_20241101_224418.txt to output directory
+2024-11-01 22:55:40,466 - INFO - Copied search_results_20241101_224523.txt to output directory
+2024-11-01 22:55:40,468 - INFO - Copied search_results_20241101_225125.txt to output directory
+2024-11-01 22:55:40,470 - INFO - Copied search_results_20241101_225336.txt to output directory
+2024-11-01 22:55:40,474 - INFO - Copied search_results_20241101_225353.txt to output directory
+2024-11-01 22:55:40,478 - INFO - Copied search_results_20241101_225442.txt to output directory
+2024-11-01 22:55:40,481 - INFO - Copied search_results_20241101_225455.txt to output directory
+2024-11-01 22:55:40,482 - INFO - Article generation completed successfully!
+2024-11-01 22:55:40,483 - INFO - All outputs have been saved to: generation_output_20241101_225454
+2024-11-01 22:55:40,484 - INFO - Article successfully generated and saved to article.md

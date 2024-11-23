@@ -1,0 +1,50 @@
+2024-11-03 15:18:26,728 - INFO - Created output directory: generation_output_20241103_151826
+2024-11-03 15:18:26,728 - INFO - Starting Google search and content collection...
+2024-11-03 15:18:33,575 - INFO - Successfully completed Google search and content collection
+2024-11-03 15:18:33,575 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: 123
+
+Search results and analysis saved to search_results_20241103_151829.txt
+
+Extracting content from relevant URLs...
+Content from https://link.aps.org/doi/10.1103/PhysRevLett.123.230501 saved to source_html\rydberg_entanglement_article_123.html
+Content from https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-123 saved to source_html\state_program_requirement_123.html
+Content from https://www.revisor.mn.gov/laws/2024/0/Session+Law/Chapter/123/ saved to source_html\mn_laws_chapter_123.html
+
+Summary of saved files:
+URL: https://link.aps.org/doi/10.1103/PhysRevLett.123.230501
+Saved as: source_html\rydberg_entanglement_article_123.html
+--------------------------------------------------
+URL: https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-123
+Saved as: source_html\state_program_requirement_123.html
+--------------------------------------------------
+URL: https://www.revisor.mn.gov/laws/2024/0/Session+Law/Chapter/123/
+Saved as: source_html\mn_laws_chapter_123.html
+--------------------------------------------------
+
+2024-11-03 15:18:33,576 - INFO - Starting outline generation...
+2024-11-03 15:18:51,334 - INFO - Successfully completed outline generation
+2024-11-03 15:18:51,334 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-03 15:18:51,334 - INFO - Starting article writing...
+2024-11-03 15:19:16,124 - INFO - Successfully completed article writing
+2024-11-03 15:19:16,124 - INFO - article writing output:
+Writing section: Overview of Chapter 123 Appropriations
+Completed section: Overview of Chapter 123 Appropriations
+Writing section: Supreme Court Appropriations
+Completed section: Supreme Court Appropriations
+Writing section: District Courts Funding
+Completed section: District Courts Funding
+Article successfully generated and saved to article.md
+
+2024-11-03 15:19:16,139 - INFO - Copied article.md to output directory
+2024-11-03 15:19:16,142 - INFO - Copied article_outline.json to output directory
+2024-11-03 15:19:16,144 - INFO - Copied search_results_20241103_151432.txt to output directory
+2024-11-03 15:19:16,146 - INFO - Copied search_results_20241103_151709.txt to output directory
+2024-11-03 15:19:16,148 - INFO - Copied search_results_20241103_151738.txt to output directory
+2024-11-03 15:19:16,149 - INFO - Copied search_results_20241103_151829.txt to output directory
+2024-11-03 15:19:16,151 - INFO - Copied search_results_20241103_151909.txt to output directory
+2024-11-03 15:19:16,151 - INFO - Article generation completed successfully!
+2024-11-03 15:19:16,151 - INFO - All outputs have been saved to: generation_output_20241103_151826
+2024-11-03 15:19:16,151 - INFO - Article successfully generated and saved to article.md

@@ -1,0 +1,62 @@
+2024-11-03 17:30:05,763 - INFO - Created output directory: generation_output_20241103_173005
+2024-11-03 17:30:05,763 - INFO - Starting Google search and content collection...
+2024-11-03 17:30:11,457 - INFO - Successfully completed Google search and content collection
+2024-11-03 17:30:11,457 - INFO - Google search and content collection output:
+Search query loaded from topic.txt: Quantum Mechanics
+
+Search results and analysis saved to search_results_20241103_173007.txt
+
+Extracting content from relevant URLs...
+Content from https://en.wikipedia.org/wiki/Quantum_mechanics saved to source_html\quantum_mechanics_overview.html
+Content from https://www.energy.gov/science/doe-explainsquantum-mechanics saved to source_html\doe_explains_quantum_mechanics.html
+Content from https://www.britannica.com/science/quantum-mechanics-physics saved to source_html\britannica_quantum_mechanics.html
+Content from https://plato.stanford.edu/entries/qm/ saved to source_html\stanford_philosophy_quantum.html
+Content from https://www.livescience.com/33816-quantum-mechanics-explanation.html saved to source_html\livescience_quantum_explanation.html
+
+Summary of saved files:
+URL: https://en.wikipedia.org/wiki/Quantum_mechanics
+Saved as: source_html\quantum_mechanics_overview.html
+--------------------------------------------------
+URL: https://www.energy.gov/science/doe-explainsquantum-mechanics
+Saved as: source_html\doe_explains_quantum_mechanics.html
+--------------------------------------------------
+URL: https://www.britannica.com/science/quantum-mechanics-physics
+Saved as: source_html\britannica_quantum_mechanics.html
+--------------------------------------------------
+URL: https://plato.stanford.edu/entries/qm/
+Saved as: source_html\stanford_philosophy_quantum.html
+--------------------------------------------------
+URL: https://www.livescience.com/33816-quantum-mechanics-explanation.html
+Saved as: source_html\livescience_quantum_explanation.html
+--------------------------------------------------
+
+2024-11-03 17:30:11,458 - INFO - Starting outline generation...
+2024-11-03 17:30:37,703 - INFO - Successfully completed outline generation
+2024-11-03 17:30:37,703 - INFO - outline generation output:
+Outline successfully generated and saved to article_outline.json
+
+2024-11-03 17:30:37,703 - INFO - Starting article writing...
+2024-11-03 17:31:12,878 - INFO - Successfully completed article writing
+2024-11-03 17:31:12,878 - INFO - article writing output:
+Writing section: Introduction to Quantum Mechanics
+Completed section: Introduction to Quantum Mechanics
+Writing section: Fundamental Concepts
+Completed section: Fundamental Concepts
+Writing section: Mathematical Framework
+Completed section: Mathematical Framework
+Article successfully generated and saved to article.md
+
+2024-11-03 17:31:12,894 - INFO - Copied article.md to output directory
+2024-11-03 17:31:12,895 - INFO - Copied article_outline.json to output directory
+2024-11-03 17:31:12,898 - INFO - Copied search_results_20241103_163646.txt to output directory
+2024-11-03 17:31:12,901 - INFO - Copied search_results_20241103_164231.txt to output directory
+2024-11-03 17:31:12,903 - INFO - Copied search_results_20241103_164806.txt to output directory
+2024-11-03 17:31:12,904 - INFO - Copied search_results_20241103_165410.txt to output directory
+2024-11-03 17:31:12,906 - INFO - Copied search_results_20241103_170218.txt to output directory
+2024-11-03 17:31:12,908 - INFO - Copied search_results_20241103_170355.txt to output directory
+2024-11-03 17:31:12,910 - INFO - Copied search_results_20241103_170837.txt to output directory
+2024-11-03 17:31:12,912 - INFO - Copied search_results_20241103_171919.txt to output directory
+2024-11-03 17:31:12,914 - INFO - Copied search_results_20241103_173007.txt to output directory
+2024-11-03 17:31:12,914 - INFO - Article generation completed successfully!
+2024-11-03 17:31:12,914 - INFO - All outputs have been saved to: generation_output_20241103_173005
+2024-11-03 17:31:12,914 - INFO - Article successfully generated and saved to article.md
