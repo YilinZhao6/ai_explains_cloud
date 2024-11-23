@@ -11,10 +11,10 @@ services:
       - key: PORT
         value: 10000
     
-  - type: static-site
+  - type: web
     name: frontend
     buildCommand: cd frontend && npm install && npm run build  # adjust path as needed
-    staticPublishPath: ./frontend/build  # adjust path as needed
+    staticPublishPath: ./frontend/dist  # adjust path as needed
     envVars:
       - key: NODE_VERSION
         value: 16.0.0
