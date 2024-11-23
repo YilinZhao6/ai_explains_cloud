@@ -8,7 +8,8 @@ from datetime import datetime
 import shutil
 from time import sleep
 
-app = Flask(__name__, static_folder='frontend/dist')  # Update static folder pathCORS(app, resources={r"/*": {"origins": "*"}})
+app = Flask(__name__)
+CORS(app, resources={r"/*": {"origins": "*"}})
 
 def clear_article_files():
     """Delete article.md, updated_article.md, and article_outline.json if they exist"""
