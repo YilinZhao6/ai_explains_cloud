@@ -1,23 +1,8 @@
 services:
   - type: web
-    name: backend
-    env: python
-    buildCommand: pip install -r backend/requirements.txt  # Adjust path for requirements.txt
-    startCommand: python backend/app.py  # Adjust path for app.py
+    name: papuros
+    env: docker
+    dockerComposeFile: docker-compose.yml
     envVars:
-      - key: PYTHON_VERSION
-        value: 3.9.0
       - key: PORT
         value: 10000
-
-
-  - type: web
-    name: frontend
-    runtime: static
-    buildCommand: cd frontend && npm install && npm run build
-    staticPublishPath: frontend/dist  # Point to the hidden folder
-    envVars:
-      - key: NODE_VERSION
-        value: 18
-
-
