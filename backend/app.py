@@ -8,8 +8,7 @@ from datetime import datetime
 import shutil
 from time import sleep
 
-app = Flask(__name__)
-CORS(app, resources={r"/*": {"origins": "*"}})
+app = Flask(__name__, static_folder='frontend/.dist')  # Update static folder pathCORS(app, resources={r"/*": {"origins": "*"}})
 
 def clear_article_files():
     """Delete article.md, updated_article.md, and article_outline.json if they exist"""
@@ -198,10 +197,9 @@ def check_outline():
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')
 def serve_react_app(path):
-    if path and os.path.exists(f'frontend/dist/{path}'):  # Adjust path if using `.dist`
-        return send_from_directory('frontend/dist', path)  # Adjust to `.dist` if needed
-    else:
-        return send_from_directory('frontend/dist', 'index.html')  # Serve the React app's entry point
+    if path and os.path.exists(os.path.join(app.static_folder, path)):
+        return send_from_directory(app.static_folder, path)
+    return send_from_directory(app.static_folder, 'index.html')
 
 def run_script(script_name):
     process = subprocess.Popen(
