@@ -195,6 +195,13 @@ def check_outline():
             return jsonify({"exists": False, "error": str(e)})
     return jsonify({"exists": False})
 
+@app.route('/', defaults={'path': ''})
+@app.route('/<path:path>')
+def serve_react_app(path):
+    if path and os.path.exists(f'frontend/dist/{path}'):  # Adjust path if using `.dist`
+        return send_from_directory('frontend/dist', path)  # Adjust to `.dist` if needed
+    else:
+        return send_from_directory('frontend/dist', 'index.html')  # Serve the React app's entry point
 
 def run_script(script_name):
     process = subprocess.Popen(
