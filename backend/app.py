@@ -209,4 +209,6 @@ def run_script(script_name):
     process.wait()
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=5000)
+    # Use the PORT environment variable provided by Render, default to 5000 for local testing
+    port = int(os.getenv("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
